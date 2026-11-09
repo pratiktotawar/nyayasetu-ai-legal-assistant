@@ -1,0 +1,163 @@
+{
+  "schema_version": "1.0",
+  "case_id": "NS-20261107-37F3",
+  "created_on": "2026-11-07",
+  "reference_date": "2026-11-07",
+  "language": "en",
+  "generation_mode": "demo (deterministic rules)",
+  "dispute": {
+    "category": "incorrect_charge",
+    "category_label": "Incorrect or extra charge",
+    "secondary": [],
+    "low_confidence": false
+  },
+  "consumer": {
+    "name": "Farhan Ali",
+    "city": "Hyderabad",
+    "purpose": "",
+    "purpose_note": ""
+  },
+  "parties": {
+    "platform": "QuickCart",
+    "seller": "",
+    "seller_address": ""
+  },
+  "transaction": {
+    "product": "groceries",
+    "amount_paid": 1240.0,
+    "charged_amount": 2480.0,
+    "order_id": "QC-20261020-5512",
+    "purchase_date": "2026-10-20",
+    "purchase_date_approx": false,
+    "delivery_date": "",
+    "delivery_date_approx": false,
+    "payment_mode": "UPI"
+  },
+  "issue_details": "I ordered groceries worth ₹1,240 on QuickCart on 20 October 2026 but was charged ₹2,480 — the amount was debited twice from my account through UPI.",
+  "what_happened": "I ordered groceries worth ₹1,240 on QuickCart on 20 October 2026 but was charged ₹2,480 — the amount was debited twice from my account through UPI.",
+  "what_was_expected": "To be charged only the correct price shown at checkout for the groceries.",
+  "steps_taken": [
+    "I have contacted customer support 4 times over the last two weeks; every time they say it will be auto-reversed in 5-7 days, but nothing has come back."
+  ],
+  "complaint_date": "",
+  "complaint_date_approx": false,
+  "issue_date": "",
+  "refund_approved_date": "",
+  "complaint_ref": "QC-SUP-77810",
+  "seller_response": "I have contacted customer support 4 times over the last two weeks; every time they say it will be auto-reversed in 5-7 days, but nothing has come back.",
+  "evidence": [
+    "payment_proof",
+    "invoice",
+    "chat_transcripts",
+    "complaint_reference"
+  ],
+  "desired_resolution": [
+    "refund"
+  ],
+  "resolution_note": "Refund of the extra ₹1,240",
+  "claim": {
+    "amount": 1240.0,
+    "basis": "excess",
+    "confirmed": true,
+    "source": "answer",
+    "note": "Refund of the extra ₹1,240",
+    "refund_requested": true,
+    "is_partial": false,
+    "exceeds_paid": false
+  },
+  "harm_beyond_product": false,
+  "repeated_contact": true,
+  "no_complaint_yet": false,
+  "narrative": "I ordered groceries worth ₹1,240 on QuickCart on 20 October 2026 but was charged ₹2,480 — the amount was debited twice from my account through UPI. I have contacted customer support 4 times over the last two weeks; every time they say it will be auto-reversed in 5-7 days, but nothing has come back.",
+  "provenance": {
+    "charged_amount": "rule",
+    "amount": "rule",
+    "product": "rule",
+    "purchase_date": "rule",
+    "desired_resolution": "answer",
+    "payment_mode": "rule",
+    "steps_taken": "rule",
+    "seller_response": "rule",
+    "repeated_contact": "rule",
+    "issue_details": "rule",
+    "platform": "answer",
+    "order_id": "answer",
+    "complaint_ref": "answer",
+    "evidence": "answer",
+    "resolution_note": "answer",
+    "claim_amount": "answer",
+    "claim_note": "answer",
+    "consumer_name": "answer",
+    "consumer_city": "answer"
+  },
+  "timeline": [
+    {
+      "date": "2026-10-20",
+      "approx": false,
+      "event": "Order placed for groceries on QuickCart (₹1,240), Order ID QC-20261020-5512",
+      "source": "user statement"
+    },
+    {
+      "date": "2026-10-20",
+      "approx": false,
+      "event": "Charged ₹2,480 via UPI",
+      "source": "user statement"
+    },
+    {
+      "date": "",
+      "approx": false,
+      "event": "Consumer complained / requested resolution (ref. QC-SUP-77810)",
+      "source": "user statement"
+    },
+    {
+      "date": "",
+      "approx": false,
+      "event": "Response from seller/platform: I have contacted customer support 4 times over the last two weeks; every time they say it will be auto-reversed in 5-7 days, but nothing has come back.",
+      "source": "user statement"
+    }
+  ],
+  "missing_info": [
+    {
+      "field": "parties.seller",
+      "label_en": "Seller name",
+      "label_hi": "विक्रेता का नाम",
+      "why": "The seller is usually a necessary opposite party; it is on the invoice or order page."
+    },
+    {
+      "field": "parties.seller_address",
+      "label_en": "Seller / platform address",
+      "label_hi": "विक्रेता / प्लेटफ़ॉर्म का पता",
+      "why": "Required on a Consumer Commission complaint; marketplaces must display seller addresses."
+    }
+  ],
+  "flags": {
+    "possible_commercial_purpose": false,
+    "livelihood_purpose": false,
+    "harm_beyond_product": false,
+    "payment_side_issue": true,
+    "no_complaint_yet": false,
+    "repeated_contact": true,
+    "days_since_complaint": null,
+    "refused_explicitly": false,
+    "days_since_earliest_event": 18,
+    "limitation_risk": false,
+    "limitation_expired_likely": false,
+    "value_band": "district",
+    "fee_nil": true,
+    "evidence_have": [
+      "payment_proof",
+      "invoice",
+      "complaint_reference",
+      "chat_transcripts"
+    ],
+    "evidence_missing": [
+      "order_screenshot"
+    ],
+    "low_confidence_category": false
+  },
+  "financial_loss": {
+    "amount": 1240.0,
+    "basis_en": "Refund amount you are claiming (confirmed by you)",
+    "basis_hi": "आपके द्वारा माँगी गई रिफंड राशि (आपने पुष्टि की)"
+  }
+}

@@ -1,0 +1,36 @@
+DRAFT PREPARED WITH NYAYASETU — NOT SENT, NOT FILED. This is a draft for you to check and edit. It is not a legal notice and not a filed complaint. Verify every fact, complete each [MISSING] and [ADD] field, and remove anything that is not accurate before you use it.
+
+How to register: call toll-free 1915, SMS/WhatsApp 8800001915, use the NCH app or UMANG, or register at consumerhelpline.gov.in. The portal's form may ask for these details in a different order — copy the relevant parts.
+
+Grievance details
+-----------------
+Sector: E-Commerce
+Company / platform: QuickCart
+Seller: [MISSING: seller name (see invoice)]
+Nature of grievance: Incorrect or extra charge
+Product: groceries
+Order ID: QC-20261020-5512
+Order date: 20 October 2026
+Amount paid: ₹1,240
+Refund claimed: ₹1,240
+Complaint already made to company (date / reference): QC-SUP-77810
+
+Description
+-----------
+1. On 20 October 2026, I placed an order for groceries on QuickCart, sold by [MISSING: seller name (see invoice)] (Order ID: QC-20261020-5512) and paid ₹1,240 (paid via UPI).
+2. I was charged ₹2,480 although the correct amount for this order was ₹1,240. In my words: “I ordered groceries worth ₹1,240 on QuickCart on 20 October 2026 but was charged ₹2,480 — the amount was debited twice from my account through UPI.”
+3. I raised the matter with the seller/platform (reference: QC-SUP-77810). What I did: “I have contacted customer support 4 times over the last two weeks; every time they say it will be auto-reversed in 5-7 days, but nothing has come back.”
+4. As of 7 November 2026, the matter remains unresolved and I have not received the refund of ₹1,240 I asked for.
+
+Expected resolution
+-------------------
+- Refund / reverse the excess amount of ₹1,240 charged.
+
+Documents I can upload
+----------------------
+- Annexure A-1: Payment proof (receipt, bank/UPI statement)
+- Annexure A-2: Invoice / bill
+- Annexure A-3: Chat transcripts / messages with customer care
+- Annexure A-4: Complaint / ticket reference number
+
+Note: NCH is a pre-litigation step. The portal says it may take up to 30 days to reach a conclusion; if your grievance is not resolved, you can approach the Consumer Commission.

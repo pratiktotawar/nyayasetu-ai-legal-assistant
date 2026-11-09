@@ -1,0 +1,68 @@
+[
+  {
+    "case": "Aadhaar with label",
+    "input": "My Aadhaar is 2345 6789 0123, please help",
+    "output": "My Aadhaar is [REDACTED-AADHAAR], please help",
+    "detected": [
+      "Aadhaar number"
+    ],
+    "ok": true
+  },
+  {
+    "case": "Valid-checksum Aadhaar",
+    "input": "number 4991 1866 5246 is mine",
+    "output": "number [REDACTED-AADHAAR] is mine",
+    "detected": [
+      "Aadhaar number"
+    ],
+    "ok": true
+  },
+  {
+    "case": "Card number",
+    "input": "I paid with card 4111 1111 1111 1111",
+    "output": "I paid with card [REDACTED-CARD]",
+    "detected": [
+      "card number"
+    ],
+    "ok": true
+  },
+  {
+    "case": "PAN",
+    "input": "PAN ABCPE1234F",
+    "output": "PAN [REDACTED-PAN]",
+    "detected": [
+      "PAN"
+    ],
+    "ok": true
+  },
+  {
+    "case": "OTP",
+    "input": "the delivery boy asked and my OTP is 445566",
+    "output": "the delivery boy asked and my OTP is [REDACTED]",
+    "detected": [
+      "OTP / PIN / password"
+    ],
+    "ok": true
+  },
+  {
+    "case": "Order IDs must survive",
+    "input": "Amazon order 407-1234567-1234567 and OD123456789012345678",
+    "output": "Amazon order 407-1234567-1234567 and OD123456789012345678",
+    "detected": [],
+    "ok": true
+  },
+  {
+    "case": "Hindi sentence without OTP digits",
+    "input": "मुझसे कोई OTP नहीं माँगा गया",
+    "output": "मुझसे कोई OTP नहीं माँगा गया",
+    "detected": [],
+    "ok": true
+  },
+  {
+    "case": "Price must survive",
+    "input": "I paid ₹18,000 on 12 October 2026",
+    "output": "I paid ₹18,000 on 12 October 2026",
+    "detected": [],
+    "ok": true
+  }
+]

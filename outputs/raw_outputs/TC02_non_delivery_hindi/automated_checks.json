@@ -1,0 +1,167 @@
+{
+  "id": "TC02",
+  "unscripted_questions_skipped": [],
+  "category_expected": "non_delivery",
+  "category_actual": "non_delivery",
+  "category_ok": true,
+  "fields": {
+    "transaction.amount_paid": {
+      "expected": 4500,
+      "actual": 4500.0,
+      "ok": true
+    },
+    "transaction.product": {
+      "expected": "ब्लूटूथ स्पीकर",
+      "actual": "ब्लूटूथ स्पीकर",
+      "ok": true
+    },
+    "parties.platform": {
+      "expected": "BazaarLane",
+      "actual": "BazaarLane",
+      "ok": true
+    },
+    "parties.seller": {
+      "expected": "श्री साई ट्रेडर्स",
+      "actual": "श्री साई ट्रेडर्स",
+      "ok": true
+    },
+    "transaction.order_id": {
+      "expected": "BL20261029-7781",
+      "actual": "BL20261029-7781",
+      "ok": true
+    },
+    "transaction.purchase_date": {
+      "expected": "2026-10-25",
+      "actual": "2026-10-25",
+      "ok": true
+    },
+    "transaction.delivery_date": {
+      "expected": "2026-10-29",
+      "actual": "2026-10-29",
+      "ok": true
+    },
+    "complaint_ref": {
+      "expected": "BLC-55120",
+      "actual": "BLC-55120",
+      "ok": true
+    },
+    "consumer.name": {
+      "expected": "सुनीता देवी",
+      "actual": "सुनीता देवी",
+      "ok": true
+    },
+    "consumer.city": {
+      "expected": "लखनऊ",
+      "actual": "लखनऊ",
+      "ok": true
+    }
+  },
+  "fields_correct": 10,
+  "fields_total": 10,
+  "sources_cited": [
+    "CPA_2_11",
+    "CPA_2_6",
+    "CPA_2_7",
+    "CPA_2_9",
+    "CPA_34",
+    "CPA_35",
+    "CPA_38_7",
+    "CPA_39",
+    "CPA_69",
+    "ECOM_R2",
+    "ECOM_R4_GRIEVANCE",
+    "ECOM_R5_3",
+    "ECOM_R6_3",
+    "ECOM_R7_4",
+    "EJAGRITI",
+    "FEE_RULE_7",
+    "JUR_RULES_2021",
+    "NCH"
+  ],
+  "missing_required_sources": [],
+  "issue_confidence": {},
+  "flags": {
+    "possible_commercial_purpose": {
+      "expected": false,
+      "actual": false,
+      "ok": true
+    }
+  },
+  "document_validation": {
+    "seller_email": {
+      "ok": true,
+      "citations": 4,
+      "problems": []
+    },
+    "platform_complaint": {
+      "ok": true,
+      "citations": 7,
+      "problems": []
+    },
+    "nch_grievance": {
+      "ok": true,
+      "citations": 0,
+      "problems": []
+    },
+    "commission_draft": {
+      "ok": true,
+      "citations": 9,
+      "problems": []
+    },
+    "seller_email_en": {
+      "ok": true,
+      "citations": 4,
+      "problems": []
+    },
+    "platform_complaint_en": {
+      "ok": true,
+      "citations": 7,
+      "problems": []
+    },
+    "nch_grievance_en": {
+      "ok": true,
+      "citations": 0,
+      "problems": []
+    },
+    "commission_draft_en": {
+      "ok": true,
+      "citations": 9,
+      "problems": []
+    }
+  },
+  "rights_text_validation": {
+    "ok": true,
+    "citations": [
+      "Rule 7(4)"
+    ],
+    "problems": []
+  },
+  "all_citations_valid": true,
+  "non_verified_sources_shown_as_notice_only": true,
+  "forbidden_text_found": [],
+  "required_text_missing": [],
+  "missing_info_count": 1,
+  "doc_missing_counts": {
+    "seller_email": 0,
+    "platform_complaint": 0,
+    "nch_grievance": 0,
+    "commission_draft": 3
+  },
+  "claim_amount": {
+    "actual": {
+      "amount": 4500.0,
+      "basis": "full",
+      "confirmed": true,
+      "refund_requested": true,
+      "is_partial": false
+    },
+    "problems": [],
+    "expected": {
+      "amount": 4500,
+      "basis": "full"
+    },
+    "ok": true
+  },
+  "automated_checks_passed": 8,
+  "automated_checks_total": 8
+}

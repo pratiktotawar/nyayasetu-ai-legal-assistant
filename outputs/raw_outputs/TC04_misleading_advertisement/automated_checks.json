@@ -1,0 +1,146 @@
+{
+  "id": "TC04",
+  "unscripted_questions_skipped": [],
+  "category_expected": "misleading_description",
+  "category_actual": "misleading_description",
+  "category_ok": true,
+  "fields": {
+    "transaction.amount_paid": {
+      "expected": 6999,
+      "actual": 6999.0,
+      "ok": true
+    },
+    "transaction.product": {
+      "expected": "smartwatch",
+      "actual": "smartwatch",
+      "ok": true
+    },
+    "parties.platform": {
+      "expected": "TrendCart",
+      "actual": "TrendCart",
+      "ok": true
+    },
+    "parties.seller": {
+      "expected": "WristWorld Retail",
+      "actual": "WristWorld Retail",
+      "ok": true
+    },
+    "transaction.order_id": {
+      "expected": "TC-7781-2026",
+      "actual": "TC-7781-2026",
+      "ok": true
+    },
+    "transaction.purchase_date": {
+      "expected": "2026-10-18",
+      "actual": "2026-10-18",
+      "ok": true
+    },
+    "complaint_ref": {
+      "expected": "RR-664120",
+      "actual": "RR-664120",
+      "ok": true
+    },
+    "consumer.name": {
+      "expected": "Meera Nair",
+      "actual": "Meera Nair",
+      "ok": true
+    },
+    "consumer.city": {
+      "expected": "Kochi",
+      "actual": "Kochi",
+      "ok": true
+    }
+  },
+  "fields_correct": 9,
+  "fields_total": 9,
+  "sources_cited": [
+    "CCPA_ADS_GUIDELINES_2022",
+    "CPA_17",
+    "CPA_2_28",
+    "CPA_2_47_I_A",
+    "CPA_2_7",
+    "CPA_2_9",
+    "CPA_34",
+    "CPA_35",
+    "CPA_38_7",
+    "CPA_39",
+    "CPA_69",
+    "ECOM_R2",
+    "ECOM_R4_GRIEVANCE",
+    "ECOM_R5_3",
+    "ECOM_R6_3",
+    "ECOM_R6_4",
+    "ECOM_R7_4",
+    "EJAGRITI",
+    "FEE_RULE_7",
+    "JUR_RULES_2021",
+    "NCH"
+  ],
+  "missing_required_sources": [],
+  "issue_confidence": {},
+  "flags": {
+    "refused_explicitly": {
+      "expected": true,
+      "actual": true,
+      "ok": true
+    }
+  },
+  "evidence_missing_from_extraction": [],
+  "document_validation": {
+    "seller_email": {
+      "ok": true,
+      "citations": 5,
+      "problems": []
+    },
+    "platform_complaint": {
+      "ok": true,
+      "citations": 8,
+      "problems": []
+    },
+    "nch_grievance": {
+      "ok": true,
+      "citations": 0,
+      "problems": []
+    },
+    "commission_draft": {
+      "ok": true,
+      "citations": 10,
+      "problems": []
+    }
+  },
+  "rights_text_validation": {
+    "ok": true,
+    "citations": [
+      "Rule 7(4)"
+    ],
+    "problems": []
+  },
+  "all_citations_valid": true,
+  "non_verified_sources_shown_as_notice_only": true,
+  "forbidden_text_found": [],
+  "required_text_missing": [],
+  "missing_info_count": 1,
+  "doc_missing_counts": {
+    "seller_email": 0,
+    "platform_complaint": 0,
+    "nch_grievance": 0,
+    "commission_draft": 2
+  },
+  "claim_amount": {
+    "actual": {
+      "amount": 6999.0,
+      "basis": "full",
+      "confirmed": true,
+      "refund_requested": true,
+      "is_partial": false
+    },
+    "problems": [],
+    "expected": {
+      "amount": 6999,
+      "basis": "full"
+    },
+    "ok": true
+  },
+  "automated_checks_passed": 9,
+  "automated_checks_total": 9
+}

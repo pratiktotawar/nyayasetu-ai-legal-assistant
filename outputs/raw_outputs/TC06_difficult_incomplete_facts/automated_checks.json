@@ -1,0 +1,94 @@
+{
+  "id": "TC06",
+  "unscripted_questions_skipped": [],
+  "category_expected": "defective_product",
+  "category_actual": "defective_product",
+  "category_ok": true,
+  "fields": {},
+  "fields_correct": 0,
+  "fields_total": 0,
+  "sources_cited": [
+    "CPA_2_10",
+    "CPA_2_47_VIII",
+    "CPA_2_6",
+    "CPA_2_7",
+    "CPA_2_9",
+    "CPA_34",
+    "CPA_35",
+    "CPA_38_7",
+    "CPA_39",
+    "CPA_69",
+    "CPA_PRODUCT_LIABILITY",
+    "ECOM_R2",
+    "ECOM_R4_GRIEVANCE",
+    "ECOM_R5_3",
+    "ECOM_R6_3",
+    "ECOM_R7_4",
+    "EJAGRITI",
+    "FEE_RULE_7",
+    "JUR_RULES_2021",
+    "NCH"
+  ],
+  "missing_required_sources": [],
+  "issue_confidence": {},
+  "flags": {},
+  "document_validation": {
+    "seller_email": {
+      "ok": true,
+      "citations": 4,
+      "problems": []
+    },
+    "platform_complaint": {
+      "ok": true,
+      "citations": 7,
+      "problems": []
+    },
+    "nch_grievance": {
+      "ok": true,
+      "citations": 0,
+      "problems": []
+    },
+    "commission_draft": {
+      "ok": true,
+      "citations": 8,
+      "problems": []
+    }
+  },
+  "rights_text_validation": {
+    "ok": true,
+    "citations": [
+      "Rule 7(4)"
+    ],
+    "problems": []
+  },
+  "all_citations_valid": true,
+  "non_verified_sources_shown_as_notice_only": true,
+  "forbidden_text_found": [],
+  "required_text_missing": [],
+  "missing_info_count": 13,
+  "missing_info_ok": true,
+  "uncertainty_shown": true,
+  "doc_missing_counts": {
+    "seller_email": 11,
+    "platform_complaint": 12,
+    "nch_grievance": 10,
+    "commission_draft": 14
+  },
+  "claim_amount": {
+    "actual": {
+      "amount": null,
+      "basis": "",
+      "confirmed": false,
+      "refund_requested": false,
+      "is_partial": false
+    },
+    "problems": [],
+    "expected": {
+      "amount": null,
+      "refund_requested": false
+    },
+    "ok": true
+  },
+  "automated_checks_passed": 10,
+  "automated_checks_total": 10
+}

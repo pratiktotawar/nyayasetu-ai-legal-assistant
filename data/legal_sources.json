@@ -1,0 +1,1190 @@
+{
+  "kb_version": "1.1.0",
+  "compiled_on": "2026-11-08",
+  "scope": "Consumer disputes about goods bought online in India: damaged or defective goods, non-delivery, refunds, misleading listings and incorrect charges. Not covered: banking/insurance/real-estate/medical disputes, criminal fraud, landlord-tenant, employment.",
+  "status_legend": {
+    "verified": "Checked by the builder against the official text at the URL on the date shown. Shown to users as established law.",
+    "verified_secondary": "Existence and key facts confirmed from a reputable secondary source or an official press release, but the full official text was not reviewed. Shown with a 'verify before relying' label; never used as a legal ground in drafts.",
+    "needs_verification": "Not verified. Never shown as law."
+  },
+  "sources": [
+    {
+      "id": "CPA_2_7",
+      "instrument": "Consumer Protection Act, 2019 (Act No. 35 of 2019)",
+      "short_cite": "Consumer Protection Act, 2019, Section 2(7)",
+      "citations": [
+        "Section 2(7)"
+      ],
+      "title": "Who is a 'consumer' (includes online purchases; excludes resale/commercial purpose)",
+      "issuing_authority": "Parliament of India — text published on India Code (Legislative Department, Ministry of Law and Justice)",
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/18964/1/cpa.pdf",
+      "source_type": "primary_statute",
+      "claim_type": "statutory_definition",
+      "verification_status": "verified",
+      "verified_on": "2026-11-08",
+      "excerpt_type": "verbatim_fragments",
+      "excerpt": "Explanation (b): \"the expressions \"buys any goods\" and \"hires or avails any services\" includes offline or online transactions through electronic means ...\". The definition \"does not include a person who obtains such goods for resale or for any commercial purpose\". Explanation (a): commercial purpose does not include use by a person of goods bought and used \"exclusively for the purpose of earning his livelihood\" by means of self-employment.",
+      "plain_language": {
+        "en": "A person who buys goods for a price (paid, partly paid or promised) is a 'consumer'. Online purchases are expressly included. A person who buys goods for resale or a commercial purpose is not a consumer, except where goods are bought and used only to earn a livelihood through self-employment.",
+        "hi": "जो व्यक्ति कीमत देकर (पूरी, आंशिक या वादे पर) सामान खरीदता है, वह 'उपभोक्ता' है। ऑनलाइन खरीद भी इसमें स्पष्ट रूप से शामिल है। जो व्यक्ति दोबारा बेचने या व्यावसायिक उद्देश्य से सामान खरीदता है, वह उपभोक्ता नहीं माना जाता — सिवाय तब जब सामान केवल स्व-रोज़गार से आजीविका कमाने के लिए खरीदा और इस्तेमाल किया गया हो।"
+      },
+      "applies_to": [
+        "all"
+      ],
+      "keywords": [
+        "consumer",
+        "online",
+        "resale",
+        "commercial",
+        "business",
+        "livelihood",
+        "self-employment",
+        "उपभोक्ता",
+        "व्यापार",
+        "दोबारा बेचना"
+      ]
+    },
+    {
+      "id": "CPA_2_9",
+      "instrument": "Consumer Protection Act, 2019 (Act No. 35 of 2019)",
+      "short_cite": "Consumer Protection Act, 2019, Section 2(9)",
+      "citations": [
+        "Section 2(9)"
+      ],
+      "title": "Consumer rights",
+      "issuing_authority": "Parliament of India — text published on India Code",
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/18964/1/cpa.pdf",
+      "source_type": "primary_statute",
+      "claim_type": "statutory_definition",
+      "verification_status": "verified",
+      "verified_on": "2026-11-08",
+      "excerpt_type": "verbatim_fragments",
+      "excerpt": "(ii) \"the right to be informed about the quality, quantity, potency, purity, standard and price of goods, products or services\"; (iv) \"the right to be heard and to be assured that consumer's interests will receive due consideration at appropriate fora;\"; (v) \"the right to seek redressal against unfair trade practice or restrictive trade practices\" or unscrupulous exploitation of consumers.",
+      "plain_language": {
+        "en": "The Act lists six consumer rights. The most relevant here: the right to be informed about the quality, standard and price of goods; the right to be heard; and the right to seek redressal against unfair trade practices.",
+        "hi": "अधिनियम छह उपभोक्ता अधिकार बताता है। यहाँ सबसे प्रासंगिक: सामान की गुणवत्ता, मानक और कीमत के बारे में जानकारी पाने का अधिकार; सुनवाई का अधिकार; और अनुचित व्यापार व्यवहार के विरुद्ध निवारण माँगने का अधिकार।"
+      },
+      "applies_to": [
+        "all"
+      ],
+      "keywords": [
+        "rights",
+        "informed",
+        "heard",
+        "redressal",
+        "अधिकार"
+      ]
+    },
+    {
+      "id": "CPA_2_6",
+      "instrument": "Consumer Protection Act, 2019 (Act No. 35 of 2019)",
+      "short_cite": "Consumer Protection Act, 2019, Section 2(6)",
+      "citations": [
+        "Section 2(6)",
+        "Section 2(6)(i)",
+        "Section 2(6)(ii)",
+        "Section 2(6)(iii)",
+        "Section 2(6)(iv)",
+        "Section 2(6)(vii)"
+      ],
+      "title": "What a consumer 'complaint' can allege",
+      "issuing_authority": "Parliament of India — text published on India Code",
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/18964/1/cpa.pdf",
+      "source_type": "primary_statute",
+      "claim_type": "statutory_definition",
+      "verification_status": "verified",
+      "verified_on": "2026-11-08",
+      "excerpt_type": "verbatim_fragments",
+      "excerpt": "A complaint is an allegation in writing that: (i) \"an unfair contract or unfair trade practice or a restrictive trade practice\" has been adopted; (ii) \"the goods bought by him or agreed to be bought by him suffer from one or more defects;\" (iii) \"the services hired or availed of ... suffer from any deficiency;\" (iv) a price was charged in excess of the price fixed by law, displayed on the goods/package, shown on a price list, or agreed between the parties; ... (vii) a product liability claim lies.",
+      "plain_language": {
+        "en": "You can file a consumer complaint alleging, among other things: an unfair trade practice; that the goods you bought have a defect; that a service you paid for was deficient; or that you were charged more than the displayed, listed or agreed price.",
+        "hi": "आप उपभोक्ता शिकायत में ये बातें कह सकते हैं: अनुचित व्यापार व्यवहार अपनाया गया; खरीदे गए सामान में दोष है; ली गई सेवा में कमी है; या आपसे प्रदर्शित, सूचीबद्ध या तय कीमत से अधिक पैसे लिए गए।"
+      },
+      "applies_to": [
+        "all"
+      ],
+      "keywords": [
+        "complaint",
+        "defect",
+        "deficiency",
+        "excess price",
+        "overcharge",
+        "charged more",
+        "शिकायत",
+        "दोष",
+        "कमी",
+        "अधिक कीमत"
+      ]
+    },
+    {
+      "id": "CPA_2_10",
+      "instrument": "Consumer Protection Act, 2019 (Act No. 35 of 2019)",
+      "short_cite": "Consumer Protection Act, 2019, Section 2(10)",
+      "citations": [
+        "Section 2(10)"
+      ],
+      "title": "Meaning of 'defect' in goods",
+      "issuing_authority": "Parliament of India — text published on India Code",
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/18964/1/cpa.pdf",
+      "source_type": "primary_statute",
+      "claim_type": "statutory_definition",
+      "verification_status": "verified",
+      "verified_on": "2026-11-08",
+      "excerpt_type": "verbatim_fragments",
+      "excerpt": "\"defect\" means \"any fault, imperfection or shortcoming in the quality, quantity, potency, purity or standard\" which is required to be maintained by or under any law, or under any contract (express or implied), or as claimed by the trader in any manner.",
+      "plain_language": {
+        "en": "A 'defect' is any fault, imperfection or shortcoming in the quality, quantity or standard of goods that the law requires, that the contract promises, or that the trader claimed.",
+        "hi": "'दोष' का अर्थ है सामान की गुणवत्ता, मात्रा या मानक में कोई भी खराबी, कमी या त्रुटि — जो कानून, अनुबंध या विक्रेता के दावे के अनुसार होनी चाहिए थी।"
+      },
+      "applies_to": [
+        "damaged_on_delivery",
+        "defective_product",
+        "misleading_description"
+      ],
+      "keywords": [
+        "defect",
+        "defective",
+        "damaged",
+        "broken",
+        "fault",
+        "not working",
+        "quality",
+        "दोष",
+        "खराब",
+        "टूटा"
+      ]
+    },
+    {
+      "id": "CPA_2_11",
+      "instrument": "Consumer Protection Act, 2019 (Act No. 35 of 2019)",
+      "short_cite": "Consumer Protection Act, 2019, Section 2(11)",
+      "citations": [
+        "Section 2(11)"
+      ],
+      "title": "Meaning of 'deficiency' in service",
+      "issuing_authority": "Parliament of India — text published on India Code",
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/18964/1/cpa.pdf",
+      "source_type": "primary_statute",
+      "claim_type": "statutory_definition",
+      "verification_status": "verified",
+      "verified_on": "2026-11-08",
+      "excerpt_type": "verbatim_fragments",
+      "excerpt": "\"deficiency\" means \"any fault, imperfection, shortcoming or inadequacy in the quality, nature and manner of performance\" required to be maintained by law or undertaken under a contract or otherwise in relation to any service, and includes (i) \"any act of negligence or omission or commission by such person which causes loss or injury to the consumer\" and (ii) \"deliberate withholding of relevant information by such person to the consumer\".",
+      "plain_language": {
+        "en": "A 'deficiency' is a shortcoming in how a service is performed, including negligence or an omission that causes the consumer loss, or deliberately withholding relevant information. Delivery, payment processing and customer support can be services for this purpose — whether a specific failure counts as a deficiency depends on the facts.",
+        "hi": "'सेवा में कमी' का अर्थ है सेवा के प्रदर्शन में कोई कमी — जैसे लापरवाही या चूक जिससे उपभोक्ता को नुकसान हो, या जानबूझकर ज़रूरी जानकारी छिपाना। डिलीवरी, भुगतान और ग्राहक सहायता भी सेवा हो सकती है — कोई विशेष चूक 'कमी' है या नहीं, यह तथ्यों पर निर्भर करता है।"
+      },
+      "applies_to": [
+        "non_delivery",
+        "refund_not_received",
+        "incorrect_charge",
+        "damaged_on_delivery"
+      ],
+      "keywords": [
+        "deficiency",
+        "service",
+        "negligence",
+        "delivery",
+        "not delivered",
+        "support",
+        "no response",
+        "सेवा",
+        "कमी",
+        "लापरवाही"
+      ]
+    },
+    {
+      "id": "CPA_2_28",
+      "instrument": "Consumer Protection Act, 2019 (Act No. 35 of 2019)",
+      "short_cite": "Consumer Protection Act, 2019, Section 2(28)",
+      "citations": [
+        "Section 2(28)"
+      ],
+      "title": "Meaning of 'misleading advertisement'",
+      "issuing_authority": "Parliament of India — text published on India Code",
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/18964/1/cpa.pdf",
+      "source_type": "primary_statute",
+      "claim_type": "statutory_definition",
+      "verification_status": "verified",
+      "verified_on": "2026-11-08",
+      "excerpt_type": "verbatim_fragments",
+      "excerpt": "\"misleading advertisement\" in relation to any product or service means an advertisement which (i) \"falsely describes such product or service;\" (ii) gives a false guarantee to, or is likely to mislead, consumers as to the nature, substance, quantity or quality of the product or service; (iii) conveys a representation which would constitute an unfair trade practice if made by the manufacturer, seller or service provider; or (iv) \"deliberately conceals important information.\"",
+      "plain_language": {
+        "en": "An advertisement is 'misleading' if it falsely describes the product, is likely to mislead about its nature or quality, makes a representation that would be an unfair trade practice, or deliberately hides important information.",
+        "hi": "विज्ञापन 'भ्रामक' है अगर वह उत्पाद का गलत वर्णन करता है, उसकी प्रकृति या गुणवत्ता के बारे में गुमराह करने की संभावना रखता है, ऐसा दावा करता है जो अनुचित व्यापार व्यवहार होगा, या जानबूझकर ज़रूरी जानकारी छिपाता है।"
+      },
+      "applies_to": [
+        "misleading_description"
+      ],
+      "keywords": [
+        "advertisement",
+        "advertised",
+        "listing",
+        "description",
+        "misleading",
+        "feature",
+        "claim",
+        "false",
+        "विज्ञापन",
+        "भ्रामक",
+        "दावा"
+      ]
+    },
+    {
+      "id": "CPA_2_47_I_A",
+      "instrument": "Consumer Protection Act, 2019 (Act No. 35 of 2019)",
+      "short_cite": "Consumer Protection Act, 2019, Section 2(47)(i)(a)",
+      "citations": [
+        "Section 2(47)",
+        "Section 2(47)(i)",
+        "Section 2(47)(i)(a)"
+      ],
+      "title": "Unfair trade practice — false representation about standard or quality",
+      "issuing_authority": "Parliament of India — text published on India Code",
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/18964/1/cpa.pdf",
+      "source_type": "primary_statute",
+      "claim_type": "statutory_definition",
+      "verification_status": "verified",
+      "verified_on": "2026-11-08",
+      "excerpt_type": "verbatim_fragments",
+      "excerpt": "\"unfair trade practice\" means a trade practice which, for promoting sale, use or supply of goods or services, adopts \"any unfair method or unfair or deceptive practice including any of the following practices, namely:\" (i) making any statement, whether orally or in writing or by visible representation including by means of electronic record, which — (a) \"falsely represents that the goods are of a particular standard, quality, quantity, grade, composition, style or model;\"",
+      "plain_language": {
+        "en": "Making a statement (including online) that falsely represents goods to be of a particular standard, quality, grade, composition or model is listed as an unfair trade practice.",
+        "hi": "किसी बयान (ऑनलाइन सहित) द्वारा सामान को झूठे तौर पर किसी विशेष मानक, गुणवत्ता, ग्रेड, बनावट या मॉडल का बताना अनुचित व्यापार व्यवहार की सूची में है।"
+      },
+      "applies_to": [
+        "misleading_description"
+      ],
+      "keywords": [
+        "unfair trade practice",
+        "false representation",
+        "quality",
+        "standard",
+        "model",
+        "listing",
+        "feature",
+        "अनुचित व्यापार",
+        "झूठा"
+      ]
+    },
+    {
+      "id": "CPA_2_47_VII",
+      "instrument": "Consumer Protection Act, 2019 (Act No. 35 of 2019)",
+      "short_cite": "Consumer Protection Act, 2019, Section 2(47)(vii)",
+      "citations": [
+        "Section 2(47)(vii)"
+      ],
+      "title": "Unfair trade practice — not issuing a bill, cash memo or receipt",
+      "issuing_authority": "Parliament of India — text published on India Code",
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/18964/1/cpa.pdf",
+      "source_type": "primary_statute",
+      "claim_type": "statutory_definition",
+      "verification_status": "verified",
+      "verified_on": "2026-11-08",
+      "excerpt_type": "verbatim",
+      "excerpt": "(vii) \"not issuing bill or cash memo or receipt for the goods sold or services rendered in such manner as may be prescribed;\"",
+      "plain_language": {
+        "en": "Not issuing a bill, cash memo or receipt for goods sold is listed as an unfair trade practice.",
+        "hi": "बेचे गए सामान का बिल, कैश मेमो या रसीद न देना अनुचित व्यापार व्यवहार की सूची में है।"
+      },
+      "applies_to": [
+        "no_invoice"
+      ],
+      "keywords": [
+        "bill",
+        "invoice",
+        "receipt",
+        "cash memo",
+        "no invoice",
+        "बिल",
+        "रसीद"
+      ]
+    },
+    {
+      "id": "CPA_2_47_VIII",
+      "instrument": "Consumer Protection Act, 2019 (Act No. 35 of 2019)",
+      "short_cite": "Consumer Protection Act, 2019, Section 2(47)(viii)",
+      "citations": [
+        "Section 2(47)(viii)"
+      ],
+      "title": "Unfair trade practice — refusing to take back defective goods and refund",
+      "issuing_authority": "Parliament of India — text published on India Code",
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/18964/1/cpa.pdf",
+      "source_type": "primary_statute",
+      "claim_type": "statutory_definition",
+      "verification_status": "verified",
+      "verified_on": "2026-11-08",
+      "excerpt_type": "verbatim_fragments",
+      "excerpt": "(viii) \"refusing, after selling goods or rendering services, to take back or withdraw defective goods\" or to withdraw or discontinue deficient services \"and to refund the consideration thereof, if paid, within the period stipulated in the bill or cash memo or in the absence of such stipulation, within a period of thirty days;\"",
+      "plain_language": {
+        "en": "Refusing to take back defective goods and refund the price — within the period stated on the bill, or within 30 days if the bill states no period — is listed as an unfair trade practice. This applies to defective goods; a delayed refund on its own is not automatically covered.",
+        "hi": "दोषपूर्ण सामान वापस लेने और कीमत लौटाने से इनकार करना — बिल में लिखी अवधि के भीतर, या बिल में अवधि न हो तो 30 दिन के भीतर — अनुचित व्यापार व्यवहार की सूची में है। यह दोषपूर्ण सामान पर लागू होता है; केवल रिफंड में देरी अपने आप इसमें नहीं आती।"
+      },
+      "applies_to": [
+        "damaged_on_delivery",
+        "defective_product"
+      ],
+      "keywords": [
+        "refuse",
+        "take back",
+        "return",
+        "refund",
+        "defective",
+        "thirty days",
+        "30 days",
+        "replacement",
+        "वापस",
+        "रिफंड",
+        "इनकार",
+        "30 दिन"
+      ]
+    },
+    {
+      "id": "CPA_17",
+      "instrument": "Consumer Protection Act, 2019 (Act No. 35 of 2019)",
+      "short_cite": "Consumer Protection Act, 2019, Section 17",
+      "citations": [
+        "Section 17"
+      ],
+      "title": "Complaints to the authorities about unfair trade practices and misleading advertisements",
+      "issuing_authority": "Parliament of India — text published on India Code",
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/18964/1/cpa.pdf",
+      "source_type": "primary_statute",
+      "claim_type": "procedure",
+      "verification_status": "verified",
+      "verified_on": "2026-11-08",
+      "excerpt_type": "close_paraphrase",
+      "excerpt": "A complaint relating to violation of consumer rights or unfair trade practices or false or misleading advertisements which are prejudicial to the interests of consumers as a class \"may be forwarded either in writing or in electronic mode, to any one of the authorities\", namely the District Collector, the Commissioner of the regional office, or the Central Authority (Central Consumer Protection Authority).",
+      "plain_language": {
+        "en": "Where an unfair trade practice or misleading advertisement affects consumers as a class (not just you), a complaint can be sent in writing or electronically to the District Collector, the regional Commissioner, or the Central Consumer Protection Authority. This is a regulatory route; it is separate from claiming your own refund before a Consumer Commission.",
+        "hi": "जहाँ कोई अनुचित व्यापार व्यवहार या भ्रामक विज्ञापन उपभोक्ताओं के पूरे वर्ग को प्रभावित करता है (सिर्फ आपको नहीं), वहाँ लिखित या इलेक्ट्रॉनिक रूप से ज़िला कलेक्टर, क्षेत्रीय आयुक्त या केंद्रीय उपभोक्ता संरक्षण प्राधिकरण को शिकायत भेजी जा सकती है। यह नियामक रास्ता है; उपभोक्ता आयोग में अपना रिफंड माँगने से अलग है।"
+      },
+      "applies_to": [
+        "misleading_description"
+      ],
+      "keywords": [
+        "CCPA",
+        "Central Authority",
+        "District Collector",
+        "misleading advertisement",
+        "class",
+        "regulator",
+        "केंद्रीय प्राधिकरण",
+        "कलेक्टर"
+      ]
+    },
+    {
+      "id": "CPA_34",
+      "instrument": "Consumer Protection Act, 2019 (Act No. 35 of 2019)",
+      "short_cite": "Consumer Protection Act, 2019, Section 34",
+      "citations": [
+        "Section 34",
+        "Section 34(1)",
+        "Section 34(2)",
+        "Section 34(2)(d)"
+      ],
+      "title": "Jurisdiction of the District Commission and where a complaint can be filed",
+      "issuing_authority": "Parliament of India — text published on India Code",
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/18964/1/cpa.pdf",
+      "source_type": "primary_statute",
+      "claim_type": "procedure",
+      "verification_status": "verified",
+      "verified_on": "2026-11-08",
+      "excerpt_type": "verbatim_fragments",
+      "excerpt": "34(2): a complaint shall be instituted in a District Commission within whose local limits (a) the opposite party ordinarily resides or carries on business or has a branch office or personally works for gain; ... (c) the cause of action, wholly or in part, arises; or (d) \"the complainant resides or personally works for gain.\" [34(1) sets pecuniary jurisdiction; the value limit has since been revised by the 2021 Jurisdiction Rules — see that entry.]",
+      "plain_language": {
+        "en": "You can file before the District Commission where you live or work, where the seller/platform carries on business or has a branch, or where the cause of action arose.",
+        "hi": "आप उस ज़िला आयोग में शिकायत कर सकते हैं जहाँ आप रहते हैं या काम करते हैं, जहाँ विक्रेता/प्लेटफ़ॉर्म व्यवसाय करता है या उसकी शाखा है, या जहाँ विवाद का कारण उत्पन्न हुआ।"
+      },
+      "applies_to": [
+        "forum"
+      ],
+      "keywords": [
+        "jurisdiction",
+        "where to file",
+        "district commission",
+        "reside",
+        "territorial",
+        "ज़िला आयोग",
+        "कहाँ"
+      ]
+    },
+    {
+      "id": "JUR_RULES_2021",
+      "instrument": "Consumer Protection (Jurisdiction of the District Commission, the State Commission and the National Commission) Rules, 2021 — G.S.R. 912(E), 30 December 2021",
+      "short_cite": "Consumer Protection (Jurisdiction ...) Rules, 2021, Rules 3–5",
+      "citations": [
+        "Rule 3",
+        "Rule 4",
+        "Rule 5",
+        "Jurisdiction Rules"
+      ],
+      "citation_scope": "JUR",
+      "title": "Which Commission: value limits (District up to ₹50 lakh)",
+      "issuing_authority": "Ministry of Consumer Affairs, Food and Public Distribution (Department of Consumer Affairs); copy hosted by the High Court of Tripura",
+      "url": "https://www.thc.nic.in/Central%20Governmental%20Rules/Consumer%20Protection%20(Jurisdiction%20of%20the%20District%20Commission,%20the%20State%20Commission%20and%20the%20National%20Commission)%20Rules,%202021.pdf",
+      "secondary_url": "https://consumeraffairs.nic.in/acts-and-rules/consumer-protection",
+      "source_type": "primary_rules",
+      "claim_type": "procedure",
+      "verification_status": "verified",
+      "verified_on": "2026-11-08",
+      "excerpt_type": "verbatim_fragments",
+      "excerpt": "G.S.R. 912(E), 30 December 2021. Rule 3: District Commission where \"the value of the goods or services paid as consideration does not exceed fifty lakh rupees\". Rule 4: State Commission where it \"exceeds fifty lakh but does not exceed two crore rupees\". Rule 5: National Commission where it \"exceeds two crore rupees\".",
+      "plain_language": {
+        "en": "Which Commission you approach depends on the value you paid (not the amount you claim): up to ₹50 lakh — District Commission; above ₹50 lakh up to ₹2 crore — State Commission; above ₹2 crore — National Commission.",
+        "hi": "कौन-सा आयोग, यह आपके द्वारा चुकाई गई कीमत पर निर्भर करता है (दावे की राशि पर नहीं): ₹50 लाख तक — ज़िला आयोग; ₹50 लाख से ₹2 करोड़ तक — राज्य आयोग; ₹2 करोड़ से अधिक — राष्ट्रीय आयोग।"
+      },
+      "applies_to": [
+        "forum"
+      ],
+      "keywords": [
+        "pecuniary",
+        "value",
+        "fifty lakh",
+        "50 lakh",
+        "state commission",
+        "national commission",
+        "which commission",
+        "लाख",
+        "आयोग"
+      ]
+    },
+    {
+      "id": "FEE_RULE_7",
+      "instrument": "Consumer Protection (Consumer Disputes Redressal Commissions) Rules, 2020, Rule 7 — table substituted by the Amendment Rules, 2023 (G.S.R. 606(E), 17 August 2023)",
+      "short_cite": "Consumer Protection (Consumer Disputes Redressal Commissions) Rules, 2020, Rule 7 (as amended in 2023)",
+      "citations": [
+        "Rule 7",
+        "Rule 7(2)"
+      ],
+      "citation_scope": "FEE",
+      "title": "Filing fee — nil for value up to ₹5 lakh",
+      "issuing_authority": "Ministry of Consumer Affairs, Food and Public Distribution — Gazette of India",
+      "url": "https://egazette.gov.in/WriteReadData/2023/248158.pdf",
+      "source_type": "primary_rules",
+      "claim_type": "procedure",
+      "verification_status": "verified",
+      "verified_on": "2026-11-08",
+      "excerpt_type": "close_paraphrase",
+      "excerpt": "Fee payable by value of goods or services paid as consideration: up to ₹5 lakh — Nil; above ₹5 lakh to ₹10 lakh — ₹200; above ₹10 lakh to ₹20 lakh — ₹400; above ₹20 lakh to ₹50 lakh — ₹1,000 (higher slabs continue).",
+      "plain_language": {
+        "en": "No filing fee is payable for a complaint where the value paid is up to ₹5 lakh (as per the fee table substituted in August 2023). Check the current fee on e-Jagriti before filing.",
+        "hi": "जहाँ चुकाई गई कीमत ₹5 लाख तक है, वहाँ शिकायत दर्ज करने का कोई शुल्क नहीं है (अगस्त 2023 में बदली गई शुल्क तालिका के अनुसार)। दर्ज करने से पहले ई-जागृति पर वर्तमान शुल्क जाँच लें।"
+      },
+      "applies_to": [
+        "forum"
+      ],
+      "keywords": [
+        "filing fee",
+        "cost",
+        "free",
+        "nil",
+        "शुल्क",
+        "फीस",
+        "fee to file",
+        "fees",
+        "pay to file",
+        "charges for filing",
+        "कितना शुल्क"
+      ]
+    },
+    {
+      "id": "CPA_35",
+      "instrument": "Consumer Protection Act, 2019 (Act No. 35 of 2019)",
+      "short_cite": "Consumer Protection Act, 2019, Section 35",
+      "citations": [
+        "Section 35",
+        "Section 35(1)"
+      ],
+      "title": "Who can file a complaint, and electronic filing",
+      "issuing_authority": "Parliament of India — text published on India Code",
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/18964/1/cpa.pdf",
+      "source_type": "primary_statute",
+      "claim_type": "procedure",
+      "verification_status": "verified",
+      "verified_on": "2026-11-08",
+      "excerpt_type": "verbatim_fragments",
+      "excerpt": "A complaint may be filed by (a) the consumer, (b) any recognised consumer association, (c) one or more consumers with the same interest (with permission), or (d) the Central/State Government or Central Authority. Proviso: \"the complaint under this sub-section may be filed electronically in such manner as may be prescribed.\"",
+      "plain_language": {
+        "en": "You can file the complaint yourself — you do not need a lawyer to file. A recognised consumer association can also file for you. Complaints can be filed electronically.",
+        "hi": "आप स्वयं शिकायत दर्ज कर सकते हैं — दर्ज करने के लिए वकील ज़रूरी नहीं है। कोई मान्यता प्राप्त उपभोक्ता संघ भी आपकी ओर से दर्ज कर सकता है। शिकायत इलेक्ट्रॉनिक रूप से दर्ज की जा सकती है।"
+      },
+      "applies_to": [
+        "forum"
+      ],
+      "keywords": [
+        "file",
+        "who can file",
+        "electronic",
+        "online filing",
+        "consumer association",
+        "lawyer",
+        "दर्ज",
+        "ऑनलाइन"
+      ]
+    },
+    {
+      "id": "CPA_38_7",
+      "instrument": "Consumer Protection Act, 2019 (Act No. 35 of 2019)",
+      "short_cite": "Consumer Protection Act, 2019, Section 38(7)",
+      "citations": [
+        "Section 38(7)",
+        "Section 38"
+      ],
+      "title": "How long a Commission aims to take",
+      "issuing_authority": "Parliament of India — text published on India Code",
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/18964/1/cpa.pdf",
+      "source_type": "primary_statute",
+      "claim_type": "procedure",
+      "verification_status": "verified",
+      "verified_on": "2026-11-08",
+      "excerpt_type": "close_paraphrase",
+      "excerpt": "Every complaint shall be disposed of as expeditiously as possible and endeavour shall be made to decide it within three months from the date of receipt of notice by the opposite party where no analysis or testing of commodities is required, and within five months where it is required.",
+      "plain_language": {
+        "en": "The law asks Commissions to try to decide complaints within 3 months of notice to the other side (5 months if the product needs lab testing). This is a target, not a guarantee; actual time can be longer.",
+        "hi": "कानून आयोगों से कहता है कि दूसरे पक्ष को नोटिस मिलने के 3 महीने के भीतर (उत्पाद की जाँच ज़रूरी हो तो 5 महीने) शिकायत तय करने का प्रयास करें। यह लक्ष्य है, गारंटी नहीं; वास्तविक समय अधिक हो सकता है।"
+      },
+      "applies_to": [
+        "forum"
+      ],
+      "keywords": [
+        "how long",
+        "time",
+        "three months",
+        "decide",
+        "duration",
+        "कितना समय",
+        "तीन महीने"
+      ]
+    },
+    {
+      "id": "CPA_39",
+      "instrument": "Consumer Protection Act, 2019 (Act No. 35 of 2019)",
+      "short_cite": "Consumer Protection Act, 2019, Section 39(1)",
+      "citations": [
+        "Section 39",
+        "Section 39(1)"
+      ],
+      "title": "Orders a District Commission can make",
+      "issuing_authority": "Parliament of India — text published on India Code",
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/18964/1/cpa.pdf",
+      "source_type": "primary_statute",
+      "claim_type": "possible_remedy",
+      "verification_status": "verified",
+      "verified_on": "2026-11-08",
+      "excerpt_type": "close_paraphrase",
+      "excerpt": "If satisfied that the goods suffer from a defect or that allegations about services or unfair trade practices are proved, the District Commission may order the opposite party to, among other things: (a) remove the defect pointed out by the appropriate laboratory from the goods; (b) replace the goods with new goods of similar description free from any defect; (c) return the price or charges paid, along with such interest as may be decided; (d) pay compensation for any loss or injury suffered due to the negligence of the opposite party; ... and (m) provide for adequate costs to parties.",
+      "plain_language": {
+        "en": "If the Commission finds in your favour, it can order repair, replacement, refund of the price (with interest), compensation for loss caused by negligence, and costs. These are possible orders — the Commission decides based on evidence; nothing is automatic.",
+        "hi": "अगर आयोग आपके पक्ष में पाता है, तो वह मरम्मत, बदलाव, कीमत की वापसी (ब्याज सहित), लापरवाही से हुए नुकसान का मुआवज़ा और खर्च का आदेश दे सकता है। ये संभावित आदेश हैं — आयोग सबूतों के आधार पर तय करता है; कुछ भी अपने आप नहीं मिलता।"
+      },
+      "applies_to": [
+        "forum",
+        "all"
+      ],
+      "keywords": [
+        "relief",
+        "remedy",
+        "compensation",
+        "refund",
+        "replacement",
+        "repair",
+        "interest",
+        "costs",
+        "मुआवज़ा",
+        "राहत"
+      ]
+    },
+    {
+      "id": "CPA_69",
+      "instrument": "Consumer Protection Act, 2019 (Act No. 35 of 2019)",
+      "short_cite": "Consumer Protection Act, 2019, Section 69",
+      "citations": [
+        "Section 69",
+        "Section 69(1)",
+        "Section 69(2)"
+      ],
+      "title": "Time limit: two years from the cause of action",
+      "issuing_authority": "Parliament of India — text published on India Code",
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/18964/1/cpa.pdf",
+      "source_type": "primary_statute",
+      "claim_type": "procedure",
+      "verification_status": "verified",
+      "verified_on": "2026-11-08",
+      "excerpt_type": "close_paraphrase",
+      "excerpt": "69(1): The Commission shall not admit a complaint unless it is filed within two years from the date on which the cause of action has arisen. 69(2): A complaint may be entertained after that period if the complainant satisfies the Commission that there was sufficient cause for not filing within that period; the Commission must record its reasons for condoning the delay.",
+      "plain_language": {
+        "en": "A complaint must normally be filed within 2 years from when the cause of action arose. A late complaint can be accepted only if the Commission is satisfied there was sufficient cause for the delay. When exactly the cause of action arose can be a legal question.",
+        "hi": "शिकायत सामान्यतः विवाद का कारण उत्पन्न होने के 2 साल के भीतर दर्ज करनी होती है। देरी से की गई शिकायत तभी स्वीकार होती है जब आयोग देरी के पर्याप्त कारण से संतुष्ट हो। विवाद का कारण ठीक कब उत्पन्न हुआ, यह कानूनी प्रश्न हो सकता है।"
+      },
+      "applies_to": [
+        "forum",
+        "all"
+      ],
+      "keywords": [
+        "limitation",
+        "time limit",
+        "two years",
+        "2 years",
+        "deadline",
+        "delay",
+        "old purchase",
+        "समय सीमा",
+        "दो साल",
+        "last date to file",
+        "too late",
+        "कब तक"
+      ]
+    },
+    {
+      "id": "CPA_PRODUCT_LIABILITY",
+      "instrument": "Consumer Protection Act, 2019 (Act No. 35 of 2019)",
+      "short_cite": "Consumer Protection Act, 2019, Sections 2(22), 2(34), 84 and 86",
+      "citations": [
+        "Section 2(22)",
+        "Section 2(34)",
+        "Section 82",
+        "Section 83",
+        "Section 84",
+        "Section 84(1)",
+        "Section 86",
+        "Section 87"
+      ],
+      "title": "Product liability — compensation for 'harm' caused by a defective product",
+      "issuing_authority": "Parliament of India — text published on India Code",
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/18964/1/cpa.pdf",
+      "source_type": "primary_statute",
+      "claim_type": "statutory_definition",
+      "verification_status": "verified",
+      "verified_on": "2026-11-08",
+      "excerpt_type": "close_paraphrase",
+      "excerpt": "A product liability action lies against a manufacturer, service provider or seller for harm caused by a defective product (Section 83). A manufacturer is liable for, e.g., manufacturing defect, defective design, deviation from manufacturing specifications, non-conformity to the express warranty, or failure to contain adequate instructions of correct usage or warnings about improper or incorrect usage (Section 84(1)); sellers in the circumstances listed in Section 86. 'Harm' (Section 2(22)) covers damage to other property, personal injury, illness or death, and related mental agony — but excludes \"any harm caused to a product itself\" and commercial or economic loss.",
+      "plain_language": {
+        "en": "Product liability is about harm a defective product causes beyond itself — injury, illness, or damage to other property. Harm to the product itself is excluded. If your only problem is that the product is faulty, the ordinary 'defect' complaint (Sections 2(6) and 2(10)) is usually the more relevant route.",
+        "hi": "उत्पाद दायित्व उस नुकसान के बारे में है जो दोषपूर्ण उत्पाद स्वयं के अलावा पहुँचाता है — चोट, बीमारी, या अन्य संपत्ति को नुकसान। उत्पाद को स्वयं हुआ नुकसान इसमें शामिल नहीं है। अगर समस्या केवल यह है कि उत्पाद खराब है, तो सामान्य 'दोष' वाली शिकायत (धारा 2(6) और 2(10)) आमतौर पर अधिक प्रासंगिक रास्ता है।"
+      },
+      "applies_to": [
+        "harm"
+      ],
+      "keywords": [
+        "product liability",
+        "injury",
+        "fire",
+        "shock",
+        "harm",
+        "manufacturer",
+        "burn",
+        "चोट",
+        "आग",
+        "उत्पाद दायित्व"
+      ]
+    },
+    {
+      "id": "ECOM_R2",
+      "instrument": "Consumer Protection (E-Commerce) Rules, 2020 — G.S.R. 462(E), 23 July 2020",
+      "short_cite": "Consumer Protection (E-Commerce) Rules, 2020, Rule 2(1) and 2(2)",
+      "citations": [
+        "Rule 2",
+        "Rule 2(1)",
+        "Rule 2(2)"
+      ],
+      "citation_scope": "ECOM",
+      "title": "E-Commerce Rules apply to goods/services bought online and all e-commerce models",
+      "issuing_authority": "Department of Consumer Affairs, Ministry of Consumer Affairs, Food and Public Distribution — Gazette of India (copy hosted by PRS Legislative Research)",
+      "url": "https://prsindia.org/files/bills_acts/bills_parliament/2021/Consumer%20Protection%20(E-Commerce)%20Rules,%202020.pdf",
+      "secondary_url": "https://consumeraffairs.nic.in/acts-and-rules/consumer-protection",
+      "source_type": "primary_rules",
+      "claim_type": "statutory_definition",
+      "verification_status": "verified",
+      "verified_on": "2026-11-08",
+      "excerpt_type": "verbatim_fragments",
+      "excerpt": "2(1): the rules apply to \"(a) all goods and services bought or sold over digital or electronic network including digital products; (b) all models of e-commerce, including marketplace and inventory models of e-commerce; (c) all e-commerce retail ...; and (d) all forms of unfair trade practices across all models of e-commerce\" — proviso: they do not apply to a natural person's activity in a personal capacity that is not part of a professional or commercial activity undertaken on a regular or systematic basis. 2(2): they \"shall apply to a e-commerce entity which is not established in India, but systematically offers goods or services to consumers in India.\"",
+      "plain_language": {
+        "en": "The E-Commerce Rules apply to goods and services bought over websites and apps, whether the platform is a marketplace (third-party sellers) or sells its own stock, and also to foreign platforms that systematically sell to consumers in India.",
+        "hi": "ई-कॉमर्स नियम वेबसाइट और ऐप से खरीदे गए सामान और सेवाओं पर लागू होते हैं — चाहे प्लेटफ़ॉर्म मार्केटप्लेस हो (तीसरे पक्ष के विक्रेता) या अपना स्टॉक बेचता हो — और उन विदेशी प्लेटफ़ॉर्म पर भी जो भारत के उपभोक्ताओं को व्यवस्थित रूप से बेचते हैं।"
+      },
+      "applies_to": [
+        "ecommerce"
+      ],
+      "keywords": [
+        "e-commerce",
+        "online",
+        "app",
+        "website",
+        "marketplace",
+        "ई-कॉमर्स",
+        "ऑनलाइन"
+      ]
+    },
+    {
+      "id": "ECOM_R4_GRIEVANCE",
+      "instrument": "Consumer Protection (E-Commerce) Rules, 2020 — G.S.R. 462(E), 23 July 2020",
+      "short_cite": "Consumer Protection (E-Commerce) Rules, 2020, Rules 4(4) and 4(5)",
+      "citations": [
+        "Rule 4(4)",
+        "Rule 4(5)"
+      ],
+      "citation_scope": "ECOM",
+      "title": "Platform grievance officer: acknowledge in 48 hours, redress within one month",
+      "issuing_authority": "Department of Consumer Affairs — Gazette of India (copy hosted by PRS Legislative Research)",
+      "url": "https://prsindia.org/files/bills_acts/bills_parliament/2021/Consumer%20Protection%20(E-Commerce)%20Rules,%202020.pdf",
+      "source_type": "primary_rules",
+      "claim_type": "statutory_obligation",
+      "verification_status": "verified",
+      "verified_on": "2026-11-08",
+      "excerpt_type": "verbatim_fragments",
+      "excerpt": "4(4): Every e-commerce entity shall establish an adequate grievance redressal mechanism and \"appoint a grievance officer for consumer grievance redressal\", and display the officer's name, contact details and designation on its platform. 4(5): The grievance officer shall acknowledge receipt of any consumer complaint \"within forty-eight hours\" and redress the complaint \"within one month\" from the date of receipt.",
+      "plain_language": {
+        "en": "Every e-commerce platform must have a grievance officer whose contact details are displayed on the platform. The officer must acknowledge your complaint within 48 hours and redress it within one month of receiving it. These are duties of the platform — they are not a waiting period you must observe before using other options.",
+        "hi": "हर ई-कॉमर्स प्लेटफ़ॉर्म में एक शिकायत अधिकारी होना ज़रूरी है जिसका संपर्क विवरण प्लेटफ़ॉर्म पर दिखाया गया हो। अधिकारी को 48 घंटे में शिकायत की पावती देनी होगी और प्राप्ति से एक महीने के भीतर निवारण करना होगा। ये प्लेटफ़ॉर्म के कर्तव्य हैं — यह कोई अनिवार्य प्रतीक्षा अवधि नहीं है।"
+      },
+      "applies_to": [
+        "ecommerce",
+        "all"
+      ],
+      "keywords": [
+        "grievance officer",
+        "48 hours",
+        "one month",
+        "acknowledge",
+        "platform complaint",
+        "no response",
+        "escalate",
+        "शिकायत अधिकारी",
+        "48 घंटे",
+        "एक महीना"
+      ]
+    },
+    {
+      "id": "ECOM_R4_10",
+      "instrument": "Consumer Protection (E-Commerce) Rules, 2020 — G.S.R. 462(E), 23 July 2020",
+      "short_cite": "Consumer Protection (E-Commerce) Rules, 2020, Rule 4(10)",
+      "citations": [
+        "Rule 4(10)"
+      ],
+      "citation_scope": "ECOM",
+      "title": "Accepted refunds must be paid within a reasonable time",
+      "issuing_authority": "Department of Consumer Affairs — Gazette of India (copy hosted by PRS Legislative Research)",
+      "url": "https://prsindia.org/files/bills_acts/bills_parliament/2021/Consumer%20Protection%20(E-Commerce)%20Rules,%202020.pdf",
+      "source_type": "primary_rules",
+      "claim_type": "statutory_obligation",
+      "verification_status": "verified",
+      "verified_on": "2026-11-08",
+      "excerpt_type": "verbatim",
+      "excerpt": "\"(10) Every e-commerce entity shall effect all payments towards accepted refund requests of the consumers as prescribed by the Reserve Bank of India or any other competent authority under any law for the time being in force, within a reasonable period of time, or as prescribed under applicable laws.\"",
+      "plain_language": {
+        "en": "Once a refund request has been accepted, the platform must pay it within a reasonable period of time (or as prescribed by RBI or other law). The Rule does not fix a specific number of days, so 'reasonable' depends on the facts.",
+        "hi": "रिफंड अनुरोध स्वीकार होने के बाद प्लेटफ़ॉर्म को उचित समय के भीतर भुगतान करना होगा (या RBI/अन्य कानून के अनुसार)। नियम में दिनों की कोई निश्चित संख्या नहीं है, इसलिए 'उचित समय' तथ्यों पर निर्भर करता है।"
+      },
+      "applies_to": [
+        "refund_not_received",
+        "incorrect_charge"
+      ],
+      "keywords": [
+        "refund",
+        "accepted refund",
+        "reasonable time",
+        "refund delay",
+        "money back",
+        "not refunded",
+        "रिफंड",
+        "पैसे वापस",
+        "देरी"
+      ]
+    },
+    {
+      "id": "ECOM_R5_3",
+      "instrument": "Consumer Protection (E-Commerce) Rules, 2020 — G.S.R. 462(E), 23 July 2020",
+      "short_cite": "Consumer Protection (E-Commerce) Rules, 2020, Rule 5(3)",
+      "citations": [
+        "Rule 5(3)",
+        "Rule 5(3)(a)",
+        "Rule 5(3)(b)",
+        "Rule 5(3)(c)"
+      ],
+      "citation_scope": "ECOM",
+      "title": "Marketplace must show seller details, give a complaint ticket number, and show return/refund terms",
+      "issuing_authority": "Department of Consumer Affairs — Gazette of India (copy hosted by PRS Legislative Research)",
+      "url": "https://prsindia.org/files/bills_acts/bills_parliament/2021/Consumer%20Protection%20(E-Commerce)%20Rules,%202020.pdf",
+      "source_type": "primary_rules",
+      "claim_type": "statutory_obligation",
+      "verification_status": "verified",
+      "verified_on": "2026-11-08",
+      "excerpt_type": "verbatim_fragments",
+      "excerpt": "Every marketplace e-commerce entity shall display: (a) details about sellers including business name, geographic address and customer care number; (b) a ticket number for each complaint lodged \"through which the consumer can track the status of the complaint\"; (c) information relating to return, refund, exchange, warranty and guarantee, delivery and shipment, modes of payment, and grievance redressal mechanism.",
+      "plain_language": {
+        "en": "A marketplace platform must show the seller's name, address and customer-care number, give you a ticket number for every complaint so you can track it, and display its return, refund, warranty and grievance information.",
+        "hi": "मार्केटप्लेस प्लेटफ़ॉर्म को विक्रेता का नाम, पता और ग्राहक सेवा नंबर दिखाना होगा, हर शिकायत के लिए ट्रैक करने योग्य टिकट नंबर देना होगा, और वापसी, रिफंड, वारंटी व शिकायत निवारण की जानकारी दिखानी होगी।"
+      },
+      "applies_to": [
+        "ecommerce",
+        "all"
+      ],
+      "keywords": [
+        "ticket number",
+        "seller details",
+        "seller address",
+        "return policy",
+        "track complaint",
+        "टिकट नंबर",
+        "विक्रेता का पता"
+      ]
+    },
+    {
+      "id": "ECOM_R6_3",
+      "instrument": "Consumer Protection (E-Commerce) Rules, 2020 — G.S.R. 462(E), 23 July 2020",
+      "short_cite": "Consumer Protection (E-Commerce) Rules, 2020, Rule 6(3)",
+      "citations": [
+        "Rule 6(3)"
+      ],
+      "citation_scope": "ECOM",
+      "title": "Marketplace sellers must not refuse take-back or refund for defective, deficient, spurious, not-as-advertised/agreed or late goods",
+      "issuing_authority": "Department of Consumer Affairs — Gazette of India (copy hosted by PRS Legislative Research)",
+      "url": "https://prsindia.org/files/bills_acts/bills_parliament/2021/Consumer%20Protection%20(E-Commerce)%20Rules,%202020.pdf",
+      "source_type": "primary_rules",
+      "claim_type": "statutory_obligation",
+      "verification_status": "verified",
+      "verified_on": "2026-11-08",
+      "excerpt_type": "verbatim",
+      "excerpt": "\"(3) No seller offering goods or services through a marketplace e-commerce entity shall refuse to take back goods, or withdraw or discontinue services purchased or agreed to be purchased, or refuse to refund consideration, if paid, if such goods or services are defective, deficient or spurious, or if the goods or services are not of the characteristics or features as advertised or as agreed to, or if such goods or services are delivered late from the stated delivery schedule: Provided that in the case of late delivery, this sub-rule shall not be applied if such late delivery was due to force majeure.\"",
+      "plain_language": {
+        "en": "A seller on a marketplace must not refuse to take back goods or refund your money if the goods are defective, deficient or spurious, if they do not have the characteristics or features that were advertised or agreed, or if they were delivered late (unless the delay was due to force majeure). Whether your goods fall into one of these categories is a question of fact you may need to prove.",
+        "hi": "मार्केटप्लेस पर विक्रेता सामान वापस लेने या पैसा लौटाने से इनकार नहीं कर सकता अगर सामान दोषपूर्ण, कमीयुक्त या नकली है, उसमें विज्ञापित या तय की गई विशेषताएँ नहीं हैं, या वह देर से पहुँचाया गया (जब तक देरी अप्रत्याशित परिस्थिति के कारण न हो)। आपका सामान इनमें से किसी श्रेणी में आता है या नहीं, यह तथ्य का प्रश्न है जिसे साबित करना पड़ सकता है।"
+      },
+      "applies_to": [
+        "damaged_on_delivery",
+        "defective_product",
+        "misleading_description",
+        "non_delivery",
+        "refund_not_received"
+      ],
+      "keywords": [
+        "seller",
+        "refuse",
+        "take back",
+        "return",
+        "refund",
+        "defective",
+        "not as advertised",
+        "description",
+        "late delivery",
+        "spurious",
+        "fake",
+        "विक्रेता",
+        "वापस",
+        "रिफंड",
+        "विज्ञापित",
+        "देर"
+      ]
+    },
+    {
+      "id": "ECOM_R6_4",
+      "instrument": "Consumer Protection (E-Commerce) Rules, 2020 — G.S.R. 462(E), 23 July 2020",
+      "short_cite": "Consumer Protection (E-Commerce) Rules, 2020, Rule 6(4)",
+      "citations": [
+        "Rule 6(4)",
+        "Rule 6(4)(b)",
+        "Rule 6(4)(c)"
+      ],
+      "citation_scope": "ECOM",
+      "title": "Marketplace sellers: own grievance officer; advertisements must match actual characteristics",
+      "issuing_authority": "Department of Consumer Affairs — Gazette of India (copy hosted by PRS Legislative Research)",
+      "url": "https://prsindia.org/files/bills_acts/bills_parliament/2021/Consumer%20Protection%20(E-Commerce)%20Rules,%202020.pdf",
+      "source_type": "primary_rules",
+      "claim_type": "statutory_obligation",
+      "verification_status": "verified",
+      "verified_on": "2026-11-08",
+      "excerpt_type": "close_paraphrase",
+      "excerpt": "Any seller offering goods or services through a marketplace e-commerce entity shall (b) appoint a grievance officer for consumer grievance redressal and ensure that the grievance officer acknowledges the receipt of any consumer complaint within forty-eight hours and redresses the complaint within one month; and (c) \"ensure that the advertisements for marketing of goods or services are consistent with the actual characteristics, access and usage conditions of such goods or services.\"",
+      "plain_language": {
+        "en": "Sellers on a marketplace must also have their own grievance officer (48-hour acknowledgement, one-month redressal) and must make sure their advertisements match the actual characteristics of the product.",
+        "hi": "मार्केटप्लेस के विक्रेताओं का भी अपना शिकायत अधिकारी होना चाहिए (48 घंटे में पावती, एक महीने में निवारण) और उनके विज्ञापन उत्पाद की वास्तविक विशेषताओं से मेल खाने चाहिए।"
+      },
+      "applies_to": [
+        "misleading_description",
+        "ecommerce"
+      ],
+      "keywords": [
+        "seller grievance officer",
+        "advertisement consistent",
+        "actual characteristics",
+        "listing",
+        "विज्ञापन",
+        "विशेषताएँ"
+      ]
+    },
+    {
+      "id": "ECOM_R7_4",
+      "instrument": "Consumer Protection (E-Commerce) Rules, 2020 — G.S.R. 462(E), 23 July 2020",
+      "short_cite": "Consumer Protection (E-Commerce) Rules, 2020, Rule 7(4)",
+      "citations": [
+        "Rule 7(4)",
+        "Rule 7"
+      ],
+      "citation_scope": "ECOM",
+      "title": "Inventory e-commerce entities (platform sells its own stock): same take-back/refund duty",
+      "issuing_authority": "Department of Consumer Affairs — Gazette of India (copy hosted by PRS Legislative Research)",
+      "url": "https://prsindia.org/files/bills_acts/bills_parliament/2021/Consumer%20Protection%20(E-Commerce)%20Rules,%202020.pdf",
+      "source_type": "primary_rules",
+      "claim_type": "statutory_obligation",
+      "verification_status": "verified",
+      "verified_on": "2026-11-08",
+      "excerpt_type": "verbatim",
+      "excerpt": "\"(4) No inventory e-commerce entity shall refuse to take back goods, or withdraw or discontinue services purchased or agreed to be purchased, or refuse to refund consideration, if paid, if such goods or services are defective, deficient spurious, or if the goods or services are not of the characteristics or features as advertised or as agreed to, or if such goods or services are delivered late from the stated delivery schedule: Provided that in the case of late delivery, this sub rule shall not apply if such late delivery was due to force majeure.\" (\"deficient spurious\" is as printed in the source.)",
+      "plain_language": {
+        "en": "If the platform itself sold you the goods from its own inventory (rather than a third-party seller), it has the same duty not to refuse take-back or refund in these situations.",
+        "hi": "अगर प्लेटफ़ॉर्म ने स्वयं अपने स्टॉक से सामान बेचा (तीसरे पक्ष के विक्रेता ने नहीं), तो इन स्थितियों में वापसी या रिफंड से इनकार न करने का वही कर्तव्य उस पर भी है।"
+      },
+      "applies_to": [
+        "damaged_on_delivery",
+        "defective_product",
+        "misleading_description",
+        "non_delivery"
+      ],
+      "keywords": [
+        "inventory",
+        "platform seller",
+        "sold by platform",
+        "take back",
+        "refund",
+        "स्टॉक"
+      ]
+    },
+    {
+      "id": "ECOM_AMENDMENT_2026",
+      "instrument": "Consumer Protection (E-Commerce) (Amendment) Rules, 2026 — notified 9 September 2026; in force from 1 January 2027",
+      "short_cite": "Consumer Protection (E-Commerce) (Amendment) Rules, 2026",
+      "citations": [
+        "Amendment Rules, 2026"
+      ],
+      "citation_scope": "ECOM_AMEND",
+      "title": "Upcoming changes to the E-Commerce Rules (from 1 January 2027)",
+      "issuing_authority": "Ministry of Consumer Affairs, Food and Public Distribution — reported by SCC Online; Gazette text reproduced by TaxHeal (not yet listed on consumeraffairs.nic.in when checked)",
+      "url": "https://www.scconline.com/blog/post/2026/09/14/consumer-protection-e-commerce-amendment-rules-2026/",
+      "secondary_url": "https://www.taxheal.com/consumer-protection-e-commerce-amendment-rules-2026.html",
+      "source_type": "secondary_report",
+      "claim_type": "notice",
+      "verification_status": "verified_secondary",
+      "verified_on": "2026-11-08",
+      "excerpt_type": "close_paraphrase",
+      "excerpt": "SCC Online (14 Sep 2026): the Ministry notified the Rules \"On 9 September 2026\"; \"The Rules will come into force on 1 January 2027.\" Reported changes include: a revised definition of \"ranking\"; prominent display of the entity's legal name, address and customer-care and grievance-officer details (amended Rule 4); importer and country-of-origin details; clearly identified sponsored listings; a reduced price shown alongside the lowest price of the previous 30 days; annual dark-pattern self-audits; and expanded seller disclosures (Rule 6(5)). TaxHeal reproduces the notification as G.S.R. 789(E). NyayaSetu has not reviewed the official Gazette copy.",
+      "plain_language": {
+        "en": "Amendments to the E-Commerce Rules have been notified and are reported to take effect on 1 January 2027. NyayaSetu's rule references reflect the 2020 Rules as in force on 7 November 2026. Some rule text or numbering may change from 1 January 2027 — re-check before relying on a rule number after that date.",
+        "hi": "ई-कॉमर्स नियमों में संशोधन अधिसूचित हो चुके हैं और रिपोर्ट के अनुसार 1 जनवरी 2027 से लागू होंगे। NyayaSetu के नियम-संदर्भ 7 नवंबर 2026 को लागू 2020 के नियमों पर आधारित हैं। 1 जनवरी 2027 के बाद कुछ नियमों का पाठ या क्रमांक बदल सकता है — उस तारीख के बाद दोबारा जाँचें।"
+      },
+      "applies_to": [
+        "ecommerce",
+        "notice"
+      ],
+      "keywords": [
+        "amendment",
+        "2026",
+        "2027",
+        "new rules",
+        "संशोधन"
+      ]
+    },
+    {
+      "id": "NCH",
+      "instrument": "National Consumer Helpline (Department of Consumer Affairs)",
+      "short_cite": "National Consumer Helpline — consumerhelpline.gov.in",
+      "citations": [
+        "National Consumer Helpline"
+      ],
+      "citation_scope": "GUIDANCE",
+      "title": "National Consumer Helpline: pre-litigation grievance redressal",
+      "issuing_authority": "Department of Consumer Affairs, Government of India",
+      "url": "https://consumerhelpline.gov.in/public/about",
+      "secondary_url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/mar/doc2025314520301.pdf",
+      "source_type": "official_guidance",
+      "claim_type": "procedure",
+      "verification_status": "verified",
+      "verified_on": "2026-11-08",
+      "excerpt_type": "verbatim_fragments",
+      "excerpt": "NCH About page: \"This portal is an alternate dispute redressal mechanism at pre-litigation level\"; \"NCH is a Pre-Litigation stage step\"; grievances can be registered on \"Toll Free 1915 (8AM to 8PM)\", by SMS or WhatsApp on 8800001915, through the NCH app, the UMANG app or the web portal; \"It may take up to a maximum of 30 days to arrive at a logical conclusion\"; if a grievance is not fully resolved, \"a consumer has choice to approach the appropriate consumer Commission\". PIB, World Consumer Rights Day 2025 (14 March 2025): NCH \"partnered with over 1000 companies under its Convergence Programme\"; \"Complaints related to these convergence companies are directly transferred to them for online resolution.\"",
+      "plain_language": {
+        "en": "The National Consumer Helpline (toll-free 1915, SMS/WhatsApp 8800001915, the NCH or UMANG app, or consumerhelpline.gov.in) is a pre-litigation step run by the Department of Consumer Affairs. Grievances against its partner companies are sent to them for resolution; the portal says it may take up to 30 days to reach a conclusion. If your grievance is not resolved, you can approach a Consumer Commission.",
+        "hi": "राष्ट्रीय उपभोक्ता हेल्पलाइन (टोल-फ़्री 1915, एसएमएस/व्हाट्सऐप 8800001915, NCH या UMANG ऐप, या consumerhelpline.gov.in) उपभोक्ता मामले विभाग का मुकदमे-पूर्व कदम है। इसकी सहयोगी कंपनियों से जुड़ी शिकायतें समाधान के लिए उन्हें भेजी जाती हैं; पोर्टल के अनुसार निष्कर्ष तक पहुँचने में अधिकतम 30 दिन लग सकते हैं। समाधान न हो तो आप उपभोक्ता आयोग जा सकते हैं।"
+      },
+      "applies_to": [
+        "all",
+        "forum"
+      ],
+      "keywords": [
+        "helpline",
+        "1915",
+        "NCH",
+        "whatsapp",
+        "pre-litigation",
+        "complain to government",
+        "हेल्पलाइन",
+        "शिकायत"
+      ]
+    },
+    {
+      "id": "EJAGRITI",
+      "instrument": "e-Jagriti — online case filing system of the Consumer Commissions",
+      "short_cite": "e-Jagriti portal — e-jagriti.gov.in",
+      "citations": [
+        "e-Jagriti"
+      ],
+      "citation_scope": "GUIDANCE",
+      "title": "e-Jagriti: file and track Consumer Commission cases online",
+      "issuing_authority": "Department of Consumer Affairs; described in Lok Sabha Unstarred Question No. 4546 (20.08.2025)",
+      "url": "https://e-jagriti.gov.in/",
+      "secondary_url": "https://eparlib.sansad.in/bitstream/123456789/2996292/1/AU4546_s9hvb0.pdf",
+      "source_type": "official_guidance",
+      "claim_type": "procedure",
+      "verification_status": "verified",
+      "verified_on": "2026-11-08",
+      "excerpt_type": "close_paraphrase",
+      "excerpt": "Per the Government's reply to Lok Sabha Unstarred Question No. 4546 (20.08.2025): e-Jagriti unifies OCMS, e-Daakhil, NCDRC CMS and CONFONET into a single platform; consumers can file complaints online, submit documents digitally and pay fees online; virtual hearings and SMS/email alerts are supported; it has been operational since 1 January 2025 for the National, State, Circuit Bench and District Consumer Commissions. PIB 'National Consumer Day' document (23 Dec 2025) gives the portal address as https://e-jagriti.gov.in/ and says it \"enables users to file complaints, make payments, participate in virtual hearings\".",
+      "plain_language": {
+        "en": "e-Jagriti (e-jagriti.gov.in) is the official portal to file a consumer complaint online before a District, State or National Commission, upload documents, pay any fee and track the case. It replaced the earlier e-Daakhil system.",
+        "hi": "ई-जागृति (e-jagriti.gov.in) ज़िला, राज्य या राष्ट्रीय आयोग में ऑनलाइन उपभोक्ता शिकायत दर्ज करने, दस्तावेज़ अपलोड करने, शुल्क (यदि कोई हो) चुकाने और केस ट्रैक करने का आधिकारिक पोर्टल है। इसने पुराने ई-दाखिल सिस्टम की जगह ली है।"
+      },
+      "applies_to": [
+        "forum"
+      ],
+      "keywords": [
+        "e-jagriti",
+        "edaakhil",
+        "e-daakhil",
+        "file online",
+        "consumer court",
+        "commission",
+        "ई-जागृति",
+        "उपभोक्ता अदालत"
+      ],
+      "additional_sources": [
+        "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/dec/doc20251223743001.pdf"
+      ]
+    },
+    {
+      "id": "CCPA_ADS_GUIDELINES_2022",
+      "instrument": "Guidelines for Prevention of Misleading Advertisements and Endorsements for Misleading Advertisements, 2022 (Central Consumer Protection Authority, notified 9 June 2022)",
+      "short_cite": "CCPA Misleading Advertisement Guidelines, 2022",
+      "citations": [
+        "Misleading Advertisement Guidelines, 2022"
+      ],
+      "citation_scope": "GUIDANCE",
+      "title": "CCPA guidelines on misleading advertisements",
+      "issuing_authority": "Central Consumer Protection Authority — press release hosted by the Department of Consumer Affairs",
+      "url": "https://consumeraffairs.nic.in/sites/default/files/PIB1897389.pdf",
+      "source_type": "official_press_release",
+      "claim_type": "notice",
+      "verification_status": "verified_secondary",
+      "verified_on": "2026-11-08",
+      "excerpt_type": "close_paraphrase",
+      "excerpt": "PIB release \"Centre notified Guidelines for Prevention of Misleading Advertisements and Endorsements\" (8 Feb 2023, hosted on consumeraffairs.nic.in): the Guidelines were notified on 9 June 2022 by the CCPA under Section 18 of the Act; under Section 21(2) the CCPA may impose a penalty of up to ₹10 lakh on a manufacturer or endorser of a false or misleading advertisement (up to ₹50 lakh for subsequent contraventions). NyayaSetu has not reviewed the full text of the Guidelines.",
+      "plain_language": {
+        "en": "The Central Consumer Protection Authority has issued guidelines (2022) on misleading advertisements. NyayaSetu has not reviewed their full text, so it does not rely on any specific clause from them.",
+        "hi": "केंद्रीय उपभोक्ता संरक्षण प्राधिकरण ने भ्रामक विज्ञापनों पर दिशानिर्देश (2022) जारी किए हैं। NyayaSetu ने इनका पूरा पाठ नहीं देखा है, इसलिए यह इनके किसी विशेष खंड पर निर्भर नहीं करता।"
+      },
+      "applies_to": [
+        "misleading_description"
+      ],
+      "keywords": [
+        "guidelines",
+        "misleading advertisement",
+        "CCPA",
+        "endorsement",
+        "दिशानिर्देश"
+      ]
+    },
+    {
+      "id": "RBI_IOS_2026",
+      "instrument": "Revised Reserve Bank – Integrated Ombudsman Scheme (RB-IOS), 2026 — reported effective 1 July 2026, replacing the 2021 scheme",
+      "short_cite": "RBI Integrated Ombudsman Scheme, 2026",
+      "citations": [
+        "Integrated Ombudsman Scheme"
+      ],
+      "citation_scope": "GUIDANCE",
+      "title": "Payment-side problems (bank, card, UPI, wallet): RBI grievance route — outside NyayaSetu's scope",
+      "issuing_authority": "Reserve Bank of India — reported by Business Today (6 July 2026)",
+      "url": "https://www.businesstoday.in/personal-finance/banking/story/rbi-revamps-customer-grievance-redressal-heres-what-changes-for-bank-nbfc-customers-541259-2026-07-06",
+      "secondary_url": "https://www.rbi.org.in/",
+      "source_type": "secondary_report",
+      "claim_type": "notice",
+      "verification_status": "verified_secondary",
+      "verified_on": "2026-11-08",
+      "excerpt_type": "close_paraphrase",
+      "excerpt": "Business Today (6 July 2026): the \"Revised Integrated Ombudsman Scheme (RB-IOS), 2026\" took effect on 1 July 2026, replacing the 2021 framework. \"Customers must first lodge a complaint with the concerned regulated entity\"; they can approach the RBI Ombudsman if the entity does not respond within 30 days (or a timeline set by RBI, NPCI or card-network rules) or if they are dissatisfied, through RBI's Complaint Management System, by email or by post. NyayaSetu has not reviewed the scheme's official text.",
+      "plain_language": {
+        "en": "If the wrong charge is a payment problem (for example a duplicate UPI or card debit) rather than a seller/platform problem, your bank or payment app also has a complaint process, and the RBI runs an ombudsman scheme. NyayaSetu does not cover banking disputes — check the current rules on the RBI website.",
+        "hi": "अगर गलत कटौती भुगतान से जुड़ी समस्या है (जैसे UPI या कार्ड से दोहरी कटौती) न कि विक्रेता/प्लेटफ़ॉर्म की, तो आपके बैंक या भुगतान ऐप की भी शिकायत प्रक्रिया है, और RBI की लोकपाल योजना है। NyayaSetu बैंकिंग विवाद कवर नहीं करता — वर्तमान नियम RBI की वेबसाइट पर जाँचें।"
+      },
+      "applies_to": [
+        "incorrect_charge"
+      ],
+      "keywords": [
+        "bank",
+        "UPI",
+        "card",
+        "debited",
+        "double charged",
+        "ombudsman",
+        "RBI",
+        "payment",
+        "बैंक",
+        "यूपीआई"
+      ]
+    }
+  ],
+  "verification_log": [
+    {
+      "date": "2026-11-07",
+      "item": "Consumer Protection Act, 2019 text",
+      "method": "Read the Act PDF on India Code (indiacode.nic.in) section by section for 2(6), 2(7), 2(9), 2(10), 2(11), 2(22), 2(28), 2(34), 2(47), 17, 18, 20, 21, 34, 35, 37, 38, 39, 69, 82–87."
+    },
+    {
+      "date": "2026-11-07",
+      "item": "E-Commerce Rules, 2020",
+      "method": "Read G.S.R. 462(E) via PRS copy; confirmed listing on consumeraffairs.nic.in Acts & Rules page. Corrected the builder's initial rule numbering (see note)."
+    },
+    {
+      "date": "2026-11-07",
+      "item": "E-Commerce (Amendment) Rules, 2021",
+      "method": "SCC Online report: substituted Rule 4(1) (nodal officer). Not relevant to consumer-facing duties used here."
+    },
+    {
+      "date": "2026-11-07",
+      "item": "E-Commerce (Amendment) Rules, 2026",
+      "method": "SCC Online and TaxHeal reports: notified 9 Sep 2026, in force 1 Jan 2027. Official Gazette text not reviewed."
+    },
+    {
+      "date": "2026-11-07",
+      "item": "Jurisdiction Rules, 2021",
+      "method": "Read G.S.R. 912(E) PDF (copy on thc.nic.in)."
+    },
+    {
+      "date": "2026-11-07",
+      "item": "Fee — Rule 7",
+      "method": "Read G.S.R. 606(E), 17 Aug 2023 on egazette.gov.in."
+    },
+    {
+      "date": "2026-11-07",
+      "item": "NCH and e-Jagriti",
+      "method": "consumerhelpline.gov.in About page; PIB World Consumer Rights Day 2025 document; Lok Sabha USQ 4546 (20.08.2025)."
+    },
+    {
+      "date": "2026-11-07",
+      "item": "RBI Integrated Ombudsman Scheme 2026",
+      "method": "News report only (Business Today, 6 Jul 2026). Marked verified_secondary."
+    },
+    {
+      "date": "2026-11-08",
+      "item": "Full re-verification before submission",
+      "method": "Re-read every entry against its source. Act: all cited sections/clauses confirmed on India Code. E-Commerce Rules (G.S.R. 462(E), 23 Jul 2020): verbatim text re-checked; corrected Rule 6(3)/7(4) wording and Rule 2(1)/(2) split (see corrections). Jurisdiction Rules (G.S.R. 912(E)), fee table (G.S.R. 606(E), 17 Aug 2023), Lok Sabha USQ 4546, PIB 2025 and CCPA press release confirmed. NCH entry corrected. 2026 amendment and RB-IOS 2026 remain secondary-source notices. All URLs fetched successfully; the Jurisdiction Rules URL was percent-encoded (it contained spaces). e-jagriti.gov.in confirmed as the official address by PIB 'National Consumer Day' (23 Dec 2025)."
+    }
+  ],
+  "builder_corrections": [
+    "Initial draft (from the AI model's memory) placed the refund-payment duty at E-Commerce Rule 4(9) and the seller take-back duty at Rule 6(2). The official text shows Rule 4(9) is about consent, the refund duty is Rule 4(10), cancellation charges are Rule 4(8), and the seller take-back duty is Rule 6(3). Corrected before use.",
+    "The AI model's memory did not include the E-Commerce (Amendment) Rules, 2026 or the RBI Integrated Ombudsman Scheme, 2026; both were found during live verification and added as dated notices.",
+    "8 Nov 2026: Rule 6(3) and Rule 7(4) were paraphrased as 'not as advertised or as per the description on the platform'. The official text says 'not of the characteristics or features as advertised or as agreed to'. Excerpts, plain-language text, the rights page and the complaint grounds were corrected.",
+    "8 Nov 2026: the foreign-platform limb was attributed to Rule 2 generally; it is Rule 2(2). Corrected.",
+    "8 Nov 2026: the NCH entry said the portal states that registering 'does not guarantee a remedy', and the app said NCH 'cannot force a resolution'. Neither is stated in the sources checked; replaced with what the portal and PIB actually say (pre-litigation step, up to 30 days, convergence companies, option to approach the Commission).",
+    "8 Nov 2026: the 2026 amendment notice listed a 'requirement to join the NCH convergence process'; not in the source summary, removed.",
+    "8 Nov 2026: Section 39(1) excerpt refined — clause (a) concerns a defect 'pointed out by the appropriate laboratory'; costs are clause (m)."
+  ]
+}

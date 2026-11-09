@@ -1,0 +1,158 @@
+{
+  "schema_version": "1.0",
+  "case_id": "NS-20261107-9C46",
+  "created_on": "2026-11-07",
+  "reference_date": "2026-11-07",
+  "language": "en",
+  "generation_mode": "demo (deterministic rules)",
+  "dispute": {
+    "category": "defective_product",
+    "category_label": "Defective product / stopped working",
+    "secondary": [],
+    "low_confidence": false
+  },
+  "consumer": {
+    "name": "Anil Kumar",
+    "city": "Jaipur",
+    "purpose": "personal",
+    "purpose_note": ""
+  },
+  "parties": {
+    "platform": "HomeKart",
+    "seller": "CoolHome Appliances",
+    "seller_address": ""
+  },
+  "transaction": {
+    "product": "front-load washing machine",
+    "amount_paid": 25000.0,
+    "charged_amount": null,
+    "order_id": "HK-99812-AB",
+    "purchase_date": "2026-09-28",
+    "purchase_date_approx": false,
+    "delivery_date": "2026-10-02",
+    "delivery_date_approx": false,
+    "payment_mode": ""
+  },
+  "issue_details": "It was delivered on 2 October 2026. Within 10 days the drum stopped spinning and it shows error code E21.",
+  "what_happened": "It was delivered on 2 October 2026. Within 10 days the drum stopped spinning and it shows error code E21.",
+  "what_was_expected": "A front-load washing machine that works properly and is free from defects, as described and as covered by any warranty.",
+  "steps_taken": [
+    "I raised a replacement request in the HomeKart app on 13 October 2026. A technician from the brand visited on 15 October and gave a job sheet saying the motor is faulty. On 18 October the seller rejected the replacement request."
+  ],
+  "complaint_date": "2026-10-13",
+  "complaint_date_approx": false,
+  "issue_date": "",
+  "refund_approved_date": "",
+  "complaint_ref": "HKT-30211",
+  "seller_response": "The seller refuses to replace it and says I should contact the brand service centre. I raised a replacement request in the HomeKart app on 13 October 2026. A technician from the brand visited on 15 October and gave a job sheet saying the motor is faulty. On 18 October the seller rejected the replacement request.",
+  "evidence": [
+    "invoice",
+    "warranty_card",
+    "technician_report",
+    "product_photos",
+    "complaint_reference"
+  ],
+  "desired_resolution": [
+    "replacement"
+  ],
+  "resolution_note": "Replacement with a new machine",
+  "claim": {
+    "amount": null,
+    "basis": "",
+    "confirmed": false,
+    "source": "",
+    "note": "",
+    "refund_requested": false,
+    "is_partial": false,
+    "exceeds_paid": false
+  },
+  "harm_beyond_product": false,
+  "repeated_contact": false,
+  "no_complaint_yet": false,
+  "narrative": "I bought a front-load washing machine for ₹25,000 from HomeKart. It was delivered on 2 October 2026. Within 10 days the drum stopped spinning and it shows error code E21. The seller refuses to replace it and says I should contact the brand service centre.",
+  "provenance": {
+    "amount": "rule",
+    "product": "rule",
+    "delivery_date": "rule",
+    "desired_resolution": "answer",
+    "seller_response": "answer",
+    "issue_details": "rule",
+    "platform": "answer",
+    "seller": "answer",
+    "order_id": "answer",
+    "purchase_date": "answer",
+    "steps_taken": "answer",
+    "complaint_date": "answer",
+    "evidence": "answer",
+    "complaint_ref": "answer",
+    "resolution_note": "answer",
+    "purpose": "answer",
+    "consumer_name": "answer",
+    "consumer_city": "answer"
+  },
+  "timeline": [
+    {
+      "date": "2026-09-28",
+      "approx": false,
+      "event": "Order placed for front-load washing machine on HomeKart (₹25,000), Order ID HK-99812-AB",
+      "source": "user statement"
+    },
+    {
+      "date": "2026-10-02",
+      "approx": false,
+      "event": "Product delivered",
+      "source": "user statement"
+    },
+    {
+      "date": "2026-10-13",
+      "approx": false,
+      "event": "Consumer complained / requested resolution (ref. HKT-30211)",
+      "source": "user statement"
+    },
+    {
+      "date": "",
+      "approx": false,
+      "event": "Response from seller/platform: The seller refuses to replace it and says I should contact the brand service centre. I raised a replacement request in the HomeKart app on 13 October 2026. A technician from the brand visited on 15 Oc",
+      "source": "user statement"
+    }
+  ],
+  "missing_info": [
+    {
+      "field": "parties.seller_address",
+      "label_en": "Seller / platform address",
+      "label_hi": "विक्रेता / प्लेटफ़ॉर्म का पता",
+      "why": "Required on a Consumer Commission complaint; marketplaces must display seller addresses."
+    }
+  ],
+  "flags": {
+    "possible_commercial_purpose": false,
+    "livelihood_purpose": false,
+    "harm_beyond_product": false,
+    "payment_side_issue": false,
+    "no_complaint_yet": false,
+    "repeated_contact": false,
+    "days_since_complaint": 25,
+    "refused_explicitly": true,
+    "days_since_earliest_event": 40,
+    "limitation_risk": false,
+    "limitation_expired_likely": false,
+    "value_band": "district",
+    "fee_nil": true,
+    "evidence_have": [
+      "invoice",
+      "warranty_card",
+      "technician_report",
+      "product_photos",
+      "complaint_reference"
+    ],
+    "evidence_missing": [
+      "payment_proof"
+    ],
+    "low_confidence_category": false
+  },
+  "financial_loss": {
+    "amount": 25000.0,
+    "basis_en": "Price paid — the amount you are claiming is not confirmed yet",
+    "basis_hi": "चुकाई गई कीमत — माँगी गई राशि की अभी पुष्टि नहीं"
+  }
+}

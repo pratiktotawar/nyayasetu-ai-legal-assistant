@@ -1,0 +1,161 @@
+{
+  "schema_version": "1.0",
+  "case_id": "NS-20261107-9281",
+  "created_on": "2026-11-07",
+  "reference_date": "2026-11-07",
+  "language": "en",
+  "generation_mode": "demo (deterministic rules)",
+  "dispute": {
+    "category": "damaged_on_delivery",
+    "category_label": "Product delivered damaged",
+    "secondary": [
+      "refund_not_received"
+    ],
+    "low_confidence": false
+  },
+  "consumer": {
+    "name": "Rahul Verma",
+    "city": "Pune",
+    "purpose": "personal",
+    "purpose_note": ""
+  },
+  "parties": {
+    "platform": "ShopNest marketplace",
+    "seller": "Gupta Mobile World",
+    "seller_address": ""
+  },
+  "transaction": {
+    "product": "mobile phone",
+    "amount_paid": 18000.0,
+    "charged_amount": null,
+    "order_id": "SN-4471-2290",
+    "purchase_date": "2026-10-10",
+    "purchase_date_approx": false,
+    "delivery_date": "2026-10-14",
+    "delivery_date_approx": false,
+    "payment_mode": ""
+  },
+  "issue_details": "The product arrived damaged. The screen was cracked across the middle when I opened the box on the day of delivery.",
+  "what_happened": "The product arrived damaged. The screen was cracked across the middle when I opened the box on the day of delivery.",
+  "what_was_expected": "To receive the mobile phone in good, undamaged condition, as described on the platform.",
+  "steps_taken": [
+    "I requested a refund three weeks ago, but the seller keeps postponing it."
+  ],
+  "complaint_date": "2026-10-17",
+  "complaint_date_approx": true,
+  "issue_date": "",
+  "refund_approved_date": "",
+  "complaint_ref": "TKT-88123",
+  "seller_response": "I requested a refund three weeks ago, but the seller keeps postponing it.",
+  "evidence": [
+    "invoice",
+    "product_photos",
+    "unboxing_video",
+    "chat_transcripts",
+    "complaint_reference"
+  ],
+  "desired_resolution": [
+    "refund"
+  ],
+  "resolution_note": "",
+  "claim": {
+    "amount": 18000.0,
+    "basis": "full",
+    "confirmed": true,
+    "source": "answer",
+    "note": "full",
+    "refund_requested": true,
+    "is_partial": false,
+    "exceeds_paid": false
+  },
+  "harm_beyond_product": false,
+  "repeated_contact": false,
+  "no_complaint_yet": false,
+  "narrative": "I purchased a mobile phone worth ₹18,000 from an online shopping platform. The product arrived damaged. I requested a refund three weeks ago, but the seller keeps postponing it.",
+  "provenance": {
+    "amount": "rule",
+    "product": "rule",
+    "complaint_date": "rule",
+    "desired_resolution": "answer",
+    "steps_taken": "rule",
+    "seller_response": "rule",
+    "issue_details": "answer",
+    "platform": "answer",
+    "seller": "answer",
+    "order_id": "answer",
+    "purchase_date": "answer",
+    "delivery_date": "answer",
+    "complaint_ref": "answer",
+    "evidence": "answer",
+    "claim_amount": "answer",
+    "claim_note": "answer",
+    "purpose": "answer",
+    "consumer_name": "answer",
+    "consumer_city": "answer"
+  },
+  "timeline": [
+    {
+      "date": "2026-10-10",
+      "approx": false,
+      "event": "Order placed for mobile phone on ShopNest marketplace (₹18,000), Order ID SN-4471-2290",
+      "source": "user statement"
+    },
+    {
+      "date": "2026-10-14",
+      "approx": false,
+      "event": "Product delivered",
+      "source": "user statement"
+    },
+    {
+      "date": "2026-10-17",
+      "approx": true,
+      "event": "Consumer complained / requested resolution (ref. TKT-88123)",
+      "source": "user statement"
+    },
+    {
+      "date": "",
+      "approx": false,
+      "event": "Response from seller/platform: I requested a refund three weeks ago, but the seller keeps postponing it.",
+      "source": "user statement"
+    }
+  ],
+  "missing_info": [
+    {
+      "field": "parties.seller_address",
+      "label_en": "Seller / platform address",
+      "label_hi": "विक्रेता / प्लेटफ़ॉर्म का पता",
+      "why": "Required on a Consumer Commission complaint; marketplaces must display seller addresses."
+    }
+  ],
+  "flags": {
+    "possible_commercial_purpose": false,
+    "livelihood_purpose": false,
+    "harm_beyond_product": false,
+    "payment_side_issue": false,
+    "no_complaint_yet": false,
+    "repeated_contact": false,
+    "days_since_complaint": 21,
+    "refused_explicitly": false,
+    "days_since_earliest_event": 28,
+    "limitation_risk": false,
+    "limitation_expired_likely": false,
+    "value_band": "district",
+    "fee_nil": true,
+    "evidence_have": [
+      "invoice",
+      "product_photos",
+      "unboxing_video",
+      "complaint_reference",
+      "chat_transcripts"
+    ],
+    "evidence_missing": [
+      "payment_proof"
+    ],
+    "low_confidence_category": false
+  },
+  "financial_loss": {
+    "amount": 18000.0,
+    "basis_en": "Refund amount you are claiming (confirmed by you)",
+    "basis_hi": "आपके द्वारा माँगी गई रिफंड राशि (आपने पुष्टि की)"
+  }
+}

@@ -1,0 +1,118 @@
+[
+  {
+    "scenario": "fabricated_section_and_case_law",
+    "llm_text": "Under Section 72A of the Consumer Protection Act, 2019 you are guaranteed a full refund within 7 days [KB:CPA_2_10]. In Sharma v. ShopKart (2021) the National Commission awarded ₹50,000 for a similar delay.",
+    "expected_accept": false,
+    "accepted": false,
+    "ok": true,
+    "note": "AI explanation rejected by the validator (unverified_citation: Section 72A — Not in the verified knowledge base for the retrieved sources; case_law: In Sharma v. ShopKart — NyayaSetu's knowledge base contains no verified case law; case citations are not allowed; outcome_guarantee: guaranteed — NyayaSetu must not promise outcomes); showing the rule-based summary instead.",
+    "validator": {
+      "ok": false,
+      "citations_found": [
+        "Section 72A"
+      ],
+      "citations_valid": [],
+      "kb_tags": [
+        "CPA_2_10"
+      ],
+      "problems": [
+        {
+          "kind": "unverified_citation",
+          "text": "Section 72A",
+          "detail": "Not in the verified knowledge base for the retrieved sources"
+        },
+        {
+          "kind": "case_law",
+          "text": "In Sharma v. ShopKart",
+          "detail": "NyayaSetu's knowledge base contains no verified case law; case citations are not allowed"
+        },
+        {
+          "kind": "outcome_guarantee",
+          "text": "guaranteed",
+          "detail": "NyayaSetu must not promise outcomes"
+        }
+      ]
+    },
+    "summary_shown": "Your dispute: Product delivered damaged. Rules that support you if your facts are proved: You are likely a 'consumer' under the Act; Online sellers must not refuse return or refund in these situations; Accepted refunds must be paid within a reasonable time. Arguments you can make (they depend on evidence): The product appears to have a 'defect'. Not yet established or uncertain: Is this an 'unfair trade practice'. Start with a written complaint to the seller and platform; if unresolved, use the National Consumer Helpline and then the Consumer Commission. No outcome is guaranteed."
+  },
+  {
+    "scenario": "other_statute_and_promise",
+    "llm_text": "The seller has breached the Sale of Goods Act, 1930 and you will definitely get your money back [KB:ECOM_R6_3].",
+    "expected_accept": false,
+    "accepted": false,
+    "ok": true,
+    "note": "AI explanation rejected by the validator (unverified_statute: Goods Act, 1930 — This Act is outside the verified knowledge base; outcome_guarantee: will definitely — NyayaSetu must not promise outcomes; outcome_guarantee: definitely get — NyayaSetu must not promise outcomes); showing the rule-based summary instead.",
+    "validator": {
+      "ok": false,
+      "citations_found": [],
+      "citations_valid": [],
+      "kb_tags": [
+        "ECOM_R6_3"
+      ],
+      "problems": [
+        {
+          "kind": "unverified_statute",
+          "text": "Goods Act, 1930",
+          "detail": "This Act is outside the verified knowledge base"
+        },
+        {
+          "kind": "outcome_guarantee",
+          "text": "will definitely",
+          "detail": "NyayaSetu must not promise outcomes"
+        },
+        {
+          "kind": "outcome_guarantee",
+          "text": "definitely get",
+          "detail": "NyayaSetu must not promise outcomes"
+        }
+      ]
+    },
+    "summary_shown": "Your dispute: Product delivered damaged. Rules that support you if your facts are proved: You are likely a 'consumer' under the Act; Online sellers must not refuse return or refund in these situations; Accepted refunds must be paid within a reasonable time. Arguments you can make (they depend on evidence): The product appears to have a 'defect'. Not yet established or uncertain: Is this an 'unfair trade practice'. Start with a written complaint to the seller and platform; if unresolved, use the National Consumer Helpline and then the Consumer Commission. No outcome is guaranteed."
+  },
+  {
+    "scenario": "untagged_answer",
+    "llm_text": "You should get a refund because the phone was damaged.",
+    "expected_accept": false,
+    "accepted": false,
+    "ok": true,
+    "note": "AI explanation rejected by the validator (no_grounding: (whole text) — No [KB:ID] source tags — answer is not grounded); showing the rule-based summary instead.",
+    "validator": {
+      "ok": false,
+      "citations_found": [],
+      "citations_valid": [],
+      "kb_tags": [],
+      "problems": [
+        {
+          "kind": "no_grounding",
+          "text": "(whole text)",
+          "detail": "No [KB:ID] source tags — answer is not grounded"
+        }
+      ]
+    },
+    "summary_shown": "Your dispute: Product delivered damaged. Rules that support you if your facts are proved: You are likely a 'consumer' under the Act; Online sellers must not refuse return or refund in these situations; Accepted refunds must be paid within a reasonable time. Arguments you can make (they depend on evidence): The product appears to have a 'defect'. Not yet established or uncertain: Is this an 'unfair trade practice'. Start with a written complaint to the seller and platform; if unresolved, use the National Consumer Helpline and then the Consumer Commission. No outcome is guaranteed."
+  },
+  {
+    "scenario": "grounded_valid_answer",
+    "llm_text": "A product that arrives damaged may be treated as having a 'defect', which you can raise in a complaint [KB:CPA_2_10]. A marketplace seller must not refuse to take back defective goods or refund you [KB:ECOM_R6_3], but whether your phone counts as defective depends on your photos and video. It has been about 21 days since you asked, so it is too early to call the delay an unfair trade practice under Section 2(47)(viii) [KB:CPA_2_47_VIII].",
+    "expected_accept": true,
+    "accepted": true,
+    "ok": true,
+    "note": "AI-written; every legal reference was checked against the verified sources.",
+    "validator": {
+      "ok": true,
+      "citations_found": [
+        "Section 2(47)(viii)"
+      ],
+      "citations_valid": [
+        "Section 2(47)(viii)"
+      ],
+      "kb_tags": [
+        "CPA_2_10",
+        "ECOM_R6_3",
+        "CPA_2_47_VIII"
+      ],
+      "problems": []
+    },
+    "summary_shown": "A product that arrives damaged may be treated as having a 'defect', which you can raise in a complaint [KB:CPA_2_10]. A marketplace seller must not refuse to take back defective goods or refund you [KB:ECOM_R6_3], but whether your phone counts as defective depends on your photos and video. It has been about 21 days since you asked, so it is too early to call the delay an unfair trade practice under Section 2(47)(viii) [KB:CPA_2_47_VIII]."
+  }
+]

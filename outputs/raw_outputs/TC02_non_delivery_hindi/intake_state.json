@@ -1,0 +1,356 @@
+{
+  "lang": "hi",
+  "messages": [
+    {
+      "role": "assistant",
+      "text": "नमस्ते। मैं NyayaSetu हूँ। अपनी समस्या अपने शब्दों में बताइए — क्या खरीदा, कहाँ से, क्या गलत हुआ, और अब तक आपने क्या किया। फिर मैं केवल ज़रूरी प्रश्न एक-एक करके पूछूँगा। आप कोई भी प्रश्न छोड़ सकते हैं।",
+      "meta": {}
+    },
+    {
+      "role": "user",
+      "text": "मैंने ऑनलाइन ऑर्डर के लिए ₹4,500 का भुगतान किया था। ऐप पर ऑर्डर 'डिलीवर' दिखा रहा है, लेकिन मुझे सामान कभी नहीं मिला।"
+    },
+    {
+      "role": "assistant",
+      "text": "मैंने अब तक यह समझा:\n• समस्या: ऑर्डर डिलीवर नहीं हुआ\n• राशि: ₹4,500\n\nमैं कुछ छोटे प्रश्न पूछूँगा — कोई भी प्रश्न छोड़ सकते हैं।\n\nआपने कौन-सा उत्पाद खरीदा था? (जैसे: मोबाइल फ़ोन, वॉशिंग मशीन, जूते)",
+      "meta": {
+        "kind": "question",
+        "question": "product",
+        "options": []
+      }
+    },
+    {
+      "role": "user",
+      "text": "ब्लूटूथ स्पीकर"
+    },
+    {
+      "role": "assistant",
+      "text": "नोट कर लिया: ब्लूटूथ स्पीकर।\n\nआपने किस वेबसाइट या ऐप से खरीदा? अगर विक्रेता का नाम पता है (बिल या ऑर्डर पेज पर होता है), तो वह भी लिखें — जैसे “ShopNest, विक्रेता: गुप्ता इलेक्ट्रॉनिक्स”।",
+      "meta": {
+        "kind": "question",
+        "question": "platform_seller",
+        "options": []
+      }
+    },
+    {
+      "role": "user",
+      "text": "BazaarLane ऐप से, विक्रेता: श्री साई ट्रेडर्स"
+    },
+    {
+      "role": "assistant",
+      "text": "नोट कर लिया: BazaarLane, विक्रेता: श्री साई ट्रेडर्स।\n\nऑर्डर आईडी क्या है? यह ऑर्डर पेज या पुष्टि ईमेल पर होती है।",
+      "meta": {
+        "kind": "question",
+        "question": "order_id",
+        "options": []
+      }
+    },
+    {
+      "role": "user",
+      "text": "BL20261029-7781"
+    },
+    {
+      "role": "assistant",
+      "text": "नोट कर लिया: BL20261029-7781।\n\nआपने किस तारीख को ऑर्डर किया (या भुगतान किया)? अनुमानित तारीख भी चलेगी।",
+      "meta": {
+        "kind": "question",
+        "question": "purchase_date",
+        "options": []
+      }
+    },
+    {
+      "role": "user",
+      "text": "25 अक्टूबर 2026"
+    },
+    {
+      "role": "assistant",
+      "text": "नोट कर लिया: 25 अक्टूबर 2026।\n\nऐप या वेबसाइट पर ऑर्डर किस तारीख को “डिलीवर” दिखाया गया है?",
+      "meta": {
+        "kind": "question",
+        "question": "delivery_date",
+        "options": []
+      }
+    },
+    {
+      "role": "user",
+      "text": "29 अक्टूबर 2026"
+    },
+    {
+      "role": "assistant",
+      "text": "नोट कर लिया: 29 अक्टूबर 2026।\n\nक्या आपके पते पर किसी ने पार्सल लिया, और क्या आपसे कोई डिलीवरी OTP माँगा गया (या आपने साझा किया)?",
+      "meta": {
+        "kind": "question",
+        "question": "issue_details",
+        "options": []
+      }
+    },
+    {
+      "role": "user",
+      "text": "मेरे घर पर किसी ने पार्सल नहीं लिया और मुझसे कोई OTP नहीं माँगा गया।"
+    },
+    {
+      "role": "assistant",
+      "text": "नोट कर लिया।\n\nक्या आपने पहले ही विक्रेता या प्लेटफ़ॉर्म से शिकायत की है? अगर हाँ: कब, कैसे (ऐप, ईमेल, कॉल, चैट), और उन्होंने क्या कहा? अगर अभी शिकायत नहीं की है तो “नहीं” लिखें।",
+      "meta": {
+        "kind": "question",
+        "question": "complaint_history",
+        "options": []
+      }
+    },
+    {
+      "role": "user",
+      "text": "30 अक्टूबर 2026 को मैंने कस्टमर केयर को कॉल किया, उन्होंने कहा 48 घंटे में जांच करेंगे, फिर कोई जवाब नहीं आया।"
+    },
+    {
+      "role": "assistant",
+      "text": "नोट कर लिया।\n\nक्या आपके पास टिकट या शिकायत संदर्भ संख्या है? कृपया लिखें (या छोड़ दें)।",
+      "meta": {
+        "kind": "question",
+        "question": "complaint_ref",
+        "options": []
+      }
+    },
+    {
+      "role": "user",
+      "text": "शिकायत नंबर BLC-55120"
+    },
+    {
+      "role": "assistant",
+      "text": "नोट कर लिया: BLC-55120।\n\nइनमें से कौन-से रिकॉर्ड आपके पास हैं? जो भी लागू हों, सब चुनें — और मूल प्रतियाँ सुरक्षित रखें।",
+      "meta": {
+        "kind": "question",
+        "question": "evidence",
+        "options": [
+          [
+            "payment_proof",
+            "भुगतान का प्रमाण (रसीद, बैंक/UPI विवरण)"
+          ],
+          [
+            "order_screenshot",
+            "ऑर्डर पेज / पुष्टि (स्क्रीनशॉट या ईमेल)"
+          ],
+          [
+            "tracking_screenshot",
+            "ट्रैकिंग / डिलीवरी स्थिति का स्क्रीनशॉट"
+          ],
+          [
+            "complaint_reference",
+            "शिकायत / टिकट संदर्भ संख्या"
+          ],
+          [
+            "chat_transcripts",
+            "ग्राहक सेवा के साथ चैट / संदेश"
+          ],
+          [
+            "invoice",
+            "चालान / बिल"
+          ],
+          [
+            "listing_screenshot",
+            "उत्पाद सूची / विज्ञापन का स्क्रीनशॉट"
+          ],
+          [
+            "product_photos",
+            "उत्पाद / क्षति की तस्वीरें"
+          ],
+          [
+            "unboxing_video",
+            "अनबॉक्सिंग / उत्पाद का वीडियो"
+          ],
+          [
+            "emails",
+            "विक्रेता / प्लेटफ़ॉर्म के साथ ईमेल"
+          ],
+          [
+            "warranty_card",
+            "वारंटी कार्ड / वारंटी शर्तें"
+          ],
+          [
+            "technician_report",
+            "तकनीशियन / सर्विस सेंटर रिपोर्ट (जॉब शीट)"
+          ],
+          [
+            "call_records",
+            "कॉल रिकॉर्ड / कॉल लॉग"
+          ]
+        ]
+      }
+    },
+    {
+      "role": "user",
+      "text": "भुगतान की रसीद और ट्रैकिंग का स्क्रीनशॉट"
+    },
+    {
+      "role": "assistant",
+      "text": "नोट कर लिया: भुगतान का प्रमाण (रसीद, बैंक/UPI विवरण), ट्रैकिंग / डिलीवरी स्थिति का स्क्रीनशॉट।\n\nआप क्या समाधान चाहते हैं — रिफंड, बदलाव, मरम्मत, या कुछ और?",
+      "meta": {
+        "kind": "question",
+        "question": "desired_resolution",
+        "options": [
+          [
+            "refund",
+            "रिफंड"
+          ],
+          [
+            "replacement",
+            "बदलकर नया उत्पाद"
+          ],
+          [
+            "repair",
+            "मरम्मत"
+          ],
+          [
+            "delivery",
+            "ऑर्डर किया गया उत्पाद डिलीवर किया जाए"
+          ],
+          [
+            "compensation",
+            "असुविधा / नुकसान का मुआवज़ा"
+          ]
+        ]
+      }
+    },
+    {
+      "role": "user",
+      "text": "पूरा पैसा वापस चाहिए"
+    },
+    {
+      "role": "assistant",
+      "text": "नोट कर लिया: रिफंड। नोट कर लिया: आप चुकाई गई पूरी राशि ₹4,500 माँग रहे हैं।\n\nअंतिम प्रश्न: शिकायत पर कौन-सा नाम और शहर/ज़िला लिखा जाए? (जैसे: “प्रिया शर्मा, पुणे”) कृपया आधार, पैन, कार्ड नंबर, बैंक पासवर्ड या OTP साझा न करें — इनकी ज़रूरत नहीं है।",
+      "meta": {
+        "kind": "question",
+        "question": "consumer_details",
+        "options": []
+      }
+    },
+    {
+      "role": "user",
+      "text": "सुनीता देवी, लखनऊ"
+    },
+    {
+      "role": "assistant",
+      "text": "नोट कर लिया।\n\nधन्यवाद — आपका केस-फ़ाइल बनाने के लिए मेरे पास पर्याप्त जानकारी है। जो विवरण नहीं मिले, उन्हें चिह्नित किया जाएगा ताकि आप बाद में जोड़ सकें।",
+      "meta": {
+        "kind": "complete"
+      }
+    }
+  ],
+  "slots": {
+    "amount": {
+      "value": 4500.0,
+      "source": "rule"
+    },
+    "issue_details": {
+      "value": "मैंने ऑनलाइन ऑर्डर के लिए ₹4,500 का भुगतान किया था। ऐप पर ऑर्डर 'डिलीवर' दिखा रहा है, लेकिन मुझे सामान कभी नहीं मिला। मेरे घर पर किसी ने पार्सल नहीं लिया और मुझसे कोई OTP नहीं माँगा गया।",
+      "source": "answer"
+    },
+    "product": {
+      "value": "ब्लूटूथ स्पीकर",
+      "source": "answer"
+    },
+    "platform": {
+      "value": "BazaarLane",
+      "source": "answer"
+    },
+    "seller": {
+      "value": "श्री साई ट्रेडर्स",
+      "source": "answer"
+    },
+    "order_id": {
+      "value": "BL20261029-7781",
+      "source": "answer"
+    },
+    "purchase_date": {
+      "value": "2026-10-25",
+      "source": "answer",
+      "approx": false,
+      "raw": "25 अक्टूबर 2026"
+    },
+    "delivery_date": {
+      "value": "2026-10-29",
+      "source": "answer",
+      "approx": false,
+      "raw": "29 अक्टूबर 2026"
+    },
+    "steps_taken": {
+      "value": [
+        "30 अक्टूबर 2026 को मैंने कस्टमर केयर को कॉल किया, उन्होंने कहा 48 घंटे में जांच करेंगे, फिर कोई जवाब नहीं आया।"
+      ],
+      "source": "answer"
+    },
+    "complaint_date": {
+      "value": "2026-10-30",
+      "source": "answer",
+      "approx": false,
+      "raw": "30 अक्टूबर 2026"
+    },
+    "seller_response": {
+      "value": "30 अक्टूबर 2026 को मैंने कस्टमर केयर को कॉल किया, उन्होंने कहा 48 घंटे में जांच करेंगे, फिर कोई जवाब नहीं आया।",
+      "source": "answer"
+    },
+    "complaint_ref": {
+      "value": "BLC-55120",
+      "source": "answer"
+    },
+    "evidence": {
+      "value": [
+        "payment_proof",
+        "tracking_screenshot"
+      ],
+      "source": "answer"
+    },
+    "desired_resolution": {
+      "value": [
+        "refund"
+      ],
+      "source": "answer"
+    },
+    "resolution_note": {
+      "value": "पूरा पैसा वापस चाहिए",
+      "source": "answer"
+    },
+    "claim_amount": {
+      "value": 4500.0,
+      "source": "answer",
+      "basis": "full"
+    },
+    "claim_note": {
+      "value": "पूरा पैसा वापस चाहिए",
+      "source": "answer"
+    },
+    "consumer_name": {
+      "value": "सुनीता देवी",
+      "source": "answer"
+    },
+    "consumer_city": {
+      "value": "लखनऊ",
+      "source": "answer"
+    }
+  },
+  "asked": [
+    "product",
+    "platform_seller",
+    "order_id",
+    "purchase_date",
+    "delivery_date",
+    "issue_details",
+    "complaint_history",
+    "complaint_ref",
+    "evidence",
+    "desired_resolution",
+    "consumer_details"
+  ],
+  "skipped": [],
+  "answered_none": [],
+  "pending": null,
+  "category": "non_delivery",
+  "secondary": [],
+  "scores": {
+    "non_delivery": 10.0
+  },
+  "narrative": "मैंने ऑनलाइन ऑर्डर के लिए ₹4,500 का भुगतान किया था। ऐप पर ऑर्डर 'डिलीवर' दिखा रहा है, लेकिन मुझे सामान कभी नहीं मिला।",
+  "complete": true,
+  "warnings": [],
+  "llm_used": false,
+  "llm_notes": []
+}

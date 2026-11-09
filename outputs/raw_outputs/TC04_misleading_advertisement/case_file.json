@@ -1,0 +1,151 @@
+{
+  "schema_version": "1.0",
+  "case_id": "NS-20261107-BB19",
+  "created_on": "2026-11-07",
+  "reference_date": "2026-11-07",
+  "language": "en",
+  "generation_mode": "demo (deterministic rules)",
+  "dispute": {
+    "category": "misleading_description",
+    "category_label": "Product not as advertised / misleading listing",
+    "secondary": [],
+    "low_confidence": false
+  },
+  "consumer": {
+    "name": "Meera Nair",
+    "city": "Kochi",
+    "purpose": "personal",
+    "purpose_note": ""
+  },
+  "parties": {
+    "platform": "TrendCart",
+    "seller": "WristWorld Retail",
+    "seller_address": ""
+  },
+  "transaction": {
+    "product": "smartwatch",
+    "amount_paid": 6999.0,
+    "charged_amount": null,
+    "order_id": "TC-7781-2026",
+    "purchase_date": "2026-10-18",
+    "purchase_date_approx": false,
+    "delivery_date": "",
+    "delivery_date_approx": false,
+    "payment_mode": ""
+  },
+  "issue_details": "I bought a smartwatch for Rs 6,999 on TrendCart because the listing said it was waterproof (5ATM) and had built-in GPS. The watch I received has no GPS and the box says only splash resistant.",
+  "what_happened": "I bought a smartwatch for Rs 6,999 on TrendCart because the listing said it was waterproof (5ATM) and had built-in GPS. The watch I received has no GPS and the box says only splash resistant.",
+  "what_was_expected": "A smartwatch with the features and characteristics stated in the listing / advertisement.",
+  "steps_taken": [
+    "I raised a return request on 24 October 2026 in the app; it was rejected the same day."
+  ],
+  "complaint_date": "2026-10-24",
+  "complaint_date_approx": false,
+  "issue_date": "",
+  "refund_approved_date": "",
+  "complaint_ref": "RR-664120",
+  "seller_response": "The seller refused to accept a return, saying the product is as per description. I raised a return request on 24 October 2026 in the app; it was rejected the same day.",
+  "evidence": [
+    "invoice",
+    "listing_screenshot",
+    "product_photos",
+    "complaint_reference"
+  ],
+  "desired_resolution": [
+    "refund"
+  ],
+  "resolution_note": "refund",
+  "claim": {
+    "amount": 6999.0,
+    "basis": "full",
+    "confirmed": true,
+    "source": "answer",
+    "note": "The full ₹6,999 I paid",
+    "refund_requested": true,
+    "is_partial": false,
+    "exceeds_paid": false
+  },
+  "harm_beyond_product": false,
+  "repeated_contact": false,
+  "no_complaint_yet": false,
+  "narrative": "I bought a smartwatch for Rs 6,999 on TrendCart because the listing said it was waterproof (5ATM) and had built-in GPS. The watch I received has no GPS and the box says only splash resistant. The seller refused to accept a return, saying the product is as per description.",
+  "provenance": {
+    "amount": "rule",
+    "product": "rule",
+    "seller_response": "answer",
+    "issue_details": "rule",
+    "platform": "answer",
+    "seller": "answer",
+    "order_id": "answer",
+    "purchase_date": "answer",
+    "steps_taken": "answer",
+    "complaint_date": "answer",
+    "complaint_ref": "answer",
+    "evidence": "answer",
+    "desired_resolution": "answer",
+    "resolution_note": "answer",
+    "claim_amount": "answer",
+    "claim_note": "answer",
+    "purpose": "answer",
+    "consumer_name": "answer",
+    "consumer_city": "answer"
+  },
+  "timeline": [
+    {
+      "date": "2026-10-18",
+      "approx": false,
+      "event": "Order placed for smartwatch on TrendCart (₹6,999), Order ID TC-7781-2026",
+      "source": "user statement"
+    },
+    {
+      "date": "2026-10-24",
+      "approx": false,
+      "event": "Consumer complained / requested resolution (ref. RR-664120)",
+      "source": "user statement"
+    },
+    {
+      "date": "",
+      "approx": false,
+      "event": "Response from seller/platform: The seller refused to accept a return, saying the product is as per description. I raised a return request on 24 October 2026 in the app; it was rejected the same day.",
+      "source": "user statement"
+    }
+  ],
+  "missing_info": [
+    {
+      "field": "parties.seller_address",
+      "label_en": "Seller / platform address",
+      "label_hi": "विक्रेता / प्लेटफ़ॉर्म का पता",
+      "why": "Required on a Consumer Commission complaint; marketplaces must display seller addresses."
+    }
+  ],
+  "flags": {
+    "possible_commercial_purpose": false,
+    "livelihood_purpose": false,
+    "harm_beyond_product": false,
+    "payment_side_issue": false,
+    "no_complaint_yet": false,
+    "repeated_contact": false,
+    "days_since_complaint": 14,
+    "refused_explicitly": true,
+    "days_since_earliest_event": 20,
+    "limitation_risk": false,
+    "limitation_expired_likely": false,
+    "value_band": "district",
+    "fee_nil": true,
+    "evidence_have": [
+      "listing_screenshot",
+      "invoice",
+      "product_photos",
+      "complaint_reference"
+    ],
+    "evidence_missing": [
+      "chat_transcripts"
+    ],
+    "low_confidence_category": false
+  },
+  "financial_loss": {
+    "amount": 6999.0,
+    "basis_en": "Refund amount you are claiming (confirmed by you)",
+    "basis_hi": "आपके द्वारा माँगी गई रिफंड राशि (आपने पुष्टि की)"
+  }
+}

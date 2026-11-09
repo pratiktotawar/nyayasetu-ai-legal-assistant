@@ -1,0 +1,160 @@
+{
+  "id": "TC03",
+  "unscripted_questions_skipped": [],
+  "category_expected": "defective_product",
+  "category_actual": "defective_product",
+  "category_ok": true,
+  "fields": {
+    "transaction.amount_paid": {
+      "expected": 25000,
+      "actual": 25000.0,
+      "ok": true
+    },
+    "transaction.product": {
+      "expected": "front-load washing machine",
+      "actual": "front-load washing machine",
+      "ok": true
+    },
+    "parties.platform": {
+      "expected": "HomeKart",
+      "actual": "HomeKart",
+      "ok": true
+    },
+    "parties.seller": {
+      "expected": "CoolHome Appliances",
+      "actual": "CoolHome Appliances",
+      "ok": true
+    },
+    "transaction.order_id": {
+      "expected": "HK-99812-AB",
+      "actual": "HK-99812-AB",
+      "ok": true
+    },
+    "transaction.purchase_date": {
+      "expected": "2026-09-28",
+      "actual": "2026-09-28",
+      "ok": true
+    },
+    "transaction.delivery_date": {
+      "expected": "2026-10-02",
+      "actual": "2026-10-02",
+      "ok": true
+    },
+    "complaint_ref": {
+      "expected": "HKT-30211",
+      "actual": "HKT-30211",
+      "ok": true
+    },
+    "consumer.name": {
+      "expected": "Anil Kumar",
+      "actual": "Anil Kumar",
+      "ok": true
+    },
+    "consumer.city": {
+      "expected": "Jaipur",
+      "actual": "Jaipur",
+      "ok": true
+    }
+  },
+  "fields_correct": 10,
+  "fields_total": 10,
+  "sources_cited": [
+    "CPA_2_10",
+    "CPA_2_47_VIII",
+    "CPA_2_6",
+    "CPA_2_7",
+    "CPA_2_9",
+    "CPA_34",
+    "CPA_35",
+    "CPA_38_7",
+    "CPA_39",
+    "CPA_69",
+    "CPA_PRODUCT_LIABILITY",
+    "ECOM_R2",
+    "ECOM_R4_GRIEVANCE",
+    "ECOM_R5_3",
+    "ECOM_R6_3",
+    "ECOM_R7_4",
+    "EJAGRITI",
+    "FEE_RULE_7",
+    "JUR_RULES_2021",
+    "NCH"
+  ],
+  "missing_required_sources": [],
+  "issue_confidence": {
+    "utp_refusal": {
+      "expected": "not_yet",
+      "actual": "not_yet",
+      "ok": true
+    }
+  },
+  "flags": {
+    "refused_explicitly": {
+      "expected": true,
+      "actual": true,
+      "ok": true
+    },
+    "harm_beyond_product": {
+      "expected": false,
+      "actual": false,
+      "ok": true
+    }
+  },
+  "document_validation": {
+    "seller_email": {
+      "ok": true,
+      "citations": 4,
+      "problems": []
+    },
+    "platform_complaint": {
+      "ok": true,
+      "citations": 7,
+      "problems": []
+    },
+    "nch_grievance": {
+      "ok": true,
+      "citations": 0,
+      "problems": []
+    },
+    "commission_draft": {
+      "ok": true,
+      "citations": 9,
+      "problems": []
+    }
+  },
+  "rights_text_validation": {
+    "ok": true,
+    "citations": [
+      "Rule 7(4)"
+    ],
+    "problems": []
+  },
+  "all_citations_valid": true,
+  "non_verified_sources_shown_as_notice_only": true,
+  "forbidden_text_found": [],
+  "required_text_missing": [],
+  "missing_info_count": 1,
+  "doc_missing_counts": {
+    "seller_email": 0,
+    "platform_complaint": 0,
+    "nch_grievance": 0,
+    "commission_draft": 2
+  },
+  "claim_amount": {
+    "actual": {
+      "amount": null,
+      "basis": "",
+      "confirmed": false,
+      "refund_requested": false,
+      "is_partial": false
+    },
+    "problems": [],
+    "expected": {
+      "amount": null,
+      "refund_requested": false
+    },
+    "ok": true
+  },
+  "automated_checks_passed": 8,
+  "automated_checks_total": 8
+}

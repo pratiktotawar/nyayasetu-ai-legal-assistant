@@ -1,0 +1,156 @@
+{
+  "schema_version": "1.0",
+  "case_id": "NS-20261107-261D",
+  "created_on": "2026-11-07",
+  "reference_date": "2026-11-07",
+  "language": "hi",
+  "generation_mode": "demo (deterministic rules)",
+  "dispute": {
+    "category": "non_delivery",
+    "category_label": "Order not delivered",
+    "secondary": [],
+    "low_confidence": false
+  },
+  "consumer": {
+    "name": "सुनीता देवी",
+    "city": "लखनऊ",
+    "purpose": "",
+    "purpose_note": ""
+  },
+  "parties": {
+    "platform": "BazaarLane",
+    "seller": "श्री साई ट्रेडर्स",
+    "seller_address": ""
+  },
+  "transaction": {
+    "product": "ब्लूटूथ स्पीकर",
+    "amount_paid": 4500.0,
+    "charged_amount": null,
+    "order_id": "BL20261029-7781",
+    "purchase_date": "2026-10-25",
+    "purchase_date_approx": false,
+    "delivery_date": "2026-10-29",
+    "delivery_date_approx": false,
+    "payment_mode": ""
+  },
+  "issue_details": "मैंने ऑनलाइन ऑर्डर के लिए ₹4,500 का भुगतान किया था। ऐप पर ऑर्डर 'डिलीवर' दिखा रहा है, लेकिन मुझे सामान कभी नहीं मिला। मेरे घर पर किसी ने पार्सल नहीं लिया और मुझसे कोई OTP नहीं माँगा गया।",
+  "what_happened": "मैंने ऑनलाइन ऑर्डर के लिए ₹4,500 का भुगतान किया था। ऐप पर ऑर्डर 'डिलीवर' दिखा रहा है, लेकिन मुझे सामान कभी नहीं मिला। मेरे घर पर किसी ने पार्सल नहीं लिया और मुझसे कोई OTP नहीं माँगा गया।",
+  "what_was_expected": "ऑर्डर किए और भुगतान किए गए ब्लूटूथ स्पीकर की डिलीवरी।",
+  "steps_taken": [
+    "30 अक्टूबर 2026 को मैंने कस्टमर केयर को कॉल किया, उन्होंने कहा 48 घंटे में जांच करेंगे, फिर कोई जवाब नहीं आया।"
+  ],
+  "complaint_date": "2026-10-30",
+  "complaint_date_approx": false,
+  "issue_date": "",
+  "refund_approved_date": "",
+  "complaint_ref": "BLC-55120",
+  "seller_response": "30 अक्टूबर 2026 को मैंने कस्टमर केयर को कॉल किया, उन्होंने कहा 48 घंटे में जांच करेंगे, फिर कोई जवाब नहीं आया।",
+  "evidence": [
+    "payment_proof",
+    "tracking_screenshot",
+    "complaint_reference"
+  ],
+  "desired_resolution": [
+    "refund"
+  ],
+  "resolution_note": "पूरा पैसा वापस चाहिए",
+  "claim": {
+    "amount": 4500.0,
+    "basis": "full",
+    "confirmed": true,
+    "source": "answer",
+    "note": "पूरा पैसा वापस चाहिए",
+    "refund_requested": true,
+    "is_partial": false,
+    "exceeds_paid": false
+  },
+  "harm_beyond_product": false,
+  "repeated_contact": false,
+  "no_complaint_yet": false,
+  "narrative": "मैंने ऑनलाइन ऑर्डर के लिए ₹4,500 का भुगतान किया था। ऐप पर ऑर्डर 'डिलीवर' दिखा रहा है, लेकिन मुझे सामान कभी नहीं मिला।",
+  "provenance": {
+    "amount": "rule",
+    "issue_details": "answer",
+    "product": "answer",
+    "platform": "answer",
+    "seller": "answer",
+    "order_id": "answer",
+    "purchase_date": "answer",
+    "delivery_date": "answer",
+    "steps_taken": "answer",
+    "complaint_date": "answer",
+    "seller_response": "answer",
+    "complaint_ref": "answer",
+    "evidence": "answer",
+    "desired_resolution": "answer",
+    "resolution_note": "answer",
+    "claim_amount": "answer",
+    "claim_note": "answer",
+    "consumer_name": "answer",
+    "consumer_city": "answer"
+  },
+  "timeline": [
+    {
+      "date": "2026-10-25",
+      "approx": false,
+      "event": "ब्लूटूथ स्पीकर का ऑर्डर दिया (BazaarLane), राशि ₹4,500, ऑर्डर आईडी BL20261029-7781",
+      "source": "user statement"
+    },
+    {
+      "date": "2026-10-29",
+      "approx": false,
+      "event": "प्लेटफ़ॉर्म पर ऑर्डर “डिलीवर” दिखाया गया (उपभोक्ता के अनुसार प्राप्त नहीं हुआ)",
+      "source": "user statement"
+    },
+    {
+      "date": "2026-10-30",
+      "approx": false,
+      "event": "उपभोक्ता ने शिकायत / समाधान का अनुरोध किया (ref. BLC-55120)",
+      "source": "user statement"
+    },
+    {
+      "date": "",
+      "approx": false,
+      "event": "विक्रेता/प्लेटफ़ॉर्म का उत्तर: 30 अक्टूबर 2026 को मैंने कस्टमर केयर को कॉल किया, उन्होंने कहा 48 घंटे में जांच करेंगे, फिर कोई जवाब नहीं आया।",
+      "source": "user statement"
+    }
+  ],
+  "missing_info": [
+    {
+      "field": "parties.seller_address",
+      "label_en": "Seller / platform address",
+      "label_hi": "विक्रेता / प्लेटफ़ॉर्म का पता",
+      "why": "Required on a Consumer Commission complaint; marketplaces must display seller addresses."
+    }
+  ],
+  "flags": {
+    "possible_commercial_purpose": false,
+    "livelihood_purpose": false,
+    "harm_beyond_product": false,
+    "payment_side_issue": false,
+    "no_complaint_yet": false,
+    "repeated_contact": false,
+    "days_since_complaint": 8,
+    "refused_explicitly": false,
+    "days_since_earliest_event": 13,
+    "limitation_risk": false,
+    "limitation_expired_likely": false,
+    "value_band": "district",
+    "fee_nil": true,
+    "evidence_have": [
+      "payment_proof",
+      "tracking_screenshot",
+      "complaint_reference"
+    ],
+    "evidence_missing": [
+      "order_screenshot",
+      "chat_transcripts"
+    ],
+    "low_confidence_category": false
+  },
+  "financial_loss": {
+    "amount": 4500.0,
+    "basis_en": "Refund amount you are claiming (confirmed by you)",
+    "basis_hi": "आपके द्वारा माँगी गई रिफंड राशि (आपने पुष्टि की)"
+  }
+}

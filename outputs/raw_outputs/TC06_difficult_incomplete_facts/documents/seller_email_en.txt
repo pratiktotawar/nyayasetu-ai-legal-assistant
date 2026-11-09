@@ -1,0 +1,35 @@
+DRAFT PREPARED WITH NYAYASETU — NOT SENT, NOT FILED. This is a draft for you to check and edit. It is not a legal notice and not a filed complaint. Verify every fact, complete each [MISSING] and [ADD] field, and remove anything that is not accurate before you use it.
+
+To: [MISSING: seller name (see invoice)] — [ADD: seller's customer-care email (from the invoice or order page)]
+Cc: [MISSING: platform / website] — [ADD: platform customer-care / grievance officer email]
+Subject: Complaint regarding Order [MISSING: Order ID] — Defective product / stopped working — request for resolution
+
+Dear Sir/Madam,
+
+I am writing about my order [MISSING: Order ID] for [MISSING: product]. The facts are:
+
+1. On [MISSING: order date], I placed an order for [MISSING: product] on [MISSING: platform / website], sold by [MISSING: seller name (see invoice)] (Order ID: [MISSING: Order ID]) and paid [MISSING: amount paid].
+2. The product was delivered on [MISSING: delivery date]. After delivery it developed a defect. In my words: “I bought something online and it is not working. The company is not helping.”
+3. I raised the matter with the seller/platform. What I did: “I called them once but I don't remember when.”
+4. As of 7 November 2026, the matter remains unresolved.
+
+I would like to draw your attention to the following:
+
+- The goods supplied suffer from a defect within the meaning of Section 2(10) of the Consumer Protection Act, 2019, which is a ground of complaint under Section 2(6)(ii).
+- Under Rule 6(3) of the Consumer Protection (E-Commerce) Rules, 2020, a seller on a marketplace shall not refuse to take back goods or refund the consideration where the goods are defective. Where the platform itself is the seller, Rule 7(4) imposes the same duty.
+
+I request you to:
+
+1. [MISSING: the resolution you want (refund / replacement / repair)]
+
+Please resolve this promptly and confirm in writing, quoting a reference number. If the matter is not resolved, I may pursue the remedies available to me, including the National Consumer Helpline and the Consumer Commission.
+
+Documents I can share on request:
+
+- [MISSING: list of documents you can attach (invoice, payment proof, photos, emails)]
+
+Regards,
+
+[MISSING: your name]
+[MISSING: city / district]
+[ADD: phone / email]

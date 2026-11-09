@@ -1,0 +1,187 @@
+{
+  "schema_version": "1.0",
+  "case_id": "NS-20261107-260C",
+  "created_on": "2026-11-07",
+  "reference_date": "2026-11-07",
+  "language": "en",
+  "generation_mode": "demo (deterministic rules)",
+  "dispute": {
+    "category": "defective_product",
+    "category_label": "Defective product / stopped working",
+    "secondary": [],
+    "low_confidence": false
+  },
+  "consumer": {
+    "name": "",
+    "city": "",
+    "purpose": "",
+    "purpose_note": ""
+  },
+  "parties": {
+    "platform": "",
+    "seller": "",
+    "seller_address": ""
+  },
+  "transaction": {
+    "product": "",
+    "amount_paid": null,
+    "charged_amount": null,
+    "order_id": "",
+    "purchase_date": "",
+    "purchase_date_approx": false,
+    "delivery_date": "",
+    "delivery_date_approx": false,
+    "payment_mode": ""
+  },
+  "issue_details": "I bought something online and it is not working. The company is not helping.",
+  "what_happened": "I bought something online and it is not working. The company is not helping.",
+  "what_was_expected": "A product that works properly and is free from defects, as described and as covered by any warranty.",
+  "steps_taken": [
+    "I called them once but I don't remember when."
+  ],
+  "complaint_date": "",
+  "complaint_date_approx": false,
+  "issue_date": "",
+  "refund_approved_date": "",
+  "complaint_ref": "",
+  "seller_response": "",
+  "evidence": [],
+  "desired_resolution": [],
+  "resolution_note": "",
+  "claim": {
+    "amount": null,
+    "basis": "",
+    "confirmed": false,
+    "source": "",
+    "note": "",
+    "refund_requested": false,
+    "is_partial": false,
+    "exceeds_paid": false
+  },
+  "harm_beyond_product": false,
+  "repeated_contact": false,
+  "no_complaint_yet": false,
+  "narrative": "I bought something online and it is not working. The company is not helping. What can I do?",
+  "provenance": {
+    "issue_details": "rule",
+    "steps_taken": "answer"
+  },
+  "timeline": [
+    {
+      "date": "",
+      "approx": false,
+      "event": "Consumer complained / requested resolution",
+      "source": "user statement"
+    }
+  ],
+  "missing_info": [
+    {
+      "field": "consumer.name",
+      "label_en": "Your name",
+      "label_hi": "आपका नाम",
+      "why": "Needed on every complaint and on the Consumer Commission filing."
+    },
+    {
+      "field": "consumer.city",
+      "label_en": "Your city / district",
+      "label_hi": "आपका शहर / ज़िला",
+      "why": "Decides which District Commission you can approach (you may file where you live or work)."
+    },
+    {
+      "field": "transaction.product",
+      "label_en": "Product",
+      "label_hi": "उत्पाद",
+      "why": "Identifies what the dispute is about."
+    },
+    {
+      "field": "transaction.amount_paid",
+      "label_en": "Amount paid",
+      "label_hi": "चुकाई गई राशि",
+      "why": "Sets the refund claimed, the Commission's value limit and the filing fee."
+    },
+    {
+      "field": "parties.platform",
+      "label_en": "Platform / website / app",
+      "label_hi": "प्लेटफ़ॉर्म / वेबसाइट / ऐप",
+      "why": "The platform must handle grievances under the E-Commerce Rules."
+    },
+    {
+      "field": "parties.seller",
+      "label_en": "Seller name",
+      "label_hi": "विक्रेता का नाम",
+      "why": "The seller is usually a necessary opposite party; it is on the invoice or order page."
+    },
+    {
+      "field": "transaction.order_id",
+      "label_en": "Order ID",
+      "label_hi": "ऑर्डर आईडी",
+      "why": "The platform and seller trace your order with it."
+    },
+    {
+      "field": "transaction.purchase_date",
+      "label_en": "Order / purchase date",
+      "label_hi": "ऑर्डर / खरीद की तिथि",
+      "why": "Needed for the timeline and the 2-year time limit."
+    },
+    {
+      "field": "transaction.delivery_date",
+      "label_en": "Delivery date",
+      "label_hi": "डिलीवरी तिथि",
+      "why": "Shows when the problem arose and supports return-window arguments."
+    },
+    {
+      "field": "complaint_ref",
+      "label_en": "Complaint / ticket number",
+      "label_hi": "शिकायत / टिकट संख्या",
+      "why": "Proves you complained and lets the platform track it."
+    },
+    {
+      "field": "evidence",
+      "label_en": "Evidence",
+      "label_hi": "सबूत",
+      "why": "Your claims must be supported by documents or photos."
+    },
+    {
+      "field": "desired_resolution",
+      "label_en": "Desired resolution",
+      "label_hi": "वांछित समाधान",
+      "why": "The relief you ask for must be stated clearly."
+    },
+    {
+      "field": "parties.seller_address",
+      "label_en": "Seller / platform address",
+      "label_hi": "विक्रेता / प्लेटफ़ॉर्म का पता",
+      "why": "Required on a Consumer Commission complaint; marketplaces must display seller addresses."
+    }
+  ],
+  "flags": {
+    "possible_commercial_purpose": false,
+    "livelihood_purpose": false,
+    "harm_beyond_product": false,
+    "payment_side_issue": false,
+    "no_complaint_yet": false,
+    "repeated_contact": false,
+    "days_since_complaint": null,
+    "refused_explicitly": false,
+    "days_since_earliest_event": null,
+    "limitation_risk": false,
+    "limitation_expired_likely": false,
+    "value_band": "unknown",
+    "fee_nil": false,
+    "evidence_have": [],
+    "evidence_missing": [
+      "invoice",
+      "payment_proof",
+      "warranty_card",
+      "technician_report",
+      "product_photos",
+      "complaint_reference"
+    ],
+    "low_confidence_category": false
+  },
+  "financial_loss": {
+    "amount": null,
+    "basis_en": "Not known yet",
+    "basis_hi": "अभी ज्ञात नहीं"
+  }
+}

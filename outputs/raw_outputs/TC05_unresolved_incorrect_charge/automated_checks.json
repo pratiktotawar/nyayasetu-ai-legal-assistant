@@ -1,0 +1,149 @@
+{
+  "id": "TC05",
+  "unscripted_questions_skipped": [],
+  "category_expected": "incorrect_charge",
+  "category_actual": "incorrect_charge",
+  "category_ok": true,
+  "fields": {
+    "transaction.amount_paid": {
+      "expected": 1240,
+      "actual": 1240.0,
+      "ok": true
+    },
+    "transaction.charged_amount": {
+      "expected": 2480,
+      "actual": 2480.0,
+      "ok": true
+    },
+    "transaction.product": {
+      "expected": "groceries",
+      "actual": "groceries",
+      "ok": true
+    },
+    "parties.platform": {
+      "expected": "QuickCart",
+      "actual": "QuickCart",
+      "ok": true
+    },
+    "transaction.order_id": {
+      "expected": "QC-20261020-5512",
+      "actual": "QC-20261020-5512",
+      "ok": true
+    },
+    "transaction.purchase_date": {
+      "expected": "2026-10-20",
+      "actual": "2026-10-20",
+      "ok": true
+    },
+    "transaction.payment_mode": {
+      "expected": "UPI",
+      "actual": "UPI",
+      "ok": true
+    },
+    "complaint_ref": {
+      "expected": "QC-SUP-77810",
+      "actual": "QC-SUP-77810",
+      "ok": true
+    },
+    "consumer.name": {
+      "expected": "Farhan Ali",
+      "actual": "Farhan Ali",
+      "ok": true
+    },
+    "consumer.city": {
+      "expected": "Hyderabad",
+      "actual": "Hyderabad",
+      "ok": true
+    }
+  },
+  "fields_correct": 10,
+  "fields_total": 10,
+  "sources_cited": [
+    "CPA_2_11",
+    "CPA_2_6",
+    "CPA_2_7",
+    "CPA_2_9",
+    "CPA_34",
+    "CPA_35",
+    "CPA_38_7",
+    "CPA_39",
+    "CPA_69",
+    "ECOM_R4_10",
+    "ECOM_R4_GRIEVANCE",
+    "ECOM_R5_3",
+    "EJAGRITI",
+    "FEE_RULE_7",
+    "JUR_RULES_2021",
+    "NCH",
+    "RBI_IOS_2026"
+  ],
+  "missing_required_sources": [],
+  "issue_confidence": {},
+  "flags": {
+    "payment_side_issue": {
+      "expected": true,
+      "actual": true,
+      "ok": true
+    },
+    "repeated_contact": {
+      "expected": true,
+      "actual": true,
+      "ok": true
+    }
+  },
+  "document_validation": {
+    "seller_email": {
+      "ok": true,
+      "citations": 3,
+      "problems": []
+    },
+    "platform_complaint": {
+      "ok": true,
+      "citations": 6,
+      "problems": []
+    },
+    "nch_grievance": {
+      "ok": true,
+      "citations": 0,
+      "problems": []
+    },
+    "commission_draft": {
+      "ok": true,
+      "citations": 8,
+      "problems": []
+    }
+  },
+  "rights_text_validation": {
+    "ok": true,
+    "citations": [],
+    "problems": []
+  },
+  "all_citations_valid": true,
+  "non_verified_sources_shown_as_notice_only": true,
+  "forbidden_text_found": [],
+  "required_text_missing": [],
+  "missing_info_count": 2,
+  "doc_missing_counts": {
+    "seller_email": 1,
+    "platform_complaint": 1,
+    "nch_grievance": 1,
+    "commission_draft": 4
+  },
+  "claim_amount": {
+    "actual": {
+      "amount": 1240.0,
+      "basis": "excess",
+      "confirmed": true,
+      "refund_requested": true,
+      "is_partial": false
+    },
+    "problems": [],
+    "expected": {
+      "amount": 1240,
+      "basis": "excess"
+    },
+    "ok": true
+  },
+  "automated_checks_passed": 8,
+  "automated_checks_total": 8
+}

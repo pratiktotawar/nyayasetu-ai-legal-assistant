@@ -1,0 +1,136 @@
+{
+  "id": "TC07",
+  "unscripted_questions_skipped": [],
+  "category_expected": "defective_product",
+  "category_actual": "defective_product",
+  "category_ok": true,
+  "fields": {
+    "transaction.amount_paid": {
+      "expected": 120000,
+      "actual": 120000.0,
+      "ok": true
+    },
+    "consumer.purpose": {
+      "expected": "resale_or_commercial",
+      "actual": "resale_or_commercial",
+      "ok": true
+    },
+    "transaction.purchase_date": {
+      "expected": "2024-03-01",
+      "actual": "2024-03-01",
+      "ok": true
+    },
+    "transaction.delivery_date": {
+      "expected": "2024-03-10",
+      "actual": "2024-03-10",
+      "ok": true
+    }
+  },
+  "fields_correct": 4,
+  "fields_total": 4,
+  "sources_cited": [
+    "CPA_2_10",
+    "CPA_2_47_VIII",
+    "CPA_2_6",
+    "CPA_2_7",
+    "CPA_34",
+    "CPA_35",
+    "CPA_38_7",
+    "CPA_39",
+    "CPA_69",
+    "CPA_PRODUCT_LIABILITY",
+    "ECOM_R2",
+    "ECOM_R4_GRIEVANCE",
+    "ECOM_R5_3",
+    "ECOM_R6_3",
+    "ECOM_R7_4",
+    "EJAGRITI",
+    "FEE_RULE_7",
+    "JUR_RULES_2021",
+    "NCH"
+  ],
+  "missing_required_sources": [],
+  "issue_confidence": {
+    "consumer_status": {
+      "expected": "uncertain",
+      "actual": "uncertain",
+      "ok": true
+    },
+    "forum": {
+      "expected": "uncertain",
+      "actual": "uncertain",
+      "ok": true
+    }
+  },
+  "flags": {
+    "possible_commercial_purpose": {
+      "expected": true,
+      "actual": true,
+      "ok": true
+    },
+    "limitation_expired_likely": {
+      "expected": true,
+      "actual": true,
+      "ok": true
+    }
+  },
+  "document_validation": {
+    "seller_email": {
+      "ok": true,
+      "citations": 5,
+      "problems": []
+    },
+    "platform_complaint": {
+      "ok": true,
+      "citations": 8,
+      "problems": []
+    },
+    "nch_grievance": {
+      "ok": true,
+      "citations": 0,
+      "problems": []
+    },
+    "commission_draft": {
+      "ok": true,
+      "citations": 10,
+      "problems": []
+    }
+  },
+  "rights_text_validation": {
+    "ok": true,
+    "citations": [
+      "Rule 7(4)"
+    ],
+    "problems": []
+  },
+  "all_citations_valid": true,
+  "non_verified_sources_shown_as_notice_only": true,
+  "forbidden_text_found": [],
+  "required_text_missing": [],
+  "commission_draft_missing_text": [],
+  "missing_info_count": 3,
+  "lawyer_trigger_ok": true,
+  "doc_missing_counts": {
+    "seller_email": 1,
+    "platform_complaint": 2,
+    "nch_grievance": 2,
+    "commission_draft": 3
+  },
+  "claim_amount": {
+    "actual": {
+      "amount": 48000.0,
+      "basis": "partial",
+      "confirmed": true,
+      "refund_requested": true,
+      "is_partial": true
+    },
+    "problems": [],
+    "expected": {
+      "amount": 48000,
+      "basis": "partial"
+    },
+    "ok": true
+  },
+  "automated_checks_passed": 10,
+  "automated_checks_total": 10
+}

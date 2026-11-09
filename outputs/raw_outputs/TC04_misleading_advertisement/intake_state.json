@@ -1,0 +1,354 @@
+{
+  "lang": "en",
+  "messages": [
+    {
+      "role": "assistant",
+      "text": "Namaste. I'm NyayaSetu. Tell me what happened in your own words — what you bought, from where, what went wrong, and what you have done so far. I'll then ask only the questions that matter for your case, one at a time. You can skip any question.",
+      "meta": {}
+    },
+    {
+      "role": "user",
+      "text": "I bought a smartwatch for Rs 6,999 on TrendCart because the listing said it was waterproof (5ATM) and had built-in GPS. The watch I received has no GPS and the box says only splash resistant. The seller refused to accept a return, saying the product is as per description."
+    },
+    {
+      "role": "assistant",
+      "text": "Here is what I understood so far:\n• Problem: Product not as advertised / misleading listing\n• Product: smartwatch\n• Amount paid: ₹6,999\n\nI'll ask a few short questions — you can skip any of them.\n\nWhich website or app did you buy it from? If you know the seller's name (it is on the invoice or order page), please add it — e.g. “ShopNest, seller: Gupta Electronics”.",
+      "meta": {
+        "kind": "question",
+        "question": "platform_seller",
+        "options": []
+      }
+    },
+    {
+      "role": "user",
+      "text": "TrendCart, seller: WristWorld Retail"
+    },
+    {
+      "role": "assistant",
+      "text": "Noted: TrendCart, seller: WristWorld Retail.\n\nWhat is the Order ID? It is on the order page or the confirmation email.",
+      "meta": {
+        "kind": "question",
+        "question": "order_id",
+        "options": []
+      }
+    },
+    {
+      "role": "user",
+      "text": "TC-7781-2026"
+    },
+    {
+      "role": "assistant",
+      "text": "Noted: TC-7781-2026.\n\nOn what date did you place the order (or pay)? An approximate date is fine.",
+      "meta": {
+        "kind": "question",
+        "question": "purchase_date",
+        "options": []
+      }
+    },
+    {
+      "role": "user",
+      "text": "18 October 2026"
+    },
+    {
+      "role": "assistant",
+      "text": "Noted: 18 October 2026.\n\nHave you already complained to the seller or the platform? If yes: when, how (app, email, call, chat), and what did they say? Reply “no” if you have not complained yet.",
+      "meta": {
+        "kind": "question",
+        "question": "complaint_history",
+        "options": []
+      }
+    },
+    {
+      "role": "user",
+      "text": "I raised a return request on 24 October 2026 in the app; it was rejected the same day."
+    },
+    {
+      "role": "assistant",
+      "text": "Noted.\n\nDo you have a ticket or complaint reference number? Please type it (or skip).",
+      "meta": {
+        "kind": "question",
+        "question": "complaint_ref",
+        "options": []
+      }
+    },
+    {
+      "role": "user",
+      "text": "RR-664120"
+    },
+    {
+      "role": "assistant",
+      "text": "Noted: RR-664120.\n\nWhich of these records do you have? Select all that apply — and keep the originals safe.",
+      "meta": {
+        "kind": "question",
+        "question": "evidence",
+        "options": [
+          [
+            "listing_screenshot",
+            "Product listing / advertisement screenshot"
+          ],
+          [
+            "invoice",
+            "Invoice / bill"
+          ],
+          [
+            "product_photos",
+            "Photographs of the product / damage"
+          ],
+          [
+            "complaint_reference",
+            "Complaint / ticket reference number"
+          ],
+          [
+            "chat_transcripts",
+            "Chat transcripts / messages with customer care"
+          ],
+          [
+            "payment_proof",
+            "Payment proof (receipt, bank/UPI statement)"
+          ],
+          [
+            "order_screenshot",
+            "Order page / confirmation (screenshot or email)"
+          ],
+          [
+            "tracking_screenshot",
+            "Tracking / delivery-status screenshot"
+          ],
+          [
+            "unboxing_video",
+            "Unboxing / product video"
+          ],
+          [
+            "emails",
+            "Emails with seller / platform"
+          ],
+          [
+            "warranty_card",
+            "Warranty card / warranty terms"
+          ],
+          [
+            "technician_report",
+            "Technician / service-centre report (job sheet)"
+          ],
+          [
+            "call_records",
+            "Call records / call logs"
+          ]
+        ]
+      }
+    },
+    {
+      "role": "user",
+      "text": "I have the invoice, a screenshot of the product listing, and photos of the box"
+    },
+    {
+      "role": "assistant",
+      "text": "Noted: Invoice / bill, Product listing / advertisement screenshot, Photographs of the product / damage.\n\nWhat outcome do you want — refund, replacement, repair, or something else?",
+      "meta": {
+        "kind": "question",
+        "question": "desired_resolution",
+        "options": [
+          [
+            "refund",
+            "Refund"
+          ],
+          [
+            "replacement",
+            "Replacement"
+          ],
+          [
+            "repair",
+            "Repair"
+          ],
+          [
+            "delivery",
+            "Deliver the ordered product"
+          ],
+          [
+            "compensation",
+            "Compensation for inconvenience / loss"
+          ]
+        ]
+      }
+    },
+    {
+      "role": "user",
+      "text": "refund"
+    },
+    {
+      "role": "assistant",
+      "text": "Noted: Refund.\n\nHow much are you asking to get back? You paid ₹6,999. Reply “full” for the whole ₹6,999, or type the amount you are claiming (for example, if only part of the order was faulty). NyayaSetu will not assume the full price.",
+      "meta": {
+        "kind": "question",
+        "question": "claim_amount",
+        "options": []
+      }
+    },
+    {
+      "role": "user",
+      "text": "The full ₹6,999 I paid"
+    },
+    {
+      "role": "assistant",
+      "text": "Noted: you are claiming the full ₹6,999 you paid.\n\nDid you buy this for personal or household use, or for resale / business? (This affects whether consumer law applies.)",
+      "meta": {
+        "kind": "question",
+        "question": "purpose",
+        "options": [
+          [
+            "personal",
+            "Personal / household use"
+          ],
+          [
+            "livelihood",
+            "To earn my own livelihood (self-employed)"
+          ],
+          [
+            "resale_or_commercial",
+            "For resale or business"
+          ]
+        ]
+      }
+    },
+    {
+      "role": "user",
+      "text": "personal use"
+    },
+    {
+      "role": "assistant",
+      "text": "Noted.\n\nLast question: what name and city/district should appear on your complaint? (For example: “Priya Sharma, Pune”.) Please do NOT share Aadhaar, PAN, card numbers, bank passwords or OTPs — they are not needed.",
+      "meta": {
+        "kind": "question",
+        "question": "consumer_details",
+        "options": []
+      }
+    },
+    {
+      "role": "user",
+      "text": "Meera Nair, Kochi"
+    },
+    {
+      "role": "assistant",
+      "text": "Noted.\n\nThank you — I have enough to prepare your case file. Any details still missing will be clearly marked so you can add them later.",
+      "meta": {
+        "kind": "complete"
+      }
+    }
+  ],
+  "slots": {
+    "amount": {
+      "value": 6999.0,
+      "source": "rule"
+    },
+    "product": {
+      "value": "smartwatch",
+      "source": "rule"
+    },
+    "seller_response": {
+      "value": "The seller refused to accept a return, saying the product is as per description. I raised a return request on 24 October 2026 in the app; it was rejected the same day.",
+      "source": "answer"
+    },
+    "issue_details": {
+      "value": "I bought a smartwatch for Rs 6,999 on TrendCart because the listing said it was waterproof (5ATM) and had built-in GPS. The watch I received has no GPS and the box says only splash resistant.",
+      "source": "rule"
+    },
+    "platform": {
+      "value": "TrendCart",
+      "source": "answer"
+    },
+    "seller": {
+      "value": "WristWorld Retail",
+      "source": "answer"
+    },
+    "order_id": {
+      "value": "TC-7781-2026",
+      "source": "answer"
+    },
+    "purchase_date": {
+      "value": "2026-10-18",
+      "source": "answer",
+      "approx": false,
+      "raw": "18 October 2026"
+    },
+    "steps_taken": {
+      "value": [
+        "I raised a return request on 24 October 2026 in the app; it was rejected the same day."
+      ],
+      "source": "answer"
+    },
+    "complaint_date": {
+      "value": "2026-10-24",
+      "source": "answer",
+      "approx": false,
+      "raw": "24 October 2026"
+    },
+    "complaint_ref": {
+      "value": "RR-664120",
+      "source": "answer"
+    },
+    "evidence": {
+      "value": [
+        "invoice",
+        "listing_screenshot",
+        "product_photos"
+      ],
+      "source": "answer"
+    },
+    "desired_resolution": {
+      "value": [
+        "refund"
+      ],
+      "source": "answer"
+    },
+    "resolution_note": {
+      "value": "refund",
+      "source": "answer"
+    },
+    "claim_amount": {
+      "value": 6999.0,
+      "source": "answer",
+      "basis": "full"
+    },
+    "claim_note": {
+      "value": "The full ₹6,999 I paid",
+      "source": "answer"
+    },
+    "purpose": {
+      "value": "personal",
+      "source": "answer"
+    },
+    "consumer_name": {
+      "value": "Meera Nair",
+      "source": "answer"
+    },
+    "consumer_city": {
+      "value": "Kochi",
+      "source": "answer"
+    }
+  },
+  "asked": [
+    "platform_seller",
+    "order_id",
+    "purchase_date",
+    "complaint_history",
+    "complaint_ref",
+    "evidence",
+    "desired_resolution",
+    "claim_amount",
+    "purpose",
+    "consumer_details"
+  ],
+  "skipped": [],
+  "answered_none": [],
+  "pending": null,
+  "category": "misleading_description",
+  "secondary": [],
+  "scores": {
+    "misleading_description": 3.0
+  },
+  "narrative": "I bought a smartwatch for Rs 6,999 on TrendCart because the listing said it was waterproof (5ATM) and had built-in GPS. The watch I received has no GPS and the box says only splash resistant. The seller refused to accept a return, saying the product is as per description.",
+  "complete": true,
+  "warnings": [],
+  "llm_used": false,
+  "llm_notes": []
+}

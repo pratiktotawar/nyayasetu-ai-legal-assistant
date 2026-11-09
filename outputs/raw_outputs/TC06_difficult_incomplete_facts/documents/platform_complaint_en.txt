@@ -1,0 +1,45 @@
+DRAFT PREPARED WITH NYAYASETU — NOT SENT, NOT FILED. This is a draft for you to check and edit. It is not a legal notice and not a filed complaint. Verify every fact, complete each [MISSING] and [ADD] field, and remove anything that is not accurate before you use it.
+
+To: The Grievance Officer, [MISSING: platform / website]
+Grievance officer's name / email: [ADD: as displayed on the platform (help or legal pages)]
+From: [MISSING: your name], [MISSING: city / district]
+Date: 7 November 2026
+Subject: Formal consumer complaint — Order [MISSING: Order ID] — Defective product / stopped working
+
+1. Order details
+----------------
+Product: [MISSING: product]
+Order ID: [MISSING: Order ID]
+Order date: [MISSING: order date]
+Amount paid: [MISSING: amount paid]
+Seller: [MISSING: seller name (see invoice)]
+Earlier complaint / ticket: [MISSING: ticket number of earlier complaint]
+
+2. Facts
+--------
+1. On [MISSING: order date], I placed an order for [MISSING: product] on [MISSING: platform / website], sold by [MISSING: seller name (see invoice)] (Order ID: [MISSING: Order ID]) and paid [MISSING: amount paid].
+2. The product was delivered on [MISSING: delivery date]. After delivery it developed a defect. In my words: “I bought something online and it is not working. The company is not helping.”
+3. I raised the matter with the seller/platform. What I did: “I called them once but I don't remember when.”
+4. As of 7 November 2026, the matter remains unresolved.
+
+3. Grievance and grounds
+------------------------
+1. The goods supplied suffer from a defect within the meaning of Section 2(10) of the Consumer Protection Act, 2019, which is a ground of complaint under Section 2(6)(ii).
+2. Under Rule 6(3) of the Consumer Protection (E-Commerce) Rules, 2020, a seller on a marketplace shall not refuse to take back goods or refund the consideration where the goods are defective. Where the platform itself is the seller, Rule 7(4) imposes the same duty.
+3. Under Rules 4(4) and 4(5) of the E-Commerce Rules, the platform's grievance officer must acknowledge a consumer complaint within 48 hours and redress it within one month; under Rule 5(3)(b) a marketplace must provide a ticket number for each complaint so that it can be tracked.
+
+4. Relief requested
+-------------------
+1. [MISSING: the resolution you want (refund / replacement / repair)]
+
+Please acknowledge this complaint, share a ticket number, and let me know the action taken.
+
+5. Documents available (annexures)
+----------------------------------
+- [MISSING: list of documents you can attach (invoice, payment proof, photos, emails)]
+
+Yours faithfully,
+
+[MISSING: your name]
+[MISSING: city / district]
+[ADD: phone / registered email on the account]

@@ -1,0 +1,69 @@
+DRAFT PREPARED WITH NYAYASETU — NOT SENT, NOT FILED. This is a draft for you to check and edit. It is not a legal notice and not a filed complaint. Verify every fact, complete each [MISSING] and [ADD] field, and remove anything that is not accurate before you use it.
+
+PREPARATION DRAFT ONLY. Consumer Commissions have their own format, affidavit and document requirements, and complaints are filed through e-Jagriti (e-jagriti.gov.in). Use this to organise your facts; check the portal's requirements, and consider asking an advocate or a recognised consumer association to review it before filing.
+
+BEFORE THE DISTRICT CONSUMER DISPUTES REDRESSAL COMMISSION, Jaipur
+------------------------------------------------------------------
+Consumer Complaint No. ______ of 20___ (to be assigned)
+
+IN THE MATTER OF:
+
+Anil Kumar, [ADD: full address], Jaipur — Complainant
+
+VERSUS
+
+1. CoolHome Appliances, [MISSING: seller's registered address (from the invoice / platform seller page)] — Opposite Party No. 1
+2. HomeKart, [MISSING: platform's registered office address] — Opposite Party No. 2
+
+COMPLAINT UNDER SECTION 35 OF THE CONSUMER PROTECTION ACT, 2019
+
+1. The Complainant is a consumer
+--------------------------------
+The Complainant bought the goods for consideration through an online transaction for personal use and is a 'consumer' under Section 2(7) of the Consumer Protection Act, 2019.
+
+2. Facts of the case
+--------------------
+1. On 28 September 2026, I placed an order for front-load washing machine on HomeKart, sold by CoolHome Appliances (Order ID: HK-99812-AB) and paid ₹25,000.
+2. The product was delivered on 2 October 2026. After delivery it developed a defect. In my words: “It was delivered on 2 October 2026. Within 10 days the drum stopped spinning and it shows error code E21.”
+3. I raised the matter with the seller/platform on 13 October 2026 (reference: HKT-30211). What I did: “I raised a replacement request in the HomeKart app on 13 October 2026. A technician from the brand visited on 15 October and gave a job sheet saying the motor is faulty. On 18 October the seller rejected the replacement request.”
+4. The response I received: “The seller refuses to replace it and says I should contact the brand service centre.”
+5. As of 7 November 2026, the matter remains unresolved and I have not received the replacement I asked for.
+
+3. Grounds
+----------
+1. The goods supplied suffer from a defect within the meaning of Section 2(10) of the Consumer Protection Act, 2019, which is a ground of complaint under Section 2(6)(ii).
+2. Under Rule 6(3) of the Consumer Protection (E-Commerce) Rules, 2020, a seller on a marketplace shall not refuse to take back goods or refund the consideration where the goods are defective. Where the platform itself is the seller, Rule 7(4) imposes the same duty.
+
+4. Cause of action
+------------------
+The cause of action arose on 28 September 2026 when the order was placed, and further on 2 October 2026 and on each date the Opposite Parties failed to resolve the complaint, and it is continuing.
+
+5. Jurisdiction
+---------------
+Pecuniary: the value of goods paid as consideration is ₹25,000, which does not exceed ₹50 lakh; this Commission has jurisdiction under Rule 3 of the Consumer Protection (Jurisdiction of the District Commission, the State Commission and the National Commission) Rules, 2021.
+
+Territorial: the Complainant resides / personally works for gain at Jaipur, within the limits of this Commission (Section 34(2)(d) of the Act).
+
+6. Limitation
+-------------
+The complaint is filed within two years of the cause of action, as required by Section 69 of the Consumer Protection Act, 2019.
+
+7. Prayer
+---------
+The Complainant respectfully prays that the Hon'ble Commission may direct the Opposite Parties, jointly and/or severally, to:
+
+1. Replace the front-load washing machine with a new, defect-free unit of the same description.
+2. Pay interest on the amount refunded and the costs of this complaint, as the Hon'ble Commission may deem fit.
+3. Grant any other relief the Hon'ble Commission considers appropriate.
+
+8. List of documents
+--------------------
+- Annexure A-1: Invoice / bill
+- Annexure A-2: Warranty card / warranty terms
+- Annexure A-3: Technician / service-centre report (job sheet)
+- Annexure A-4: Photographs of the product / damage
+- Annexure A-5: Complaint / ticket reference number
+
+9. Verification
+---------------
+I, Anil Kumar, the Complainant, state that the facts above are true to my knowledge and belief. [ADD: place, date and signature; affidavit as required by the Commission]

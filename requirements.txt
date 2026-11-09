@@ -1,0 +1,8 @@
+# Requires Python 3.11+ (Streamlit 1.67 needs 3.11 or newer).
+# Exact versions = the versions every test in EVALUATION_REPORT.md ran with (clean installs on Python 3.11, 3.12 and 3.13).
+streamlit==1.67.0
+fpdf2==2.9.0
+uharfbuzz==0.57.0        # correct Hindi (Devanagari) shaping in PDFs
+python-dotenv==1.2.4     # optional: reads a local .env file
+requests==2.34.2         # used only by the optional OpenAI-compatible LLM provider
+anthropic==2.6.0         # used only when NYAYASETU_LLM_PROVIDER=anthropic

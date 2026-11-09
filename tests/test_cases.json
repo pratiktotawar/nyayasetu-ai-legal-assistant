@@ -1,0 +1,394 @@
+{
+  "reference_date": "2026-11-07",
+  "note": "All names, platforms, sellers, order IDs and ticket numbers below are fictional test data. Answers are keyed by the intake question the app asks; any question the app asks that is not scripted is skipped by the harness (and recorded).",
+  "cases": [
+    {
+      "id": "TC01",
+      "slug": "failed_refund",
+      "title": "Failed refund — damaged phone (₹18,000), seller postponing refund for three weeks",
+      "difficulty": "standard",
+      "language": "en",
+      "opening_message": "I purchased a mobile phone worth ₹18,000 from an online shopping platform. The product arrived damaged. I requested a refund three weeks ago, but the seller keeps postponing it.",
+      "answers": {
+        "platform_seller": "ShopNest marketplace, seller: Gupta Mobile World",
+        "order_id": "SN-4471-2290",
+        "purchase_date": "10 October 2026",
+        "delivery_date": "It was delivered on 14 October 2026",
+        "issue_details": "The screen was cracked across the middle when I opened the box on the day of delivery.",
+        "complaint_ref": "TKT-88123",
+        "evidence": {
+          "options": [
+            "invoice",
+            "product_photos",
+            "unboxing_video",
+            "chat_transcripts"
+          ]
+        },
+        "desired_resolution": {
+          "options": [
+            "refund"
+          ]
+        },
+        "purpose": {
+          "options": [
+            "personal"
+          ]
+        },
+        "consumer_details": "Rahul Verma, Pune",
+        "claim_amount": "full"
+      },
+      "expected": {
+        "category": "damaged_on_delivery",
+        "fields": {
+          "transaction.amount_paid": 18000,
+          "transaction.product": "mobile phone",
+          "parties.platform": "ShopNest marketplace",
+          "parties.seller": "Gupta Mobile World",
+          "transaction.order_id": "SN-4471-2290",
+          "transaction.purchase_date": "2026-10-10",
+          "transaction.delivery_date": "2026-10-14",
+          "complaint_ref": "TKT-88123",
+          "consumer.name": "Rahul Verma",
+          "consumer.city": "Pune"
+        },
+        "must_include_sources": [
+          "CPA_2_7",
+          "CPA_2_10",
+          "ECOM_R6_3",
+          "ECOM_R4_GRIEVANCE",
+          "CPA_34",
+          "CPA_69"
+        ],
+        "issue_confidence": {
+          "utp_refusal": "not_yet"
+        },
+        "documents_must_not_contain": [
+          "2(47)(viii)"
+        ],
+        "flags": {
+          "possible_commercial_purpose": false,
+          "limitation_risk": false
+        },
+        "claim": {
+          "amount": 18000,
+          "basis": "full"
+        }
+      }
+    },
+    {
+      "id": "TC02",
+      "slug": "non_delivery_hindi",
+      "title": "Non-delivery (₹4,500) — app shows 'delivered' but parcel never received — conversation in Hindi",
+      "difficulty": "standard",
+      "language": "hi",
+      "opening_message": "मैंने ऑनलाइन ऑर्डर के लिए ₹4,500 का भुगतान किया था। ऐप पर ऑर्डर 'डिलीवर' दिखा रहा है, लेकिन मुझे सामान कभी नहीं मिला।",
+      "answers": {
+        "product": "ब्लूटूथ स्पीकर",
+        "platform_seller": "BazaarLane ऐप से, विक्रेता: श्री साई ट्रेडर्स",
+        "order_id": "BL20261029-7781",
+        "purchase_date": "25 अक्टूबर 2026",
+        "delivery_date": "29 अक्टूबर 2026",
+        "issue_details": "मेरे घर पर किसी ने पार्सल नहीं लिया और मुझसे कोई OTP नहीं माँगा गया।",
+        "complaint_history": "30 अक्टूबर 2026 को मैंने कस्टमर केयर को कॉल किया, उन्होंने कहा 48 घंटे में जांच करेंगे, फिर कोई जवाब नहीं आया।",
+        "complaint_ref": "शिकायत नंबर BLC-55120",
+        "evidence": "भुगतान की रसीद और ट्रैकिंग का स्क्रीनशॉट",
+        "desired_resolution": "पूरा पैसा वापस चाहिए",
+        "consumer_details": "सुनीता देवी, लखनऊ"
+      },
+      "expected": {
+        "category": "non_delivery",
+        "fields": {
+          "transaction.amount_paid": 4500,
+          "transaction.product": "ब्लूटूथ स्पीकर",
+          "parties.platform": "BazaarLane",
+          "parties.seller": "श्री साई ट्रेडर्स",
+          "transaction.order_id": "BL20261029-7781",
+          "transaction.purchase_date": "2026-10-25",
+          "transaction.delivery_date": "2026-10-29",
+          "complaint_ref": "BLC-55120",
+          "consumer.name": "सुनीता देवी",
+          "consumer.city": "लखनऊ"
+        },
+        "must_include_sources": [
+          "CPA_2_11",
+          "ECOM_R6_3",
+          "ECOM_R4_GRIEVANCE",
+          "NCH"
+        ],
+        "flags": {
+          "possible_commercial_purpose": false
+        },
+        "claim": {
+          "amount": 4500,
+          "basis": "full"
+        }
+      }
+    },
+    {
+      "id": "TC03",
+      "slug": "defective_washing_machine",
+      "title": "Defective washing machine (₹25,000) — drum fails within 10 days, seller refuses replacement",
+      "difficulty": "standard",
+      "language": "en",
+      "opening_message": "I bought a front-load washing machine for ₹25,000 from HomeKart. It was delivered on 2 October 2026. Within 10 days the drum stopped spinning and it shows error code E21. The seller refuses to replace it and says I should contact the brand service centre.",
+      "answers": {
+        "platform_seller": "HomeKart, seller: CoolHome Appliances",
+        "order_id": "HK-99812-AB",
+        "purchase_date": "28 September 2026",
+        "complaint_history": "Yes. I raised a replacement request in the HomeKart app on 13 October 2026. A technician from the brand visited on 15 October and gave a job sheet saying the motor is faulty. On 18 October the seller rejected the replacement request.",
+        "complaint_ref": "Ticket HKT-30211",
+        "evidence": {
+          "options": [
+            "invoice",
+            "warranty_card",
+            "technician_report",
+            "product_photos"
+          ]
+        },
+        "desired_resolution": "Replacement with a new machine",
+        "purpose": {
+          "options": [
+            "personal"
+          ]
+        },
+        "consumer_details": "Anil Kumar, Jaipur"
+      },
+      "expected": {
+        "category": "defective_product",
+        "fields": {
+          "transaction.amount_paid": 25000,
+          "transaction.product": "front-load washing machine",
+          "parties.platform": "HomeKart",
+          "parties.seller": "CoolHome Appliances",
+          "transaction.order_id": "HK-99812-AB",
+          "transaction.purchase_date": "2026-09-28",
+          "transaction.delivery_date": "2026-10-02",
+          "complaint_ref": "HKT-30211",
+          "consumer.name": "Anil Kumar",
+          "consumer.city": "Jaipur"
+        },
+        "must_include_sources": [
+          "CPA_2_10",
+          "ECOM_R6_3",
+          "CPA_2_47_VIII",
+          "CPA_PRODUCT_LIABILITY",
+          "CPA_39"
+        ],
+        "issue_confidence": {
+          "utp_refusal": "not_yet"
+        },
+        "expectation_note": "Originally expected 'arguable'. Changed after legal review: Section 2(47)(viii) concerns refusal to take back AND refund; this consumer asked for a replacement, so the clause should not be asserted (see EVALUATION_REPORT.md).",
+        "flags": {
+          "refused_explicitly": true,
+          "harm_beyond_product": false
+        },
+        "claim": {
+          "amount": null,
+          "refund_requested": false
+        }
+      }
+    },
+    {
+      "id": "TC04",
+      "slug": "misleading_advertisement",
+      "title": "Misleading listing — smartwatch advertised as waterproof with GPS; delivered without GPS; return refused",
+      "difficulty": "standard",
+      "language": "en",
+      "opening_message": "I bought a smartwatch for Rs 6,999 on TrendCart because the listing said it was waterproof (5ATM) and had built-in GPS. The watch I received has no GPS and the box says only splash resistant. The seller refused to accept a return, saying the product is as per description.",
+      "answers": {
+        "platform_seller": "TrendCart, seller: WristWorld Retail",
+        "order_id": "TC-7781-2026",
+        "purchase_date": "18 October 2026",
+        "complaint_history": "I raised a return request on 24 October 2026 in the app; it was rejected the same day.",
+        "complaint_ref": "RR-664120",
+        "evidence": "I have the invoice, a screenshot of the product listing, and photos of the box",
+        "desired_resolution": "refund",
+        "purpose": "personal use",
+        "consumer_details": "Meera Nair, Kochi",
+        "claim_amount": "The full ₹6,999 I paid"
+      },
+      "expected": {
+        "category": "misleading_description",
+        "fields": {
+          "transaction.amount_paid": 6999,
+          "transaction.product": "smartwatch",
+          "parties.platform": "TrendCart",
+          "parties.seller": "WristWorld Retail",
+          "transaction.order_id": "TC-7781-2026",
+          "transaction.purchase_date": "2026-10-18",
+          "complaint_ref": "RR-664120",
+          "consumer.name": "Meera Nair",
+          "consumer.city": "Kochi"
+        },
+        "must_include_sources": [
+          "CPA_2_28",
+          "CPA_2_47_I_A",
+          "ECOM_R6_3",
+          "ECOM_R6_4",
+          "CPA_17"
+        ],
+        "evidence_must_include": [
+          "invoice",
+          "listing_screenshot",
+          "product_photos"
+        ],
+        "flags": {
+          "refused_explicitly": true
+        },
+        "claim": {
+          "amount": 6999,
+          "basis": "full"
+        }
+      }
+    },
+    {
+      "id": "TC05",
+      "slug": "unresolved_incorrect_charge",
+      "title": "Unresolved platform complaint — charged twice (₹2,480 for a ₹1,240 order) via UPI; four support contacts",
+      "difficulty": "standard",
+      "language": "en",
+      "opening_message": "I ordered groceries worth ₹1,240 on QuickCart on 20 October 2026 but was charged ₹2,480 — the amount was debited twice from my account through UPI. I have contacted customer support 4 times over the last two weeks; every time they say it will be auto-reversed in 5-7 days, but nothing has come back.",
+      "answers": {
+        "platform_seller": "QuickCart",
+        "order_id": "QC-20261020-5512",
+        "complaint_ref": "QC-SUP-77810",
+        "evidence": {
+          "options": [
+            "payment_proof",
+            "invoice",
+            "chat_transcripts"
+          ]
+        },
+        "desired_resolution": "Refund of the extra ₹1,240",
+        "consumer_details": "Farhan Ali, Hyderabad"
+      },
+      "expected": {
+        "category": "incorrect_charge",
+        "fields": {
+          "transaction.amount_paid": 1240,
+          "transaction.charged_amount": 2480,
+          "transaction.product": "groceries",
+          "parties.platform": "QuickCart",
+          "transaction.order_id": "QC-20261020-5512",
+          "transaction.purchase_date": "2026-10-20",
+          "transaction.payment_mode": "UPI",
+          "complaint_ref": "QC-SUP-77810",
+          "consumer.name": "Farhan Ali",
+          "consumer.city": "Hyderabad"
+        },
+        "must_include_sources": [
+          "CPA_2_6",
+          "ECOM_R4_10",
+          "CPA_2_11",
+          "RBI_IOS_2026",
+          "ECOM_R4_GRIEVANCE"
+        ],
+        "flags": {
+          "payment_side_issue": true,
+          "repeated_contact": true
+        },
+        "claim": {
+          "amount": 1240,
+          "basis": "excess"
+        }
+      }
+    },
+    {
+      "id": "TC06",
+      "slug": "difficult_incomplete_facts",
+      "title": "DIFFICULT — vague, incomplete facts: 'bought something online, not working, company not helping'",
+      "difficulty": "difficult",
+      "language": "en",
+      "opening_message": "I bought something online and it is not working. The company is not helping. What can I do?",
+      "answers": {
+        "product": "skip",
+        "amount": "I don't know",
+        "platform_seller": "skip",
+        "order_id": "don't know",
+        "purchase_date": "not sure",
+        "delivery_date": "skip",
+        "issue_details": "It just stopped working after some days.",
+        "complaint_history": "I called them once but I don't remember when.",
+        "complaint_ref": "skip",
+        "evidence": "none",
+        "desired_resolution": "skip",
+        "purpose": "skip",
+        "consumer_details": "skip"
+      },
+      "expected": {
+        "category": "defective_product",
+        "fields": {},
+        "min_missing_fields": 8,
+        "must_include_sources": [
+          "CPA_2_7",
+          "CPA_2_10"
+        ],
+        "documents_must_contain": [
+          "[MISSING: product]",
+          "[MISSING: amount paid]",
+          "[MISSING: Order ID]"
+        ],
+        "uncertainty_expected": true,
+        "claim": {
+          "amount": null,
+          "refund_requested": false
+        }
+      }
+    },
+    {
+      "id": "TC07",
+      "slug": "difficult_legally_uncertain",
+      "title": "DIFFICULT — legally uncertain: phones bought for resale in March 2024 (commercial purpose + 2-year limit)",
+      "difficulty": "difficult",
+      "language": "en",
+      "opening_message": "I run a small mobile repair shop. In March 2024 I bought 10 refurbished phones worth ₹1,20,000 from an online wholesaler, PhoneBazaar, to resell. Four of them were defective and the seller refused to refund. Can I file a consumer complaint now?",
+      "answers": {
+        "product": "10 refurbished smartphones",
+        "platform_seller": "PhoneBazaar wholesale website, seller: PhoneBazaar Distributors",
+        "order_id": "skip",
+        "delivery_date": "around 10 March 2024",
+        "issue_details": "4 of the 10 phones would not charge and had dead touchscreens when I unpacked them.",
+        "complaint_history": "I emailed them on 20 March 2024 and they refused, saying refurbished stock is sold as-is.",
+        "complaint_ref": "skip",
+        "evidence": {
+          "options": [
+            "invoice",
+            "emails"
+          ]
+        },
+        "desired_resolution": "I want a refund for the 4 defective phones",
+        "consumer_details": "Vikram Singh, Indore",
+        "claim_amount": "₹48,000 — for the 4 defective phones (₹12,000 each)"
+      },
+      "expected": {
+        "category": "defective_product",
+        "fields": {
+          "transaction.amount_paid": 120000,
+          "consumer.purpose": "resale_or_commercial",
+          "transaction.purchase_date": "2024-03-01",
+          "transaction.delivery_date": "2024-03-10"
+        },
+        "must_include_sources": [
+          "CPA_2_7",
+          "CPA_69"
+        ],
+        "issue_confidence": {
+          "consumer_status": "uncertain",
+          "forum": "uncertain"
+        },
+        "flags": {
+          "possible_commercial_purpose": true,
+          "limitation_expired_likely": true
+        },
+        "lawyer_trigger_expected": true,
+        "commission_draft_must_contain": [
+          "CAUTION"
+        ],
+        "claim": {
+          "amount": 48000,
+          "basis": "partial"
+        }
+      }
+    }
+  ]
+}

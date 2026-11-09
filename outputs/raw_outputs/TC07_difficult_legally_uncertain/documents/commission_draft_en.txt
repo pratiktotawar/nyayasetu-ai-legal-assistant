@@ -1,0 +1,71 @@
+DRAFT PREPARED WITH NYAYASETU — NOT SENT, NOT FILED. This is a draft for you to check and edit. It is not a legal notice and not a filed complaint. Verify every fact, complete each [MISSING] and [ADD] field, and remove anything that is not accurate before you use it.
+
+PREPARATION DRAFT ONLY. Consumer Commissions have their own format, affidavit and document requirements, and complaints are filed through e-Jagriti (e-jagriti.gov.in). Use this to organise your facts; check the portal's requirements, and consider asking an advocate or a recognised consumer association to review it before filing.
+
+CAUTION: You said the purchase was for resale/business — consumer status is doubtful. Take legal advice before filing.
+
+CAUTION: The 2-year time limit may be an issue. Take legal advice before filing.
+
+BEFORE THE DISTRICT CONSUMER DISPUTES REDRESSAL COMMISSION, Indore
+------------------------------------------------------------------
+Consumer Complaint No. ______ of 20___ (to be assigned)
+
+IN THE MATTER OF:
+
+Vikram Singh, [ADD: full address], Indore — Complainant
+
+VERSUS
+
+1. PhoneBazaar Distributors, [MISSING: seller's registered address (from the invoice / platform seller page)] — Opposite Party No. 1
+2. PhoneBazaar wholesale, [MISSING: platform's registered office address] — Opposite Party No. 2
+
+COMPLAINT UNDER SECTION 35 OF THE CONSUMER PROTECTION ACT, 2019
+
+1. The Complainant is a consumer
+--------------------------------
+CAUTION: You told NyayaSetu the goods were bought for resale or business. Section 2(7) excludes such buyers from the definition of consumer. Do not file this without legal advice.
+
+2. Facts of the case
+--------------------
+1. In March 2024 (approx.), I placed an order for refurbished phones on PhoneBazaar wholesale, sold by PhoneBazaar Distributors (Order ID: [MISSING: Order ID]) and paid ₹1,20,000.
+2. The product was delivered on 10 March 2024. After delivery it developed a defect. In my words: “I run a small mobile repair shop. In March 2024 I bought 10 refurbished phones worth ₹1,20,000 from an online wholesaler, PhoneBazaar, to resell.”
+3. I raised the matter with the seller/platform on 20 March 2024. What I did: “I emailed them on 20 March 2024 and they refused, saying refurbished stock is sold as-is.”
+4. The response I received: “Four of them were defective and the seller refused to refund.”
+5. As of 7 November 2026, the matter remains unresolved and I have not received the refund of ₹48,000 I asked for.
+
+3. Grounds
+----------
+1. The goods supplied suffer from a defect within the meaning of Section 2(10) of the Consumer Protection Act, 2019, which is a ground of complaint under Section 2(6)(ii).
+2. Under Rule 6(3) of the Consumer Protection (E-Commerce) Rules, 2020, a seller on a marketplace shall not refuse to take back goods or refund the consideration where the goods are defective. Where the platform itself is the seller, Rule 7(4) imposes the same duty.
+3. I submit that the refusal or failure to take back the defective goods and refund the price within the applicable period may amount to an unfair trade practice under Section 2(47)(viii) of the Consumer Protection Act, 2019.
+
+4. Cause of action
+------------------
+The cause of action arose in March 2024 (approx.) when the order was placed, and further on 10 March 2024 and on each date the Opposite Parties failed to resolve the complaint, and it is continuing.
+
+5. Jurisdiction
+---------------
+Pecuniary: the value of goods paid as consideration is ₹1,20,000, which does not exceed ₹50 lakh; this Commission has jurisdiction under Rule 3 of the Consumer Protection (Jurisdiction of the District Commission, the State Commission and the National Commission) Rules, 2021.
+
+Territorial: the Complainant resides / personally works for gain at Indore, within the limits of this Commission (Section 34(2)(d) of the Act).
+
+6. Limitation
+-------------
+CAUTION: The earliest relevant date appears to be close to or more than two years ago. Section 69 requires filing within two years of the cause of action; a delay can be condoned only for sufficient cause. Take legal advice and, if needed, an application for condonation of delay.
+
+7. Prayer
+---------
+The Complainant respectfully prays that the Hon'ble Commission may direct the Opposite Parties, jointly and/or severally, to:
+
+1. Refund ₹48,000 (out of the ₹1,20,000 paid), as stated: “₹48,000 — for the 4 defective phones (₹12,000 each)”.
+2. Pay interest on the amount refunded and the costs of this complaint, as the Hon'ble Commission may deem fit.
+3. Grant any other relief the Hon'ble Commission considers appropriate.
+
+8. List of documents
+--------------------
+- Annexure A-1: Invoice / bill
+- Annexure A-2: Emails with seller / platform
+
+9. Verification
+---------------
+I, Vikram Singh, the Complainant, state that the facts above are true to my knowledge and belief. [ADD: place, date and signature; affidavit as required by the Commission]

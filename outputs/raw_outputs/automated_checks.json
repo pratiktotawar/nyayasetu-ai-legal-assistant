@@ -1,0 +1,1543 @@
+{
+  "reference_date": "2026-11-07",
+  "cases": [
+    {
+      "id": "TC01",
+      "unscripted_questions_skipped": [],
+      "category_expected": "damaged_on_delivery",
+      "category_actual": "damaged_on_delivery",
+      "category_ok": true,
+      "fields": {
+        "transaction.amount_paid": {
+          "expected": 18000,
+          "actual": 18000.0,
+          "ok": true
+        },
+        "transaction.product": {
+          "expected": "mobile phone",
+          "actual": "mobile phone",
+          "ok": true
+        },
+        "parties.platform": {
+          "expected": "ShopNest marketplace",
+          "actual": "ShopNest marketplace",
+          "ok": true
+        },
+        "parties.seller": {
+          "expected": "Gupta Mobile World",
+          "actual": "Gupta Mobile World",
+          "ok": true
+        },
+        "transaction.order_id": {
+          "expected": "SN-4471-2290",
+          "actual": "SN-4471-2290",
+          "ok": true
+        },
+        "transaction.purchase_date": {
+          "expected": "2026-10-10",
+          "actual": "2026-10-10",
+          "ok": true
+        },
+        "transaction.delivery_date": {
+          "expected": "2026-10-14",
+          "actual": "2026-10-14",
+          "ok": true
+        },
+        "complaint_ref": {
+          "expected": "TKT-88123",
+          "actual": "TKT-88123",
+          "ok": true
+        },
+        "consumer.name": {
+          "expected": "Rahul Verma",
+          "actual": "Rahul Verma",
+          "ok": true
+        },
+        "consumer.city": {
+          "expected": "Pune",
+          "actual": "Pune",
+          "ok": true
+        }
+      },
+      "fields_correct": 10,
+      "fields_total": 10,
+      "sources_cited": [
+        "CPA_2_10",
+        "CPA_2_47_VIII",
+        "CPA_2_6",
+        "CPA_2_7",
+        "CPA_2_9",
+        "CPA_34",
+        "CPA_35",
+        "CPA_38_7",
+        "CPA_39",
+        "CPA_69",
+        "ECOM_R2",
+        "ECOM_R4_10",
+        "ECOM_R4_GRIEVANCE",
+        "ECOM_R5_3",
+        "ECOM_R6_3",
+        "ECOM_R7_4",
+        "EJAGRITI",
+        "FEE_RULE_7",
+        "JUR_RULES_2021",
+        "NCH"
+      ],
+      "missing_required_sources": [],
+      "issue_confidence": {
+        "utp_refusal": {
+          "expected": "not_yet",
+          "actual": "not_yet",
+          "ok": true
+        }
+      },
+      "flags": {
+        "possible_commercial_purpose": {
+          "expected": false,
+          "actual": false,
+          "ok": true
+        },
+        "limitation_risk": {
+          "expected": false,
+          "actual": false,
+          "ok": true
+        }
+      },
+      "document_validation": {
+        "seller_email": {
+          "ok": true,
+          "citations": 5,
+          "problems": []
+        },
+        "platform_complaint": {
+          "ok": true,
+          "citations": 8,
+          "problems": []
+        },
+        "nch_grievance": {
+          "ok": true,
+          "citations": 0,
+          "problems": []
+        },
+        "commission_draft": {
+          "ok": true,
+          "citations": 10,
+          "problems": []
+        }
+      },
+      "rights_text_validation": {
+        "ok": true,
+        "citations": [
+          "Rule 7(4)"
+        ],
+        "problems": []
+      },
+      "all_citations_valid": true,
+      "non_verified_sources_shown_as_notice_only": true,
+      "forbidden_text_found": [],
+      "required_text_missing": [],
+      "missing_info_count": 1,
+      "doc_missing_counts": {
+        "seller_email": 0,
+        "platform_complaint": 0,
+        "nch_grievance": 0,
+        "commission_draft": 2
+      },
+      "claim_amount": {
+        "actual": {
+          "amount": 18000.0,
+          "basis": "full",
+          "confirmed": true,
+          "refund_requested": true,
+          "is_partial": false
+        },
+        "problems": [],
+        "expected": {
+          "amount": 18000,
+          "basis": "full"
+        },
+        "ok": true
+      },
+      "automated_checks_passed": 8,
+      "automated_checks_total": 8
+    },
+    {
+      "id": "TC02",
+      "unscripted_questions_skipped": [],
+      "category_expected": "non_delivery",
+      "category_actual": "non_delivery",
+      "category_ok": true,
+      "fields": {
+        "transaction.amount_paid": {
+          "expected": 4500,
+          "actual": 4500.0,
+          "ok": true
+        },
+        "transaction.product": {
+          "expected": "ब्लूटूथ स्पीकर",
+          "actual": "ब्लूटूथ स्पीकर",
+          "ok": true
+        },
+        "parties.platform": {
+          "expected": "BazaarLane",
+          "actual": "BazaarLane",
+          "ok": true
+        },
+        "parties.seller": {
+          "expected": "श्री साई ट्रेडर्स",
+          "actual": "श्री साई ट्रेडर्स",
+          "ok": true
+        },
+        "transaction.order_id": {
+          "expected": "BL20261029-7781",
+          "actual": "BL20261029-7781",
+          "ok": true
+        },
+        "transaction.purchase_date": {
+          "expected": "2026-10-25",
+          "actual": "2026-10-25",
+          "ok": true
+        },
+        "transaction.delivery_date": {
+          "expected": "2026-10-29",
+          "actual": "2026-10-29",
+          "ok": true
+        },
+        "complaint_ref": {
+          "expected": "BLC-55120",
+          "actual": "BLC-55120",
+          "ok": true
+        },
+        "consumer.name": {
+          "expected": "सुनीता देवी",
+          "actual": "सुनीता देवी",
+          "ok": true
+        },
+        "consumer.city": {
+          "expected": "लखनऊ",
+          "actual": "लखनऊ",
+          "ok": true
+        }
+      },
+      "fields_correct": 10,
+      "fields_total": 10,
+      "sources_cited": [
+        "CPA_2_11",
+        "CPA_2_6",
+        "CPA_2_7",
+        "CPA_2_9",
+        "CPA_34",
+        "CPA_35",
+        "CPA_38_7",
+        "CPA_39",
+        "CPA_69",
+        "ECOM_R2",
+        "ECOM_R4_GRIEVANCE",
+        "ECOM_R5_3",
+        "ECOM_R6_3",
+        "ECOM_R7_4",
+        "EJAGRITI",
+        "FEE_RULE_7",
+        "JUR_RULES_2021",
+        "NCH"
+      ],
+      "missing_required_sources": [],
+      "issue_confidence": {},
+      "flags": {
+        "possible_commercial_purpose": {
+          "expected": false,
+          "actual": false,
+          "ok": true
+        }
+      },
+      "document_validation": {
+        "seller_email": {
+          "ok": true,
+          "citations": 4,
+          "problems": []
+        },
+        "platform_complaint": {
+          "ok": true,
+          "citations": 7,
+          "problems": []
+        },
+        "nch_grievance": {
+          "ok": true,
+          "citations": 0,
+          "problems": []
+        },
+        "commission_draft": {
+          "ok": true,
+          "citations": 9,
+          "problems": []
+        },
+        "seller_email_en": {
+          "ok": true,
+          "citations": 4,
+          "problems": []
+        },
+        "platform_complaint_en": {
+          "ok": true,
+          "citations": 7,
+          "problems": []
+        },
+        "nch_grievance_en": {
+          "ok": true,
+          "citations": 0,
+          "problems": []
+        },
+        "commission_draft_en": {
+          "ok": true,
+          "citations": 9,
+          "problems": []
+        }
+      },
+      "rights_text_validation": {
+        "ok": true,
+        "citations": [
+          "Rule 7(4)"
+        ],
+        "problems": []
+      },
+      "all_citations_valid": true,
+      "non_verified_sources_shown_as_notice_only": true,
+      "forbidden_text_found": [],
+      "required_text_missing": [],
+      "missing_info_count": 1,
+      "doc_missing_counts": {
+        "seller_email": 0,
+        "platform_complaint": 0,
+        "nch_grievance": 0,
+        "commission_draft": 3
+      },
+      "claim_amount": {
+        "actual": {
+          "amount": 4500.0,
+          "basis": "full",
+          "confirmed": true,
+          "refund_requested": true,
+          "is_partial": false
+        },
+        "problems": [],
+        "expected": {
+          "amount": 4500,
+          "basis": "full"
+        },
+        "ok": true
+      },
+      "automated_checks_passed": 8,
+      "automated_checks_total": 8
+    },
+    {
+      "id": "TC03",
+      "unscripted_questions_skipped": [],
+      "category_expected": "defective_product",
+      "category_actual": "defective_product",
+      "category_ok": true,
+      "fields": {
+        "transaction.amount_paid": {
+          "expected": 25000,
+          "actual": 25000.0,
+          "ok": true
+        },
+        "transaction.product": {
+          "expected": "front-load washing machine",
+          "actual": "front-load washing machine",
+          "ok": true
+        },
+        "parties.platform": {
+          "expected": "HomeKart",
+          "actual": "HomeKart",
+          "ok": true
+        },
+        "parties.seller": {
+          "expected": "CoolHome Appliances",
+          "actual": "CoolHome Appliances",
+          "ok": true
+        },
+        "transaction.order_id": {
+          "expected": "HK-99812-AB",
+          "actual": "HK-99812-AB",
+          "ok": true
+        },
+        "transaction.purchase_date": {
+          "expected": "2026-09-28",
+          "actual": "2026-09-28",
+          "ok": true
+        },
+        "transaction.delivery_date": {
+          "expected": "2026-10-02",
+          "actual": "2026-10-02",
+          "ok": true
+        },
+        "complaint_ref": {
+          "expected": "HKT-30211",
+          "actual": "HKT-30211",
+          "ok": true
+        },
+        "consumer.name": {
+          "expected": "Anil Kumar",
+          "actual": "Anil Kumar",
+          "ok": true
+        },
+        "consumer.city": {
+          "expected": "Jaipur",
+          "actual": "Jaipur",
+          "ok": true
+        }
+      },
+      "fields_correct": 10,
+      "fields_total": 10,
+      "sources_cited": [
+        "CPA_2_10",
+        "CPA_2_47_VIII",
+        "CPA_2_6",
+        "CPA_2_7",
+        "CPA_2_9",
+        "CPA_34",
+        "CPA_35",
+        "CPA_38_7",
+        "CPA_39",
+        "CPA_69",
+        "CPA_PRODUCT_LIABILITY",
+        "ECOM_R2",
+        "ECOM_R4_GRIEVANCE",
+        "ECOM_R5_3",
+        "ECOM_R6_3",
+        "ECOM_R7_4",
+        "EJAGRITI",
+        "FEE_RULE_7",
+        "JUR_RULES_2021",
+        "NCH"
+      ],
+      "missing_required_sources": [],
+      "issue_confidence": {
+        "utp_refusal": {
+          "expected": "not_yet",
+          "actual": "not_yet",
+          "ok": true
+        }
+      },
+      "flags": {
+        "refused_explicitly": {
+          "expected": true,
+          "actual": true,
+          "ok": true
+        },
+        "harm_beyond_product": {
+          "expected": false,
+          "actual": false,
+          "ok": true
+        }
+      },
+      "document_validation": {
+        "seller_email": {
+          "ok": true,
+          "citations": 4,
+          "problems": []
+        },
+        "platform_complaint": {
+          "ok": true,
+          "citations": 7,
+          "problems": []
+        },
+        "nch_grievance": {
+          "ok": true,
+          "citations": 0,
+          "problems": []
+        },
+        "commission_draft": {
+          "ok": true,
+          "citations": 9,
+          "problems": []
+        }
+      },
+      "rights_text_validation": {
+        "ok": true,
+        "citations": [
+          "Rule 7(4)"
+        ],
+        "problems": []
+      },
+      "all_citations_valid": true,
+      "non_verified_sources_shown_as_notice_only": true,
+      "forbidden_text_found": [],
+      "required_text_missing": [],
+      "missing_info_count": 1,
+      "doc_missing_counts": {
+        "seller_email": 0,
+        "platform_complaint": 0,
+        "nch_grievance": 0,
+        "commission_draft": 2
+      },
+      "claim_amount": {
+        "actual": {
+          "amount": null,
+          "basis": "",
+          "confirmed": false,
+          "refund_requested": false,
+          "is_partial": false
+        },
+        "problems": [],
+        "expected": {
+          "amount": null,
+          "refund_requested": false
+        },
+        "ok": true
+      },
+      "automated_checks_passed": 8,
+      "automated_checks_total": 8
+    },
+    {
+      "id": "TC04",
+      "unscripted_questions_skipped": [],
+      "category_expected": "misleading_description",
+      "category_actual": "misleading_description",
+      "category_ok": true,
+      "fields": {
+        "transaction.amount_paid": {
+          "expected": 6999,
+          "actual": 6999.0,
+          "ok": true
+        },
+        "transaction.product": {
+          "expected": "smartwatch",
+          "actual": "smartwatch",
+          "ok": true
+        },
+        "parties.platform": {
+          "expected": "TrendCart",
+          "actual": "TrendCart",
+          "ok": true
+        },
+        "parties.seller": {
+          "expected": "WristWorld Retail",
+          "actual": "WristWorld Retail",
+          "ok": true
+        },
+        "transaction.order_id": {
+          "expected": "TC-7781-2026",
+          "actual": "TC-7781-2026",
+          "ok": true
+        },
+        "transaction.purchase_date": {
+          "expected": "2026-10-18",
+          "actual": "2026-10-18",
+          "ok": true
+        },
+        "complaint_ref": {
+          "expected": "RR-664120",
+          "actual": "RR-664120",
+          "ok": true
+        },
+        "consumer.name": {
+          "expected": "Meera Nair",
+          "actual": "Meera Nair",
+          "ok": true
+        },
+        "consumer.city": {
+          "expected": "Kochi",
+          "actual": "Kochi",
+          "ok": true
+        }
+      },
+      "fields_correct": 9,
+      "fields_total": 9,
+      "sources_cited": [
+        "CCPA_ADS_GUIDELINES_2022",
+        "CPA_17",
+        "CPA_2_28",
+        "CPA_2_47_I_A",
+        "CPA_2_7",
+        "CPA_2_9",
+        "CPA_34",
+        "CPA_35",
+        "CPA_38_7",
+        "CPA_39",
+        "CPA_69",
+        "ECOM_R2",
+        "ECOM_R4_GRIEVANCE",
+        "ECOM_R5_3",
+        "ECOM_R6_3",
+        "ECOM_R6_4",
+        "ECOM_R7_4",
+        "EJAGRITI",
+        "FEE_RULE_7",
+        "JUR_RULES_2021",
+        "NCH"
+      ],
+      "missing_required_sources": [],
+      "issue_confidence": {},
+      "flags": {
+        "refused_explicitly": {
+          "expected": true,
+          "actual": true,
+          "ok": true
+        }
+      },
+      "evidence_missing_from_extraction": [],
+      "document_validation": {
+        "seller_email": {
+          "ok": true,
+          "citations": 5,
+          "problems": []
+        },
+        "platform_complaint": {
+          "ok": true,
+          "citations": 8,
+          "problems": []
+        },
+        "nch_grievance": {
+          "ok": true,
+          "citations": 0,
+          "problems": []
+        },
+        "commission_draft": {
+          "ok": true,
+          "citations": 10,
+          "problems": []
+        }
+      },
+      "rights_text_validation": {
+        "ok": true,
+        "citations": [
+          "Rule 7(4)"
+        ],
+        "problems": []
+      },
+      "all_citations_valid": true,
+      "non_verified_sources_shown_as_notice_only": true,
+      "forbidden_text_found": [],
+      "required_text_missing": [],
+      "missing_info_count": 1,
+      "doc_missing_counts": {
+        "seller_email": 0,
+        "platform_complaint": 0,
+        "nch_grievance": 0,
+        "commission_draft": 2
+      },
+      "claim_amount": {
+        "actual": {
+          "amount": 6999.0,
+          "basis": "full",
+          "confirmed": true,
+          "refund_requested": true,
+          "is_partial": false
+        },
+        "problems": [],
+        "expected": {
+          "amount": 6999,
+          "basis": "full"
+        },
+        "ok": true
+      },
+      "automated_checks_passed": 9,
+      "automated_checks_total": 9
+    },
+    {
+      "id": "TC05",
+      "unscripted_questions_skipped": [],
+      "category_expected": "incorrect_charge",
+      "category_actual": "incorrect_charge",
+      "category_ok": true,
+      "fields": {
+        "transaction.amount_paid": {
+          "expected": 1240,
+          "actual": 1240.0,
+          "ok": true
+        },
+        "transaction.charged_amount": {
+          "expected": 2480,
+          "actual": 2480.0,
+          "ok": true
+        },
+        "transaction.product": {
+          "expected": "groceries",
+          "actual": "groceries",
+          "ok": true
+        },
+        "parties.platform": {
+          "expected": "QuickCart",
+          "actual": "QuickCart",
+          "ok": true
+        },
+        "transaction.order_id": {
+          "expected": "QC-20261020-5512",
+          "actual": "QC-20261020-5512",
+          "ok": true
+        },
+        "transaction.purchase_date": {
+          "expected": "2026-10-20",
+          "actual": "2026-10-20",
+          "ok": true
+        },
+        "transaction.payment_mode": {
+          "expected": "UPI",
+          "actual": "UPI",
+          "ok": true
+        },
+        "complaint_ref": {
+          "expected": "QC-SUP-77810",
+          "actual": "QC-SUP-77810",
+          "ok": true
+        },
+        "consumer.name": {
+          "expected": "Farhan Ali",
+          "actual": "Farhan Ali",
+          "ok": true
+        },
+        "consumer.city": {
+          "expected": "Hyderabad",
+          "actual": "Hyderabad",
+          "ok": true
+        }
+      },
+      "fields_correct": 10,
+      "fields_total": 10,
+      "sources_cited": [
+        "CPA_2_11",
+        "CPA_2_6",
+        "CPA_2_7",
+        "CPA_2_9",
+        "CPA_34",
+        "CPA_35",
+        "CPA_38_7",
+        "CPA_39",
+        "CPA_69",
+        "ECOM_R4_10",
+        "ECOM_R4_GRIEVANCE",
+        "ECOM_R5_3",
+        "EJAGRITI",
+        "FEE_RULE_7",
+        "JUR_RULES_2021",
+        "NCH",
+        "RBI_IOS_2026"
+      ],
+      "missing_required_sources": [],
+      "issue_confidence": {},
+      "flags": {
+        "payment_side_issue": {
+          "expected": true,
+          "actual": true,
+          "ok": true
+        },
+        "repeated_contact": {
+          "expected": true,
+          "actual": true,
+          "ok": true
+        }
+      },
+      "document_validation": {
+        "seller_email": {
+          "ok": true,
+          "citations": 3,
+          "problems": []
+        },
+        "platform_complaint": {
+          "ok": true,
+          "citations": 6,
+          "problems": []
+        },
+        "nch_grievance": {
+          "ok": true,
+          "citations": 0,
+          "problems": []
+        },
+        "commission_draft": {
+          "ok": true,
+          "citations": 8,
+          "problems": []
+        }
+      },
+      "rights_text_validation": {
+        "ok": true,
+        "citations": [],
+        "problems": []
+      },
+      "all_citations_valid": true,
+      "non_verified_sources_shown_as_notice_only": true,
+      "forbidden_text_found": [],
+      "required_text_missing": [],
+      "missing_info_count": 2,
+      "doc_missing_counts": {
+        "seller_email": 1,
+        "platform_complaint": 1,
+        "nch_grievance": 1,
+        "commission_draft": 4
+      },
+      "claim_amount": {
+        "actual": {
+          "amount": 1240.0,
+          "basis": "excess",
+          "confirmed": true,
+          "refund_requested": true,
+          "is_partial": false
+        },
+        "problems": [],
+        "expected": {
+          "amount": 1240,
+          "basis": "excess"
+        },
+        "ok": true
+      },
+      "automated_checks_passed": 8,
+      "automated_checks_total": 8
+    },
+    {
+      "id": "TC06",
+      "unscripted_questions_skipped": [],
+      "category_expected": "defective_product",
+      "category_actual": "defective_product",
+      "category_ok": true,
+      "fields": {},
+      "fields_correct": 0,
+      "fields_total": 0,
+      "sources_cited": [
+        "CPA_2_10",
+        "CPA_2_47_VIII",
+        "CPA_2_6",
+        "CPA_2_7",
+        "CPA_2_9",
+        "CPA_34",
+        "CPA_35",
+        "CPA_38_7",
+        "CPA_39",
+        "CPA_69",
+        "CPA_PRODUCT_LIABILITY",
+        "ECOM_R2",
+        "ECOM_R4_GRIEVANCE",
+        "ECOM_R5_3",
+        "ECOM_R6_3",
+        "ECOM_R7_4",
+        "EJAGRITI",
+        "FEE_RULE_7",
+        "JUR_RULES_2021",
+        "NCH"
+      ],
+      "missing_required_sources": [],
+      "issue_confidence": {},
+      "flags": {},
+      "document_validation": {
+        "seller_email": {
+          "ok": true,
+          "citations": 4,
+          "problems": []
+        },
+        "platform_complaint": {
+          "ok": true,
+          "citations": 7,
+          "problems": []
+        },
+        "nch_grievance": {
+          "ok": true,
+          "citations": 0,
+          "problems": []
+        },
+        "commission_draft": {
+          "ok": true,
+          "citations": 8,
+          "problems": []
+        }
+      },
+      "rights_text_validation": {
+        "ok": true,
+        "citations": [
+          "Rule 7(4)"
+        ],
+        "problems": []
+      },
+      "all_citations_valid": true,
+      "non_verified_sources_shown_as_notice_only": true,
+      "forbidden_text_found": [],
+      "required_text_missing": [],
+      "missing_info_count": 13,
+      "missing_info_ok": true,
+      "uncertainty_shown": true,
+      "doc_missing_counts": {
+        "seller_email": 11,
+        "platform_complaint": 12,
+        "nch_grievance": 10,
+        "commission_draft": 14
+      },
+      "claim_amount": {
+        "actual": {
+          "amount": null,
+          "basis": "",
+          "confirmed": false,
+          "refund_requested": false,
+          "is_partial": false
+        },
+        "problems": [],
+        "expected": {
+          "amount": null,
+          "refund_requested": false
+        },
+        "ok": true
+      },
+      "automated_checks_passed": 10,
+      "automated_checks_total": 10
+    },
+    {
+      "id": "TC07",
+      "unscripted_questions_skipped": [],
+      "category_expected": "defective_product",
+      "category_actual": "defective_product",
+      "category_ok": true,
+      "fields": {
+        "transaction.amount_paid": {
+          "expected": 120000,
+          "actual": 120000.0,
+          "ok": true
+        },
+        "consumer.purpose": {
+          "expected": "resale_or_commercial",
+          "actual": "resale_or_commercial",
+          "ok": true
+        },
+        "transaction.purchase_date": {
+          "expected": "2024-03-01",
+          "actual": "2024-03-01",
+          "ok": true
+        },
+        "transaction.delivery_date": {
+          "expected": "2024-03-10",
+          "actual": "2024-03-10",
+          "ok": true
+        }
+      },
+      "fields_correct": 4,
+      "fields_total": 4,
+      "sources_cited": [
+        "CPA_2_10",
+        "CPA_2_47_VIII",
+        "CPA_2_6",
+        "CPA_2_7",
+        "CPA_34",
+        "CPA_35",
+        "CPA_38_7",
+        "CPA_39",
+        "CPA_69",
+        "CPA_PRODUCT_LIABILITY",
+        "ECOM_R2",
+        "ECOM_R4_GRIEVANCE",
+        "ECOM_R5_3",
+        "ECOM_R6_3",
+        "ECOM_R7_4",
+        "EJAGRITI",
+        "FEE_RULE_7",
+        "JUR_RULES_2021",
+        "NCH"
+      ],
+      "missing_required_sources": [],
+      "issue_confidence": {
+        "consumer_status": {
+          "expected": "uncertain",
+          "actual": "uncertain",
+          "ok": true
+        },
+        "forum": {
+          "expected": "uncertain",
+          "actual": "uncertain",
+          "ok": true
+        }
+      },
+      "flags": {
+        "possible_commercial_purpose": {
+          "expected": true,
+          "actual": true,
+          "ok": true
+        },
+        "limitation_expired_likely": {
+          "expected": true,
+          "actual": true,
+          "ok": true
+        }
+      },
+      "document_validation": {
+        "seller_email": {
+          "ok": true,
+          "citations": 5,
+          "problems": []
+        },
+        "platform_complaint": {
+          "ok": true,
+          "citations": 8,
+          "problems": []
+        },
+        "nch_grievance": {
+          "ok": true,
+          "citations": 0,
+          "problems": []
+        },
+        "commission_draft": {
+          "ok": true,
+          "citations": 10,
+          "problems": []
+        }
+      },
+      "rights_text_validation": {
+        "ok": true,
+        "citations": [
+          "Rule 7(4)"
+        ],
+        "problems": []
+      },
+      "all_citations_valid": true,
+      "non_verified_sources_shown_as_notice_only": true,
+      "forbidden_text_found": [],
+      "required_text_missing": [],
+      "commission_draft_missing_text": [],
+      "missing_info_count": 3,
+      "lawyer_trigger_ok": true,
+      "doc_missing_counts": {
+        "seller_email": 1,
+        "platform_complaint": 2,
+        "nch_grievance": 2,
+        "commission_draft": 3
+      },
+      "claim_amount": {
+        "actual": {
+          "amount": 48000.0,
+          "basis": "partial",
+          "confirmed": true,
+          "refund_requested": true,
+          "is_partial": true
+        },
+        "problems": [],
+        "expected": {
+          "amount": 48000,
+          "basis": "partial"
+        },
+        "ok": true
+      },
+      "automated_checks_passed": 10,
+      "automated_checks_total": 10
+    }
+  ],
+  "hallucination_injection": [
+    {
+      "scenario": "fabricated_section_and_case_law",
+      "llm_text": "Under Section 72A of the Consumer Protection Act, 2019 you are guaranteed a full refund within 7 days [KB:CPA_2_10]. In Sharma v. ShopKart (2021) the National Commission awarded ₹50,000 for a similar delay.",
+      "expected_accept": false,
+      "accepted": false,
+      "ok": true,
+      "note": "AI explanation rejected by the validator (unverified_citation: Section 72A — Not in the verified knowledge base for the retrieved sources; case_law: In Sharma v. ShopKart — NyayaSetu's knowledge base contains no verified case law; case citations are not allowed; outcome_guarantee: guaranteed — NyayaSetu must not promise outcomes); showing the rule-based summary instead.",
+      "validator": {
+        "ok": false,
+        "citations_found": [
+          "Section 72A"
+        ],
+        "citations_valid": [],
+        "kb_tags": [
+          "CPA_2_10"
+        ],
+        "problems": [
+          {
+            "kind": "unverified_citation",
+            "text": "Section 72A",
+            "detail": "Not in the verified knowledge base for the retrieved sources"
+          },
+          {
+            "kind": "case_law",
+            "text": "In Sharma v. ShopKart",
+            "detail": "NyayaSetu's knowledge base contains no verified case law; case citations are not allowed"
+          },
+          {
+            "kind": "outcome_guarantee",
+            "text": "guaranteed",
+            "detail": "NyayaSetu must not promise outcomes"
+          }
+        ]
+      },
+      "summary_shown": "Your dispute: Product delivered damaged. Rules that support you if your facts are proved: You are likely a 'consumer' under the Act; Online sellers must not refuse return or refund in these situations; Accepted refunds must be paid within a reasonable time. Arguments you can make (they depend on evidence): The product appears to have a 'defect'. Not yet established or uncertain: Is this an 'unfair trade practice'. Start with a written complaint to the seller and platform; if unresolved, use the National Consumer Helpline and then the Consumer Commission. No outcome is guaranteed."
+    },
+    {
+      "scenario": "other_statute_and_promise",
+      "llm_text": "The seller has breached the Sale of Goods Act, 1930 and you will definitely get your money back [KB:ECOM_R6_3].",
+      "expected_accept": false,
+      "accepted": false,
+      "ok": true,
+      "note": "AI explanation rejected by the validator (unverified_statute: Goods Act, 1930 — This Act is outside the verified knowledge base; outcome_guarantee: will definitely — NyayaSetu must not promise outcomes; outcome_guarantee: definitely get — NyayaSetu must not promise outcomes); showing the rule-based summary instead.",
+      "validator": {
+        "ok": false,
+        "citations_found": [],
+        "citations_valid": [],
+        "kb_tags": [
+          "ECOM_R6_3"
+        ],
+        "problems": [
+          {
+            "kind": "unverified_statute",
+            "text": "Goods Act, 1930",
+            "detail": "This Act is outside the verified knowledge base"
+          },
+          {
+            "kind": "outcome_guarantee",
+            "text": "will definitely",
+            "detail": "NyayaSetu must not promise outcomes"
+          },
+          {
+            "kind": "outcome_guarantee",
+            "text": "definitely get",
+            "detail": "NyayaSetu must not promise outcomes"
+          }
+        ]
+      },
+      "summary_shown": "Your dispute: Product delivered damaged. Rules that support you if your facts are proved: You are likely a 'consumer' under the Act; Online sellers must not refuse return or refund in these situations; Accepted refunds must be paid within a reasonable time. Arguments you can make (they depend on evidence): The product appears to have a 'defect'. Not yet established or uncertain: Is this an 'unfair trade practice'. Start with a written complaint to the seller and platform; if unresolved, use the National Consumer Helpline and then the Consumer Commission. No outcome is guaranteed."
+    },
+    {
+      "scenario": "untagged_answer",
+      "llm_text": "You should get a refund because the phone was damaged.",
+      "expected_accept": false,
+      "accepted": false,
+      "ok": true,
+      "note": "AI explanation rejected by the validator (no_grounding: (whole text) — No [KB:ID] source tags — answer is not grounded); showing the rule-based summary instead.",
+      "validator": {
+        "ok": false,
+        "citations_found": [],
+        "citations_valid": [],
+        "kb_tags": [],
+        "problems": [
+          {
+            "kind": "no_grounding",
+            "text": "(whole text)",
+            "detail": "No [KB:ID] source tags — answer is not grounded"
+          }
+        ]
+      },
+      "summary_shown": "Your dispute: Product delivered damaged. Rules that support you if your facts are proved: You are likely a 'consumer' under the Act; Online sellers must not refuse return or refund in these situations; Accepted refunds must be paid within a reasonable time. Arguments you can make (they depend on evidence): The product appears to have a 'defect'. Not yet established or uncertain: Is this an 'unfair trade practice'. Start with a written complaint to the seller and platform; if unresolved, use the National Consumer Helpline and then the Consumer Commission. No outcome is guaranteed."
+    },
+    {
+      "scenario": "grounded_valid_answer",
+      "llm_text": "A product that arrives damaged may be treated as having a 'defect', which you can raise in a complaint [KB:CPA_2_10]. A marketplace seller must not refuse to take back defective goods or refund you [KB:ECOM_R6_3], but whether your phone counts as defective depends on your photos and video. It has been about 21 days since you asked, so it is too early to call the delay an unfair trade practice under Section 2(47)(viii) [KB:CPA_2_47_VIII].",
+      "expected_accept": true,
+      "accepted": true,
+      "ok": true,
+      "note": "AI-written; every legal reference was checked against the verified sources.",
+      "validator": {
+        "ok": true,
+        "citations_found": [
+          "Section 2(47)(viii)"
+        ],
+        "citations_valid": [
+          "Section 2(47)(viii)"
+        ],
+        "kb_tags": [
+          "CPA_2_10",
+          "ECOM_R6_3",
+          "CPA_2_47_VIII"
+        ],
+        "problems": []
+      },
+      "summary_shown": "A product that arrives damaged may be treated as having a 'defect', which you can raise in a complaint [KB:CPA_2_10]. A marketplace seller must not refuse to take back defective goods or refund you [KB:ECOM_R6_3], but whether your phone counts as defective depends on your photos and video. It has been about 21 days since you asked, so it is too early to call the delay an unfair trade practice under Section 2(47)(viii) [KB:CPA_2_47_VIII]."
+    }
+  ],
+  "privacy_redaction": [
+    {
+      "case": "Aadhaar with label",
+      "input": "My Aadhaar is 2345 6789 0123, please help",
+      "output": "My Aadhaar is [REDACTED-AADHAAR], please help",
+      "detected": [
+        "Aadhaar number"
+      ],
+      "ok": true
+    },
+    {
+      "case": "Valid-checksum Aadhaar",
+      "input": "number 4991 1866 5246 is mine",
+      "output": "number [REDACTED-AADHAAR] is mine",
+      "detected": [
+        "Aadhaar number"
+      ],
+      "ok": true
+    },
+    {
+      "case": "Card number",
+      "input": "I paid with card 4111 1111 1111 1111",
+      "output": "I paid with card [REDACTED-CARD]",
+      "detected": [
+        "card number"
+      ],
+      "ok": true
+    },
+    {
+      "case": "PAN",
+      "input": "PAN ABCPE1234F",
+      "output": "PAN [REDACTED-PAN]",
+      "detected": [
+        "PAN"
+      ],
+      "ok": true
+    },
+    {
+      "case": "OTP",
+      "input": "the delivery boy asked and my OTP is 445566",
+      "output": "the delivery boy asked and my OTP is [REDACTED]",
+      "detected": [
+        "OTP / PIN / password"
+      ],
+      "ok": true
+    },
+    {
+      "case": "Order IDs must survive",
+      "input": "Amazon order 407-1234567-1234567 and OD123456789012345678",
+      "output": "Amazon order 407-1234567-1234567 and OD123456789012345678",
+      "detected": [],
+      "ok": true
+    },
+    {
+      "case": "Hindi sentence without OTP digits",
+      "input": "मुझसे कोई OTP नहीं माँगा गया",
+      "output": "मुझसे कोई OTP नहीं माँगा गया",
+      "detected": [],
+      "ok": true
+    },
+    {
+      "case": "Price must survive",
+      "input": "I paid ₹18,000 on 12 October 2026",
+      "output": "I paid ₹18,000 on 12 October 2026",
+      "detected": [],
+      "ok": true
+    }
+  ],
+  "retrieval_probes": [
+    {
+      "question": "How long do I have to file a complaint?",
+      "acceptable": [
+        "CPA_69"
+      ],
+      "top3": [
+        "CPA_69",
+        "CPA_38_7",
+        "CPA_35"
+      ],
+      "top1_ok": true,
+      "top3_ok": true
+    },
+    {
+      "question": "Is there a fee to file?",
+      "acceptable": [
+        "FEE_RULE_7"
+      ],
+      "top3": [
+        "FEE_RULE_7",
+        "CPA_69",
+        "EJAGRITI"
+      ],
+      "top1_ok": true,
+      "top3_ok": true
+    },
+    {
+      "question": "How long will the case take?",
+      "acceptable": [
+        "CPA_38_7"
+      ],
+      "top3": [
+        "CPA_38_7",
+        "ECOM_R7_4",
+        "ECOM_R6_3"
+      ],
+      "top1_ok": true,
+      "top3_ok": true
+    },
+    {
+      "question": "Which court should I go to?",
+      "acceptable": [
+        "CPA_34",
+        "JUR_RULES_2021"
+      ],
+      "top3": [
+        "CPA_34",
+        "EJAGRITI",
+        "CPA_35"
+      ],
+      "top1_ok": true,
+      "top3_ok": true
+    },
+    {
+      "question": "Do I need a lawyer to file?",
+      "acceptable": [
+        "CPA_35"
+      ],
+      "top3": [
+        "CPA_35",
+        "ECOM_R6_3",
+        "EJAGRITI"
+      ],
+      "top1_ok": true,
+      "top3_ok": true
+    },
+    {
+      "question": "The seller refused to take back my broken phone",
+      "acceptable": [
+        "CPA_2_47_VIII",
+        "ECOM_R6_3",
+        "ECOM_R7_4"
+      ],
+      "top3": [
+        "ECOM_R7_4",
+        "CPA_2_10",
+        "ECOM_R6_3"
+      ],
+      "top1_ok": true,
+      "top3_ok": true
+    },
+    {
+      "question": "Can I complain about a fake advertisement?",
+      "acceptable": [
+        "CPA_17",
+        "CPA_2_28",
+        "CPA_2_47_I_A"
+      ],
+      "top3": [
+        "ECOM_R6_3",
+        "CPA_2_28",
+        "CPA_17"
+      ],
+      "top1_ok": false,
+      "top3_ok": true
+    },
+    {
+      "question": "my money was debited twice from UPI",
+      "acceptable": [
+        "CPA_2_6",
+        "RBI_IOS_2026"
+      ],
+      "top3": [
+        "RBI_IOS_2026",
+        "ECOM_R4_10",
+        "ECOM_R6_3"
+      ],
+      "top1_ok": true,
+      "top3_ok": true
+    },
+    {
+      "question": "the platform is not replying to my complaint",
+      "acceptable": [
+        "ECOM_R4_GRIEVANCE"
+      ],
+      "top3": [
+        "ECOM_R4_GRIEVANCE",
+        "ECOM_R7_4",
+        "ECOM_R5_3"
+      ],
+      "top1_ok": true,
+      "top3_ok": true
+    },
+    {
+      "question": "रिफंड नहीं मिला क्या करूँ",
+      "acceptable": [
+        "ECOM_R4_10"
+      ],
+      "top3": [
+        "ECOM_R4_10",
+        "CPA_2_47_VIII",
+        "ECOM_R6_3"
+      ],
+      "top1_ok": true,
+      "top3_ok": true
+    },
+    {
+      "question": "शिकायत कहाँ दर्ज करें",
+      "acceptable": [
+        "CPA_34",
+        "EJAGRITI"
+      ],
+      "top3": [
+        "CPA_34",
+        "CPA_35",
+        "FEE_RULE_7"
+      ],
+      "top1_ok": true,
+      "top3_ok": true
+    },
+    {
+      "question": "paisa wapas nahi mila",
+      "acceptable": [
+        "ECOM_R4_10"
+      ],
+      "top3": [
+        "ECOM_R4_10",
+        "CPA_2_47_VIII",
+        "ECOM_R6_3"
+      ],
+      "top1_ok": true,
+      "top3_ok": true
+    },
+    {
+      "question": "order delivered dikha raha hai par mila nahi",
+      "acceptable": [
+        "CPA_2_11",
+        "ECOM_R6_3"
+      ],
+      "top3": [
+        "CPA_2_11",
+        "ECOM_R6_3",
+        "ECOM_R7_4"
+      ],
+      "top1_ok": true,
+      "top3_ok": true
+    },
+    {
+      "question": "I bought it for my shop, am I a consumer?",
+      "acceptable": [
+        "CPA_2_7"
+      ],
+      "top3": [
+        "CPA_2_6",
+        "ECOM_R2",
+        "CPA_2_7"
+      ],
+      "top1_ok": false,
+      "top3_ok": true
+    },
+    {
+      "question": "phone caught fire and burnt my hand",
+      "acceptable": [
+        "CPA_PRODUCT_LIABILITY"
+      ],
+      "top3": [
+        "CPA_PRODUCT_LIABILITY"
+      ],
+      "top1_ok": true,
+      "top3_ok": true
+    }
+  ],
+  "claim_amount_paths": [
+    {
+      "path": "'full' -> full price",
+      "answers": [
+        "full"
+      ],
+      "times_asked": 1,
+      "reasked_with_message": false,
+      "claim": {
+        "amount": 18000.0,
+        "basis": "full",
+        "confirmed": true,
+        "is_partial": false
+      },
+      "relief_line": [
+        "1. Refund the full amount of ₹18,000 paid and take back the product at your own cost."
+      ],
+      "draft_problems": [],
+      "ok": true
+    },
+    {
+      "path": "partial amount with reason",
+      "answers": [
+        "4,000 for the cracked screen only"
+      ],
+      "times_asked": 1,
+      "reasked_with_message": false,
+      "claim": {
+        "amount": 4000.0,
+        "basis": "partial",
+        "confirmed": true,
+        "is_partial": true
+      },
+      "relief_line": [
+        "1. Refund ₹4,000 (out of the ₹18,000 paid), as stated: “4,000 for the cracked screen only”."
+      ],
+      "draft_problems": [],
+      "ok": true
+    },
+    {
+      "path": "unclear, re-asked, then amount",
+      "answers": [
+        "some of it",
+        "₹9,000"
+      ],
+      "times_asked": 2,
+      "reasked_with_message": true,
+      "claim": {
+        "amount": 9000.0,
+        "basis": "partial",
+        "confirmed": true,
+        "is_partial": true
+      },
+      "relief_line": [
+        "1. Refund ₹9,000 (out of the ₹18,000 paid)."
+      ],
+      "draft_problems": [],
+      "ok": true
+    },
+    {
+      "path": "unclear twice -> left unconfirmed",
+      "answers": [
+        "some of it",
+        "whatever is fair"
+      ],
+      "times_asked": 2,
+      "reasked_with_message": true,
+      "claim": {
+        "amount": null,
+        "basis": "",
+        "confirmed": false,
+        "is_partial": false
+      },
+      "relief_line": [
+        "1. Refund [MISSING: amount you are claiming — you paid ₹18,000]."
+      ],
+      "draft_problems": [],
+      "ok": true
+    },
+    {
+      "path": "skipped -> unconfirmed",
+      "answers": [
+        "skip"
+      ],
+      "times_asked": 1,
+      "reasked_with_message": false,
+      "claim": {
+        "amount": null,
+        "basis": "",
+        "confirmed": false,
+        "is_partial": false
+      },
+      "relief_line": [
+        "1. Refund [MISSING: amount you are claiming — you paid ₹18,000]."
+      ],
+      "draft_problems": [],
+      "ok": true
+    },
+    {
+      "path": "Hindi 'पूरा' -> full price",
+      "answers": [
+        "पूरा"
+      ],
+      "times_asked": 1,
+      "reasked_with_message": false,
+      "claim": {
+        "amount": 4500.0,
+        "basis": "full",
+        "confirmed": true,
+        "is_partial": false
+      },
+      "relief_line": [
+        "1. चुकाई गई पूरी राशि ₹4,500 लौटाएँ।"
+      ],
+      "draft_problems": [],
+      "ok": true
+    },
+    {
+      "path": "wrong charge 'yes' -> excess only",
+      "answers": [
+        "yes"
+      ],
+      "times_asked": 1,
+      "reasked_with_message": false,
+      "claim": {
+        "amount": 1240.0,
+        "basis": "excess",
+        "confirmed": true,
+        "is_partial": false
+      },
+      "relief_line": [
+        "1. Refund / reverse the excess amount of ₹1,240 charged."
+      ],
+      "draft_problems": [],
+      "ok": true
+    }
+  ]
+}

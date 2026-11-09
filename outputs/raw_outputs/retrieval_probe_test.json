@@ -1,0 +1,203 @@
+[
+  {
+    "question": "How long do I have to file a complaint?",
+    "acceptable": [
+      "CPA_69"
+    ],
+    "top3": [
+      "CPA_69",
+      "CPA_38_7",
+      "CPA_35"
+    ],
+    "top1_ok": true,
+    "top3_ok": true
+  },
+  {
+    "question": "Is there a fee to file?",
+    "acceptable": [
+      "FEE_RULE_7"
+    ],
+    "top3": [
+      "FEE_RULE_7",
+      "CPA_69",
+      "EJAGRITI"
+    ],
+    "top1_ok": true,
+    "top3_ok": true
+  },
+  {
+    "question": "How long will the case take?",
+    "acceptable": [
+      "CPA_38_7"
+    ],
+    "top3": [
+      "CPA_38_7",
+      "ECOM_R7_4",
+      "ECOM_R6_3"
+    ],
+    "top1_ok": true,
+    "top3_ok": true
+  },
+  {
+    "question": "Which court should I go to?",
+    "acceptable": [
+      "CPA_34",
+      "JUR_RULES_2021"
+    ],
+    "top3": [
+      "CPA_34",
+      "EJAGRITI",
+      "CPA_35"
+    ],
+    "top1_ok": true,
+    "top3_ok": true
+  },
+  {
+    "question": "Do I need a lawyer to file?",
+    "acceptable": [
+      "CPA_35"
+    ],
+    "top3": [
+      "CPA_35",
+      "ECOM_R6_3",
+      "EJAGRITI"
+    ],
+    "top1_ok": true,
+    "top3_ok": true
+  },
+  {
+    "question": "The seller refused to take back my broken phone",
+    "acceptable": [
+      "CPA_2_47_VIII",
+      "ECOM_R6_3",
+      "ECOM_R7_4"
+    ],
+    "top3": [
+      "ECOM_R7_4",
+      "CPA_2_10",
+      "ECOM_R6_3"
+    ],
+    "top1_ok": true,
+    "top3_ok": true
+  },
+  {
+    "question": "Can I complain about a fake advertisement?",
+    "acceptable": [
+      "CPA_17",
+      "CPA_2_28",
+      "CPA_2_47_I_A"
+    ],
+    "top3": [
+      "ECOM_R6_3",
+      "CPA_2_28",
+      "CPA_17"
+    ],
+    "top1_ok": false,
+    "top3_ok": true
+  },
+  {
+    "question": "my money was debited twice from UPI",
+    "acceptable": [
+      "CPA_2_6",
+      "RBI_IOS_2026"
+    ],
+    "top3": [
+      "RBI_IOS_2026",
+      "ECOM_R4_10",
+      "ECOM_R6_3"
+    ],
+    "top1_ok": true,
+    "top3_ok": true
+  },
+  {
+    "question": "the platform is not replying to my complaint",
+    "acceptable": [
+      "ECOM_R4_GRIEVANCE"
+    ],
+    "top3": [
+      "ECOM_R4_GRIEVANCE",
+      "ECOM_R7_4",
+      "ECOM_R5_3"
+    ],
+    "top1_ok": true,
+    "top3_ok": true
+  },
+  {
+    "question": "रिफंड नहीं मिला क्या करूँ",
+    "acceptable": [
+      "ECOM_R4_10"
+    ],
+    "top3": [
+      "ECOM_R4_10",
+      "CPA_2_47_VIII",
+      "ECOM_R6_3"
+    ],
+    "top1_ok": true,
+    "top3_ok": true
+  },
+  {
+    "question": "शिकायत कहाँ दर्ज करें",
+    "acceptable": [
+      "CPA_34",
+      "EJAGRITI"
+    ],
+    "top3": [
+      "CPA_34",
+      "CPA_35",
+      "FEE_RULE_7"
+    ],
+    "top1_ok": true,
+    "top3_ok": true
+  },
+  {
+    "question": "paisa wapas nahi mila",
+    "acceptable": [
+      "ECOM_R4_10"
+    ],
+    "top3": [
+      "ECOM_R4_10",
+      "CPA_2_47_VIII",
+      "ECOM_R6_3"
+    ],
+    "top1_ok": true,
+    "top3_ok": true
+  },
+  {
+    "question": "order delivered dikha raha hai par mila nahi",
+    "acceptable": [
+      "CPA_2_11",
+      "ECOM_R6_3"
+    ],
+    "top3": [
+      "CPA_2_11",
+      "ECOM_R6_3",
+      "ECOM_R7_4"
+    ],
+    "top1_ok": true,
+    "top3_ok": true
+  },
+  {
+    "question": "I bought it for my shop, am I a consumer?",
+    "acceptable": [
+      "CPA_2_7"
+    ],
+    "top3": [
+      "CPA_2_6",
+      "ECOM_R2",
+      "CPA_2_7"
+    ],
+    "top1_ok": false,
+    "top3_ok": true
+  },
+  {
+    "question": "phone caught fire and burnt my hand",
+    "acceptable": [
+      "CPA_PRODUCT_LIABILITY"
+    ],
+    "top3": [
+      "CPA_PRODUCT_LIABILITY"
+    ],
+    "top1_ok": true,
+    "top3_ok": true
+  }
+]

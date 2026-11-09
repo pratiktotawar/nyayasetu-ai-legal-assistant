@@ -1,0 +1,64 @@
+DRAFT PREPARED WITH NYAYASETU — NOT SENT, NOT FILED. This is a draft for you to check and edit. It is not a legal notice and not a filed complaint. Verify every fact, complete each [MISSING] and [ADD] field, and remove anything that is not accurate before you use it.
+
+PREPARATION DRAFT ONLY. Consumer Commissions have their own format, affidavit and document requirements, and complaints are filed through e-Jagriti (e-jagriti.gov.in). Use this to organise your facts; check the portal's requirements, and consider asking an advocate or a recognised consumer association to review it before filing.
+
+BEFORE THE [DISTRICT / STATE] CONSUMER DISPUTES REDRESSAL COMMISSION, [MISSING: city / district]
+----------------------------------------------------------------------
+Consumer Complaint No. ______ of 20___ (to be assigned)
+
+IN THE MATTER OF:
+
+[MISSING: your name], [ADD: full address], [MISSING: city / district] — Complainant
+
+VERSUS
+
+1. [MISSING: seller name (see invoice)], [MISSING: seller's registered address (from the invoice / platform seller page)] — Opposite Party No. 1
+2. [MISSING: platform / website], [MISSING: platform's registered office address] — Opposite Party No. 2
+
+COMPLAINT UNDER SECTION 35 OF THE CONSUMER PROTECTION ACT, 2019
+
+1. The Complainant is a consumer
+--------------------------------
+The Complainant bought the goods for consideration through an online transaction and is a 'consumer' under Section 2(7) of the Consumer Protection Act, 2019. [MISSING: confirm the goods were bought for personal / household use]
+
+2. Facts of the case
+--------------------
+1. On [MISSING: order date], I placed an order for [MISSING: product] on [MISSING: platform / website], sold by [MISSING: seller name (see invoice)] (Order ID: [MISSING: Order ID]) and paid [MISSING: amount paid].
+2. The product was delivered on [MISSING: delivery date]. After delivery it developed a defect. In my words: “I bought something online and it is not working. The company is not helping.”
+3. I raised the matter with the seller/platform. What I did: “I called them once but I don't remember when.”
+4. As of 7 November 2026, the matter remains unresolved.
+
+3. Grounds
+----------
+1. The goods supplied suffer from a defect within the meaning of Section 2(10) of the Consumer Protection Act, 2019, which is a ground of complaint under Section 2(6)(ii).
+2. Under Rule 6(3) of the Consumer Protection (E-Commerce) Rules, 2020, a seller on a marketplace shall not refuse to take back goods or refund the consideration where the goods are defective. Where the platform itself is the seller, Rule 7(4) imposes the same duty.
+
+4. Cause of action
+------------------
+The cause of action arose on [MISSING: order date] when the order was placed, and further on [MISSING: delivery date] and on each date the Opposite Parties failed to resolve the complaint, and it is continuing.
+
+5. Jurisdiction
+---------------
+Pecuniary: value of goods paid as consideration [MISSING: amount paid] — [ADD: confirm the correct Commission under the Jurisdiction Rules, 2021]
+
+Territorial: the Complainant resides / personally works for gain at [MISSING: city / district], within the limits of this Commission (Section 34(2)(d) of the Act).
+
+6. Limitation
+-------------
+The complaint is filed within two years of the cause of action, as required by Section 69 of the Consumer Protection Act, 2019.
+
+7. Prayer
+---------
+The Complainant respectfully prays that the Hon'ble Commission may direct the Opposite Parties, jointly and/or severally, to:
+
+1. [MISSING: the resolution you want (refund / replacement / repair)]
+2. Pay interest on the amount refunded and the costs of this complaint, as the Hon'ble Commission may deem fit.
+3. Grant any other relief the Hon'ble Commission considers appropriate.
+
+8. List of documents
+--------------------
+- [MISSING: list of documents you can attach (invoice, payment proof, photos, emails)]
+
+9. Verification
+---------------
+I, [MISSING: your name], the Complainant, state that the facts above are true to my knowledge and belief. [ADD: place, date and signature; affidavit as required by the Commission]

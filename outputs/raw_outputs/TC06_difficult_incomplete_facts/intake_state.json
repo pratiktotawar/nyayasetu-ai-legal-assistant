@@ -1,0 +1,306 @@
+{
+  "lang": "en",
+  "messages": [
+    {
+      "role": "assistant",
+      "text": "Namaste. I'm NyayaSetu. Tell me what happened in your own words — what you bought, from where, what went wrong, and what you have done so far. I'll then ask only the questions that matter for your case, one at a time. You can skip any question.",
+      "meta": {}
+    },
+    {
+      "role": "user",
+      "text": "I bought something online and it is not working. The company is not helping. What can I do?"
+    },
+    {
+      "role": "assistant",
+      "text": "Here is what I understood so far:\n• Problem: Defective product / stopped working\n\nI'll ask a few short questions — you can skip any of them.\n\nWhat product did you buy? (For example: mobile phone, washing machine, shoes.)",
+      "meta": {
+        "kind": "question",
+        "question": "product",
+        "options": []
+      }
+    },
+    {
+      "role": "user",
+      "text": "skip"
+    },
+    {
+      "role": "assistant",
+      "text": "No problem — I've marked it as missing.\n\nHow much did you pay, in rupees?",
+      "meta": {
+        "kind": "question",
+        "question": "amount",
+        "options": []
+      }
+    },
+    {
+      "role": "user",
+      "text": "I don't know"
+    },
+    {
+      "role": "assistant",
+      "text": "I couldn't read an amount there, so I've marked it as missing.\n\nWhich website or app did you buy it from? If you know the seller's name (it is on the invoice or order page), please add it — e.g. “ShopNest, seller: Gupta Electronics”.",
+      "meta": {
+        "kind": "question",
+        "question": "platform_seller",
+        "options": []
+      }
+    },
+    {
+      "role": "user",
+      "text": "skip"
+    },
+    {
+      "role": "assistant",
+      "text": "No problem — I've marked it as missing.\n\nWhat is the Order ID? It is on the order page or the confirmation email.",
+      "meta": {
+        "kind": "question",
+        "question": "order_id",
+        "options": []
+      }
+    },
+    {
+      "role": "user",
+      "text": "don't know"
+    },
+    {
+      "role": "assistant",
+      "text": "No problem — I've marked it as missing.\n\nOn what date did you place the order (or pay)? An approximate date is fine.",
+      "meta": {
+        "kind": "question",
+        "question": "purchase_date",
+        "options": []
+      }
+    },
+    {
+      "role": "user",
+      "text": "not sure"
+    },
+    {
+      "role": "assistant",
+      "text": "No problem — I've marked it as missing.\n\nOn what date was it delivered?",
+      "meta": {
+        "kind": "question",
+        "question": "delivery_date",
+        "options": []
+      }
+    },
+    {
+      "role": "user",
+      "text": "skip"
+    },
+    {
+      "role": "assistant",
+      "text": "No problem — I've marked it as missing.\n\nHave you already complained to the seller or the platform? If yes: when, how (app, email, call, chat), and what did they say? Reply “no” if you have not complained yet.",
+      "meta": {
+        "kind": "question",
+        "question": "complaint_history",
+        "options": []
+      }
+    },
+    {
+      "role": "user",
+      "text": "I called them once but I don't remember when."
+    },
+    {
+      "role": "assistant",
+      "text": "Noted.\n\nDo you have a ticket or complaint reference number? Please type it (or skip).",
+      "meta": {
+        "kind": "question",
+        "question": "complaint_ref",
+        "options": []
+      }
+    },
+    {
+      "role": "user",
+      "text": "skip"
+    },
+    {
+      "role": "assistant",
+      "text": "No problem — I've marked it as missing.\n\nWhich of these records do you have? Select all that apply — and keep the originals safe.",
+      "meta": {
+        "kind": "question",
+        "question": "evidence",
+        "options": [
+          [
+            "invoice",
+            "Invoice / bill"
+          ],
+          [
+            "payment_proof",
+            "Payment proof (receipt, bank/UPI statement)"
+          ],
+          [
+            "warranty_card",
+            "Warranty card / warranty terms"
+          ],
+          [
+            "technician_report",
+            "Technician / service-centre report (job sheet)"
+          ],
+          [
+            "product_photos",
+            "Photographs of the product / damage"
+          ],
+          [
+            "complaint_reference",
+            "Complaint / ticket reference number"
+          ],
+          [
+            "order_screenshot",
+            "Order page / confirmation (screenshot or email)"
+          ],
+          [
+            "tracking_screenshot",
+            "Tracking / delivery-status screenshot"
+          ],
+          [
+            "listing_screenshot",
+            "Product listing / advertisement screenshot"
+          ],
+          [
+            "unboxing_video",
+            "Unboxing / product video"
+          ],
+          [
+            "emails",
+            "Emails with seller / platform"
+          ],
+          [
+            "chat_transcripts",
+            "Chat transcripts / messages with customer care"
+          ],
+          [
+            "call_records",
+            "Call records / call logs"
+          ]
+        ]
+      }
+    },
+    {
+      "role": "user",
+      "text": "none"
+    },
+    {
+      "role": "assistant",
+      "text": "Okay. You can still proceed, but try to save whatever records you can from the app or your email.\n\nWhat outcome do you want — refund, replacement, repair, or something else?",
+      "meta": {
+        "kind": "question",
+        "question": "desired_resolution",
+        "options": [
+          [
+            "refund",
+            "Refund"
+          ],
+          [
+            "replacement",
+            "Replacement"
+          ],
+          [
+            "repair",
+            "Repair"
+          ],
+          [
+            "delivery",
+            "Deliver the ordered product"
+          ],
+          [
+            "compensation",
+            "Compensation for inconvenience / loss"
+          ]
+        ]
+      }
+    },
+    {
+      "role": "user",
+      "text": "skip"
+    },
+    {
+      "role": "assistant",
+      "text": "No problem — I've marked it as missing.\n\nDid you buy this for personal or household use, or for resale / business? (This affects whether consumer law applies.)",
+      "meta": {
+        "kind": "question",
+        "question": "purpose",
+        "options": [
+          [
+            "personal",
+            "Personal / household use"
+          ],
+          [
+            "livelihood",
+            "To earn my own livelihood (self-employed)"
+          ],
+          [
+            "resale_or_commercial",
+            "For resale or business"
+          ]
+        ]
+      }
+    },
+    {
+      "role": "user",
+      "text": "skip"
+    },
+    {
+      "role": "assistant",
+      "text": "No problem — I've marked it as missing.\n\nLast question: what name and city/district should appear on your complaint? (For example: “Priya Sharma, Pune”.) Please do NOT share Aadhaar, PAN, card numbers, bank passwords or OTPs — they are not needed.",
+      "meta": {
+        "kind": "question",
+        "question": "consumer_details",
+        "options": []
+      }
+    },
+    {
+      "role": "user",
+      "text": "skip"
+    },
+    {
+      "role": "assistant",
+      "text": "No problem — I've marked it as missing.\n\nThank you — I have enough to prepare your case file. Any details still missing will be clearly marked so you can add them later.",
+      "meta": {
+        "kind": "complete"
+      }
+    }
+  ],
+  "slots": {
+    "issue_details": {
+      "value": "I bought something online and it is not working. The company is not helping.",
+      "source": "rule"
+    },
+    "steps_taken": {
+      "value": [
+        "I called them once but I don't remember when."
+      ],
+      "source": "answer"
+    }
+  },
+  "asked": [
+    "complaint_history",
+    "evidence"
+  ],
+  "skipped": [
+    "product",
+    "amount",
+    "platform_seller",
+    "order_id",
+    "purchase_date",
+    "delivery_date",
+    "complaint_ref",
+    "desired_resolution",
+    "purpose",
+    "consumer_details"
+  ],
+  "answered_none": [
+    "evidence"
+  ],
+  "pending": null,
+  "category": "defective_product",
+  "secondary": [],
+  "scores": {
+    "defective_product": 2.5
+  },
+  "narrative": "I bought something online and it is not working. The company is not helping. What can I do?",
+  "complete": true,
+  "warnings": [],
+  "llm_used": false,
+  "llm_notes": []
+}

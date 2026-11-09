@@ -1,0 +1,338 @@
+{
+  "lang": "en",
+  "messages": [
+    {
+      "role": "assistant",
+      "text": "Namaste. I'm NyayaSetu. Tell me what happened in your own words — what you bought, from where, what went wrong, and what you have done so far. I'll then ask only the questions that matter for your case, one at a time. You can skip any question.",
+      "meta": {}
+    },
+    {
+      "role": "user",
+      "text": "I bought a front-load washing machine for ₹25,000 from HomeKart. It was delivered on 2 October 2026. Within 10 days the drum stopped spinning and it shows error code E21. The seller refuses to replace it and says I should contact the brand service centre."
+    },
+    {
+      "role": "assistant",
+      "text": "Here is what I understood so far:\n• Problem: Defective product / stopped working\n• Product: front-load washing machine\n• Amount paid: ₹25,000\n• Delivery date: 2 October 2026\n\nI'll ask a few short questions — you can skip any of them.\n\nWhich website or app did you buy it from? If you know the seller's name (it is on the invoice or order page), please add it — e.g. “ShopNest, seller: Gupta Electronics”.",
+      "meta": {
+        "kind": "question",
+        "question": "platform_seller",
+        "options": []
+      }
+    },
+    {
+      "role": "user",
+      "text": "HomeKart, seller: CoolHome Appliances"
+    },
+    {
+      "role": "assistant",
+      "text": "Noted: HomeKart, seller: CoolHome Appliances.\n\nWhat is the Order ID? It is on the order page or the confirmation email.",
+      "meta": {
+        "kind": "question",
+        "question": "order_id",
+        "options": []
+      }
+    },
+    {
+      "role": "user",
+      "text": "HK-99812-AB"
+    },
+    {
+      "role": "assistant",
+      "text": "Noted: HK-99812-AB.\n\nOn what date did you place the order (or pay)? An approximate date is fine.",
+      "meta": {
+        "kind": "question",
+        "question": "purchase_date",
+        "options": []
+      }
+    },
+    {
+      "role": "user",
+      "text": "28 September 2026"
+    },
+    {
+      "role": "assistant",
+      "text": "Noted: 28 September 2026.\n\nHave you already complained to the seller or the platform? If yes: when, how (app, email, call, chat), and what did they say? Reply “no” if you have not complained yet.",
+      "meta": {
+        "kind": "question",
+        "question": "complaint_history",
+        "options": []
+      }
+    },
+    {
+      "role": "user",
+      "text": "Yes. I raised a replacement request in the HomeKart app on 13 October 2026. A technician from the brand visited on 15 October and gave a job sheet saying the motor is faulty. On 18 October the seller rejected the replacement request."
+    },
+    {
+      "role": "assistant",
+      "text": "Noted.\n\nDo you have a ticket or complaint reference number? Please type it (or skip).",
+      "meta": {
+        "kind": "question",
+        "question": "complaint_ref",
+        "options": []
+      }
+    },
+    {
+      "role": "user",
+      "text": "Ticket HKT-30211"
+    },
+    {
+      "role": "assistant",
+      "text": "Noted: HKT-30211.\n\nWhich of these records do you have? Select all that apply — and keep the originals safe.",
+      "meta": {
+        "kind": "question",
+        "question": "evidence",
+        "options": [
+          [
+            "invoice",
+            "Invoice / bill"
+          ],
+          [
+            "payment_proof",
+            "Payment proof (receipt, bank/UPI statement)"
+          ],
+          [
+            "warranty_card",
+            "Warranty card / warranty terms"
+          ],
+          [
+            "technician_report",
+            "Technician / service-centre report (job sheet)"
+          ],
+          [
+            "product_photos",
+            "Photographs of the product / damage"
+          ],
+          [
+            "complaint_reference",
+            "Complaint / ticket reference number"
+          ],
+          [
+            "order_screenshot",
+            "Order page / confirmation (screenshot or email)"
+          ],
+          [
+            "tracking_screenshot",
+            "Tracking / delivery-status screenshot"
+          ],
+          [
+            "listing_screenshot",
+            "Product listing / advertisement screenshot"
+          ],
+          [
+            "unboxing_video",
+            "Unboxing / product video"
+          ],
+          [
+            "emails",
+            "Emails with seller / platform"
+          ],
+          [
+            "chat_transcripts",
+            "Chat transcripts / messages with customer care"
+          ],
+          [
+            "call_records",
+            "Call records / call logs"
+          ]
+        ]
+      }
+    },
+    {
+      "role": "user",
+      "text": "Invoice / bill, Warranty card / warranty terms, Technician / service-centre report (job sheet), Photographs of the product / damage"
+    },
+    {
+      "role": "assistant",
+      "text": "Noted.\n\nWhat outcome do you want — refund, replacement, repair, or something else?",
+      "meta": {
+        "kind": "question",
+        "question": "desired_resolution",
+        "options": [
+          [
+            "refund",
+            "Refund"
+          ],
+          [
+            "replacement",
+            "Replacement"
+          ],
+          [
+            "repair",
+            "Repair"
+          ],
+          [
+            "delivery",
+            "Deliver the ordered product"
+          ],
+          [
+            "compensation",
+            "Compensation for inconvenience / loss"
+          ]
+        ]
+      }
+    },
+    {
+      "role": "user",
+      "text": "Replacement with a new machine"
+    },
+    {
+      "role": "assistant",
+      "text": "Noted: Replacement.\n\nDid you buy this for personal or household use, or for resale / business? (This affects whether consumer law applies.)",
+      "meta": {
+        "kind": "question",
+        "question": "purpose",
+        "options": [
+          [
+            "personal",
+            "Personal / household use"
+          ],
+          [
+            "livelihood",
+            "To earn my own livelihood (self-employed)"
+          ],
+          [
+            "resale_or_commercial",
+            "For resale or business"
+          ]
+        ]
+      }
+    },
+    {
+      "role": "user",
+      "text": "Personal / household use"
+    },
+    {
+      "role": "assistant",
+      "text": "Noted.\n\nLast question: what name and city/district should appear on your complaint? (For example: “Priya Sharma, Pune”.) Please do NOT share Aadhaar, PAN, card numbers, bank passwords or OTPs — they are not needed.",
+      "meta": {
+        "kind": "question",
+        "question": "consumer_details",
+        "options": []
+      }
+    },
+    {
+      "role": "user",
+      "text": "Anil Kumar, Jaipur"
+    },
+    {
+      "role": "assistant",
+      "text": "Noted.\n\nThank you — I have enough to prepare your case file. Any details still missing will be clearly marked so you can add them later.",
+      "meta": {
+        "kind": "complete"
+      }
+    }
+  ],
+  "slots": {
+    "amount": {
+      "value": 25000.0,
+      "source": "rule"
+    },
+    "product": {
+      "value": "front-load washing machine",
+      "source": "rule"
+    },
+    "delivery_date": {
+      "value": "2026-10-02",
+      "source": "rule",
+      "approx": false,
+      "raw": "2 October 2026"
+    },
+    "desired_resolution": {
+      "value": [
+        "replacement"
+      ],
+      "source": "answer"
+    },
+    "seller_response": {
+      "value": "The seller refuses to replace it and says I should contact the brand service centre. I raised a replacement request in the HomeKart app on 13 October 2026. A technician from the brand visited on 15 October and gave a job sheet saying the motor is faulty. On 18 October the seller rejected the replacement request.",
+      "source": "answer"
+    },
+    "issue_details": {
+      "value": "It was delivered on 2 October 2026. Within 10 days the drum stopped spinning and it shows error code E21.",
+      "source": "rule"
+    },
+    "platform": {
+      "value": "HomeKart",
+      "source": "answer"
+    },
+    "seller": {
+      "value": "CoolHome Appliances",
+      "source": "answer"
+    },
+    "order_id": {
+      "value": "HK-99812-AB",
+      "source": "answer"
+    },
+    "purchase_date": {
+      "value": "2026-09-28",
+      "source": "answer",
+      "approx": false,
+      "raw": "28 September 2026"
+    },
+    "steps_taken": {
+      "value": [
+        "I raised a replacement request in the HomeKart app on 13 October 2026. A technician from the brand visited on 15 October and gave a job sheet saying the motor is faulty. On 18 October the seller rejected the replacement request."
+      ],
+      "source": "answer"
+    },
+    "complaint_date": {
+      "value": "2026-10-13",
+      "source": "answer",
+      "approx": false,
+      "raw": "13 October 2026"
+    },
+    "evidence": {
+      "value": [
+        "invoice",
+        "warranty_card",
+        "technician_report",
+        "product_photos"
+      ],
+      "source": "answer"
+    },
+    "complaint_ref": {
+      "value": "HKT-30211",
+      "source": "answer"
+    },
+    "resolution_note": {
+      "value": "Replacement with a new machine",
+      "source": "answer"
+    },
+    "purpose": {
+      "value": "personal",
+      "source": "answer"
+    },
+    "consumer_name": {
+      "value": "Anil Kumar",
+      "source": "answer"
+    },
+    "consumer_city": {
+      "value": "Jaipur",
+      "source": "answer"
+    }
+  },
+  "asked": [
+    "platform_seller",
+    "order_id",
+    "purchase_date",
+    "complaint_history",
+    "complaint_ref",
+    "evidence",
+    "desired_resolution",
+    "purpose",
+    "consumer_details"
+  ],
+  "skipped": [],
+  "answered_none": [],
+  "pending": null,
+  "category": "defective_product",
+  "secondary": [],
+  "scores": {
+    "defective_product": 2.0
+  },
+  "narrative": "I bought a front-load washing machine for ₹25,000 from HomeKart. It was delivered on 2 October 2026. Within 10 days the drum stopped spinning and it shows error code E21. The seller refuses to replace it and says I should contact the brand service centre.",
+  "complete": true,
+  "warnings": [],
+  "llm_used": false,
+  "llm_notes": []
+}

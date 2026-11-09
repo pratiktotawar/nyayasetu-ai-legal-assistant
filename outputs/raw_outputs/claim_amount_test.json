@@ -1,0 +1,137 @@
+[
+  {
+    "path": "'full' -> full price",
+    "answers": [
+      "full"
+    ],
+    "times_asked": 1,
+    "reasked_with_message": false,
+    "claim": {
+      "amount": 18000.0,
+      "basis": "full",
+      "confirmed": true,
+      "is_partial": false
+    },
+    "relief_line": [
+      "1. Refund the full amount of ₹18,000 paid and take back the product at your own cost."
+    ],
+    "draft_problems": [],
+    "ok": true
+  },
+  {
+    "path": "partial amount with reason",
+    "answers": [
+      "4,000 for the cracked screen only"
+    ],
+    "times_asked": 1,
+    "reasked_with_message": false,
+    "claim": {
+      "amount": 4000.0,
+      "basis": "partial",
+      "confirmed": true,
+      "is_partial": true
+    },
+    "relief_line": [
+      "1. Refund ₹4,000 (out of the ₹18,000 paid), as stated: “4,000 for the cracked screen only”."
+    ],
+    "draft_problems": [],
+    "ok": true
+  },
+  {
+    "path": "unclear, re-asked, then amount",
+    "answers": [
+      "some of it",
+      "₹9,000"
+    ],
+    "times_asked": 2,
+    "reasked_with_message": true,
+    "claim": {
+      "amount": 9000.0,
+      "basis": "partial",
+      "confirmed": true,
+      "is_partial": true
+    },
+    "relief_line": [
+      "1. Refund ₹9,000 (out of the ₹18,000 paid)."
+    ],
+    "draft_problems": [],
+    "ok": true
+  },
+  {
+    "path": "unclear twice -> left unconfirmed",
+    "answers": [
+      "some of it",
+      "whatever is fair"
+    ],
+    "times_asked": 2,
+    "reasked_with_message": true,
+    "claim": {
+      "amount": null,
+      "basis": "",
+      "confirmed": false,
+      "is_partial": false
+    },
+    "relief_line": [
+      "1. Refund [MISSING: amount you are claiming — you paid ₹18,000]."
+    ],
+    "draft_problems": [],
+    "ok": true
+  },
+  {
+    "path": "skipped -> unconfirmed",
+    "answers": [
+      "skip"
+    ],
+    "times_asked": 1,
+    "reasked_with_message": false,
+    "claim": {
+      "amount": null,
+      "basis": "",
+      "confirmed": false,
+      "is_partial": false
+    },
+    "relief_line": [
+      "1. Refund [MISSING: amount you are claiming — you paid ₹18,000]."
+    ],
+    "draft_problems": [],
+    "ok": true
+  },
+  {
+    "path": "Hindi 'पूरा' -> full price",
+    "answers": [
+      "पूरा"
+    ],
+    "times_asked": 1,
+    "reasked_with_message": false,
+    "claim": {
+      "amount": 4500.0,
+      "basis": "full",
+      "confirmed": true,
+      "is_partial": false
+    },
+    "relief_line": [
+      "1. चुकाई गई पूरी राशि ₹4,500 लौटाएँ।"
+    ],
+    "draft_problems": [],
+    "ok": true
+  },
+  {
+    "path": "wrong charge 'yes' -> excess only",
+    "answers": [
+      "yes"
+    ],
+    "times_asked": 1,
+    "reasked_with_message": false,
+    "claim": {
+      "amount": 1240.0,
+      "basis": "excess",
+      "confirmed": true,
+      "is_partial": false
+    },
+    "relief_line": [
+      "1. Refund / reverse the excess amount of ₹1,240 charged."
+    ],
+    "draft_problems": [],
+    "ok": true
+  }
+]

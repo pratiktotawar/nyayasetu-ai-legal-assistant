@@ -1,0 +1,160 @@
+{
+  "id": "TC01",
+  "unscripted_questions_skipped": [],
+  "category_expected": "damaged_on_delivery",
+  "category_actual": "damaged_on_delivery",
+  "category_ok": true,
+  "fields": {
+    "transaction.amount_paid": {
+      "expected": 18000,
+      "actual": 18000.0,
+      "ok": true
+    },
+    "transaction.product": {
+      "expected": "mobile phone",
+      "actual": "mobile phone",
+      "ok": true
+    },
+    "parties.platform": {
+      "expected": "ShopNest marketplace",
+      "actual": "ShopNest marketplace",
+      "ok": true
+    },
+    "parties.seller": {
+      "expected": "Gupta Mobile World",
+      "actual": "Gupta Mobile World",
+      "ok": true
+    },
+    "transaction.order_id": {
+      "expected": "SN-4471-2290",
+      "actual": "SN-4471-2290",
+      "ok": true
+    },
+    "transaction.purchase_date": {
+      "expected": "2026-10-10",
+      "actual": "2026-10-10",
+      "ok": true
+    },
+    "transaction.delivery_date": {
+      "expected": "2026-10-14",
+      "actual": "2026-10-14",
+      "ok": true
+    },
+    "complaint_ref": {
+      "expected": "TKT-88123",
+      "actual": "TKT-88123",
+      "ok": true
+    },
+    "consumer.name": {
+      "expected": "Rahul Verma",
+      "actual": "Rahul Verma",
+      "ok": true
+    },
+    "consumer.city": {
+      "expected": "Pune",
+      "actual": "Pune",
+      "ok": true
+    }
+  },
+  "fields_correct": 10,
+  "fields_total": 10,
+  "sources_cited": [
+    "CPA_2_10",
+    "CPA_2_47_VIII",
+    "CPA_2_6",
+    "CPA_2_7",
+    "CPA_2_9",
+    "CPA_34",
+    "CPA_35",
+    "CPA_38_7",
+    "CPA_39",
+    "CPA_69",
+    "ECOM_R2",
+    "ECOM_R4_10",
+    "ECOM_R4_GRIEVANCE",
+    "ECOM_R5_3",
+    "ECOM_R6_3",
+    "ECOM_R7_4",
+    "EJAGRITI",
+    "FEE_RULE_7",
+    "JUR_RULES_2021",
+    "NCH"
+  ],
+  "missing_required_sources": [],
+  "issue_confidence": {
+    "utp_refusal": {
+      "expected": "not_yet",
+      "actual": "not_yet",
+      "ok": true
+    }
+  },
+  "flags": {
+    "possible_commercial_purpose": {
+      "expected": false,
+      "actual": false,
+      "ok": true
+    },
+    "limitation_risk": {
+      "expected": false,
+      "actual": false,
+      "ok": true
+    }
+  },
+  "document_validation": {
+    "seller_email": {
+      "ok": true,
+      "citations": 5,
+      "problems": []
+    },
+    "platform_complaint": {
+      "ok": true,
+      "citations": 8,
+      "problems": []
+    },
+    "nch_grievance": {
+      "ok": true,
+      "citations": 0,
+      "problems": []
+    },
+    "commission_draft": {
+      "ok": true,
+      "citations": 10,
+      "problems": []
+    }
+  },
+  "rights_text_validation": {
+    "ok": true,
+    "citations": [
+      "Rule 7(4)"
+    ],
+    "problems": []
+  },
+  "all_citations_valid": true,
+  "non_verified_sources_shown_as_notice_only": true,
+  "forbidden_text_found": [],
+  "required_text_missing": [],
+  "missing_info_count": 1,
+  "doc_missing_counts": {
+    "seller_email": 0,
+    "platform_complaint": 0,
+    "nch_grievance": 0,
+    "commission_draft": 2
+  },
+  "claim_amount": {
+    "actual": {
+      "amount": 18000.0,
+      "basis": "full",
+      "confirmed": true,
+      "refund_requested": true,
+      "is_partial": false
+    },
+    "problems": [],
+    "expected": {
+      "amount": 18000,
+      "basis": "full"
+    },
+    "ok": true
+  },
+  "automated_checks_passed": 8,
+  "automated_checks_total": 8
+}

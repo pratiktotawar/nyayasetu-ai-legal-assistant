@@ -1,0 +1,50 @@
+DRAFT PREPARED WITH NYAYASETU — NOT SENT, NOT FILED. This is a draft for you to check and edit. It is not a legal notice and not a filed complaint. Verify every fact, complete each [MISSING] and [ADD] field, and remove anything that is not accurate before you use it.
+
+To: The Grievance Officer, QuickCart
+Grievance officer's name / email: [ADD: as displayed on the platform (help or legal pages)]
+From: Farhan Ali, Hyderabad
+Date: 7 November 2026
+Subject: Formal consumer complaint — Order QC-20261020-5512 — Incorrect or extra charge
+
+1. Order details
+----------------
+Product: groceries
+Order ID: QC-20261020-5512
+Order date: 20 October 2026
+Amount paid: ₹1,240
+Refund claimed: ₹1,240
+Seller: [MISSING: seller name (see invoice)]
+Earlier complaint / ticket: QC-SUP-77810
+
+2. Facts
+--------
+1. On 20 October 2026, I placed an order for groceries on QuickCart, sold by [MISSING: seller name (see invoice)] (Order ID: QC-20261020-5512) and paid ₹1,240 (paid via UPI).
+2. I was charged ₹2,480 although the correct amount for this order was ₹1,240. In my words: “I ordered groceries worth ₹1,240 on QuickCart on 20 October 2026 but was charged ₹2,480 — the amount was debited twice from my account through UPI.”
+3. I raised the matter with the seller/platform (reference: QC-SUP-77810). What I did: “I have contacted customer support 4 times over the last two weeks; every time they say it will be auto-reversed in 5-7 days, but nothing has come back.”
+4. As of 7 November 2026, the matter remains unresolved and I have not received the refund of ₹1,240 I asked for.
+
+3. Grievance and grounds
+------------------------
+1. Charging an amount in excess of the price agreed and displayed at checkout is a ground of complaint under Section 2(6)(iv) of the Consumer Protection Act, 2019.
+2. Under Rule 4(10) of the E-Commerce Rules, payments towards accepted refund requests must be made within a reasonable period of time.
+3. I submit that the repeated failure to resolve my complaint amounts to a deficiency in service under Section 2(11) of the Consumer Protection Act, 2019.
+4. Under Rules 4(4) and 4(5) of the E-Commerce Rules, the platform's grievance officer must acknowledge a consumer complaint within 48 hours and redress it within one month; under Rule 5(3)(b) a marketplace must provide a ticket number for each complaint so that it can be tracked.
+
+4. Relief requested
+-------------------
+1. Refund / reverse the excess amount of ₹1,240 charged.
+
+Please acknowledge this complaint, share a ticket number, and let me know the action taken.
+
+5. Documents available (annexures)
+----------------------------------
+- Annexure A-1: Payment proof (receipt, bank/UPI statement)
+- Annexure A-2: Invoice / bill
+- Annexure A-3: Chat transcripts / messages with customer care
+- Annexure A-4: Complaint / ticket reference number
+
+Yours faithfully,
+
+Farhan Ali
+Hyderabad
+[ADD: phone / registered email on the account]

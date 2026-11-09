@@ -1,0 +1,326 @@
+{
+  "lang": "en",
+  "messages": [
+    {
+      "role": "assistant",
+      "text": "Namaste. I'm NyayaSetu. Tell me what happened in your own words — what you bought, from where, what went wrong, and what you have done so far. I'll then ask only the questions that matter for your case, one at a time. You can skip any question.",
+      "meta": {}
+    },
+    {
+      "role": "user",
+      "text": "I run a small mobile repair shop. In March 2024 I bought 10 refurbished phones worth ₹1,20,000 from an online wholesaler, PhoneBazaar, to resell. Four of them were defective and the seller refused to refund. Can I file a consumer complaint now?"
+    },
+    {
+      "role": "assistant",
+      "text": "Here is what I understood so far:\n• Problem: Defective product / stopped working\n• Product: refurbished phones\n• Amount paid: ₹1,20,000\n• Order date: March 2024 (approx.)\n\nI'll ask a few short questions — you can skip any of them.\n\nWhich website or app did you buy it from? If you know the seller's name (it is on the invoice or order page), please add it — e.g. “ShopNest, seller: Gupta Electronics”.",
+      "meta": {
+        "kind": "question",
+        "question": "platform_seller",
+        "options": []
+      }
+    },
+    {
+      "role": "user",
+      "text": "PhoneBazaar wholesale website, seller: PhoneBazaar Distributors"
+    },
+    {
+      "role": "assistant",
+      "text": "Noted: PhoneBazaar wholesale, seller: PhoneBazaar Distributors.\n\nWhat is the Order ID? It is on the order page or the confirmation email.",
+      "meta": {
+        "kind": "question",
+        "question": "order_id",
+        "options": []
+      }
+    },
+    {
+      "role": "user",
+      "text": "skip"
+    },
+    {
+      "role": "assistant",
+      "text": "No problem — I've marked it as missing.\n\nOn what date was it delivered?",
+      "meta": {
+        "kind": "question",
+        "question": "delivery_date",
+        "options": []
+      }
+    },
+    {
+      "role": "user",
+      "text": "around 10 March 2024"
+    },
+    {
+      "role": "assistant",
+      "text": "Noted: 10 March 2024.\n\nHave you already complained to the seller or the platform? If yes: when, how (app, email, call, chat), and what did they say? Reply “no” if you have not complained yet.",
+      "meta": {
+        "kind": "question",
+        "question": "complaint_history",
+        "options": []
+      }
+    },
+    {
+      "role": "user",
+      "text": "I emailed them on 20 March 2024 and they refused, saying refurbished stock is sold as-is."
+    },
+    {
+      "role": "assistant",
+      "text": "Noted.\n\nDo you have a ticket or complaint reference number? Please type it (or skip).",
+      "meta": {
+        "kind": "question",
+        "question": "complaint_ref",
+        "options": []
+      }
+    },
+    {
+      "role": "user",
+      "text": "skip"
+    },
+    {
+      "role": "assistant",
+      "text": "No problem — I've marked it as missing.\n\nWhich of these records do you have? Select all that apply — and keep the originals safe.",
+      "meta": {
+        "kind": "question",
+        "question": "evidence",
+        "options": [
+          [
+            "invoice",
+            "Invoice / bill"
+          ],
+          [
+            "payment_proof",
+            "Payment proof (receipt, bank/UPI statement)"
+          ],
+          [
+            "warranty_card",
+            "Warranty card / warranty terms"
+          ],
+          [
+            "technician_report",
+            "Technician / service-centre report (job sheet)"
+          ],
+          [
+            "product_photos",
+            "Photographs of the product / damage"
+          ],
+          [
+            "complaint_reference",
+            "Complaint / ticket reference number"
+          ],
+          [
+            "order_screenshot",
+            "Order page / confirmation (screenshot or email)"
+          ],
+          [
+            "tracking_screenshot",
+            "Tracking / delivery-status screenshot"
+          ],
+          [
+            "listing_screenshot",
+            "Product listing / advertisement screenshot"
+          ],
+          [
+            "unboxing_video",
+            "Unboxing / product video"
+          ],
+          [
+            "emails",
+            "Emails with seller / platform"
+          ],
+          [
+            "chat_transcripts",
+            "Chat transcripts / messages with customer care"
+          ],
+          [
+            "call_records",
+            "Call records / call logs"
+          ]
+        ]
+      }
+    },
+    {
+      "role": "user",
+      "text": "Invoice / bill, Emails with seller / platform"
+    },
+    {
+      "role": "assistant",
+      "text": "Noted.\n\nWhat outcome do you want — refund, replacement, repair, or something else?",
+      "meta": {
+        "kind": "question",
+        "question": "desired_resolution",
+        "options": [
+          [
+            "refund",
+            "Refund"
+          ],
+          [
+            "replacement",
+            "Replacement"
+          ],
+          [
+            "repair",
+            "Repair"
+          ],
+          [
+            "delivery",
+            "Deliver the ordered product"
+          ],
+          [
+            "compensation",
+            "Compensation for inconvenience / loss"
+          ]
+        ]
+      }
+    },
+    {
+      "role": "user",
+      "text": "I want a refund for the 4 defective phones"
+    },
+    {
+      "role": "assistant",
+      "text": "Noted: Refund.\n\nHow much are you asking to get back? You paid ₹1,20,000. Reply “full” for the whole ₹1,20,000, or type the amount you are claiming (for example, if only part of the order was faulty). NyayaSetu will not assume the full price.",
+      "meta": {
+        "kind": "question",
+        "question": "claim_amount",
+        "options": []
+      }
+    },
+    {
+      "role": "user",
+      "text": "₹48,000 — for the 4 defective phones (₹12,000 each)"
+    },
+    {
+      "role": "assistant",
+      "text": "Noted: you are claiming ₹48,000 (you paid ₹1,20,000).\n\nLast question: what name and city/district should appear on your complaint? (For example: “Priya Sharma, Pune”.) Please do NOT share Aadhaar, PAN, card numbers, bank passwords or OTPs — they are not needed.",
+      "meta": {
+        "kind": "question",
+        "question": "consumer_details",
+        "options": []
+      }
+    },
+    {
+      "role": "user",
+      "text": "Vikram Singh, Indore"
+    },
+    {
+      "role": "assistant",
+      "text": "Noted.\n\nThank you — I have enough to prepare your case file. Any details still missing will be clearly marked so you can add them later.",
+      "meta": {
+        "kind": "complete"
+      }
+    }
+  ],
+  "slots": {
+    "amount": {
+      "value": 120000.0,
+      "source": "rule"
+    },
+    "product": {
+      "value": "refurbished phones",
+      "source": "rule"
+    },
+    "purpose": {
+      "value": "resale_or_commercial",
+      "source": "rule"
+    },
+    "purchase_date": {
+      "value": "2024-03-01",
+      "source": "rule",
+      "approx": "month",
+      "raw": "In March 2024"
+    },
+    "desired_resolution": {
+      "value": [
+        "refund"
+      ],
+      "source": "answer"
+    },
+    "seller_response": {
+      "value": "Four of them were defective and the seller refused to refund. I emailed them on 20 March 2024 and they refused, saying refurbished stock is sold as-is.",
+      "source": "answer"
+    },
+    "issue_details": {
+      "value": "I run a small mobile repair shop. In March 2024 I bought 10 refurbished phones worth ₹1,20,000 from an online wholesaler, PhoneBazaar, to resell.",
+      "source": "rule"
+    },
+    "platform": {
+      "value": "PhoneBazaar wholesale",
+      "source": "answer"
+    },
+    "seller": {
+      "value": "PhoneBazaar Distributors",
+      "source": "answer"
+    },
+    "delivery_date": {
+      "value": "2024-03-10",
+      "source": "answer",
+      "approx": false,
+      "raw": "10 March 2024"
+    },
+    "steps_taken": {
+      "value": [
+        "I emailed them on 20 March 2024 and they refused, saying refurbished stock is sold as-is."
+      ],
+      "source": "answer"
+    },
+    "complaint_date": {
+      "value": "2024-03-20",
+      "source": "answer",
+      "approx": false,
+      "raw": "20 March 2024"
+    },
+    "evidence": {
+      "value": [
+        "invoice",
+        "emails"
+      ],
+      "source": "answer"
+    },
+    "resolution_note": {
+      "value": "I want a refund for the 4 defective phones",
+      "source": "answer"
+    },
+    "claim_amount": {
+      "value": 48000.0,
+      "source": "answer",
+      "basis": "partial"
+    },
+    "claim_note": {
+      "value": "₹48,000 — for the 4 defective phones (₹12,000 each)",
+      "source": "answer"
+    },
+    "consumer_name": {
+      "value": "Vikram Singh",
+      "source": "answer"
+    },
+    "consumer_city": {
+      "value": "Indore",
+      "source": "answer"
+    }
+  },
+  "asked": [
+    "platform_seller",
+    "delivery_date",
+    "complaint_history",
+    "evidence",
+    "desired_resolution",
+    "claim_amount",
+    "consumer_details"
+  ],
+  "skipped": [
+    "order_id",
+    "complaint_ref"
+  ],
+  "answered_none": [],
+  "pending": null,
+  "category": "defective_product",
+  "secondary": [],
+  "scores": {
+    "defective_product": 2.5,
+    "refund_not_received": 2.0
+  },
+  "narrative": "I run a small mobile repair shop. In March 2024 I bought 10 refurbished phones worth ₹1,20,000 from an online wholesaler, PhoneBazaar, to resell. Four of them were defective and the seller refused to refund. Can I file a consumer complaint now?",
+  "complete": true,
+  "warnings": [],
+  "llm_used": false,
+  "llm_notes": []
+}

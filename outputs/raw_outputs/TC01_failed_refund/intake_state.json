@@ -1,0 +1,374 @@
+{
+  "lang": "en",
+  "messages": [
+    {
+      "role": "assistant",
+      "text": "Namaste. I'm NyayaSetu. Tell me what happened in your own words — what you bought, from where, what went wrong, and what you have done so far. I'll then ask only the questions that matter for your case, one at a time. You can skip any question.",
+      "meta": {}
+    },
+    {
+      "role": "user",
+      "text": "I purchased a mobile phone worth ₹18,000 from an online shopping platform. The product arrived damaged. I requested a refund three weeks ago, but the seller keeps postponing it."
+    },
+    {
+      "role": "assistant",
+      "text": "Here is what I understood so far:\n• Problem: Product delivered damaged (Refund not received)\n• Product: mobile phone\n• Amount paid: ₹18,000\n• Complaint/request date: 17 October 2026 (approx.)\n• Steps you have already taken: noted\n\nI'll ask a few short questions — you can skip any of them.\n\nWhich website or app did you buy it from? If you know the seller's name (it is on the invoice or order page), please add it — e.g. “ShopNest, seller: Gupta Electronics”.",
+      "meta": {
+        "kind": "question",
+        "question": "platform_seller",
+        "options": []
+      }
+    },
+    {
+      "role": "user",
+      "text": "ShopNest marketplace, seller: Gupta Mobile World"
+    },
+    {
+      "role": "assistant",
+      "text": "Noted: ShopNest marketplace, seller: Gupta Mobile World.\n\nWhat is the Order ID? It is on the order page or the confirmation email.",
+      "meta": {
+        "kind": "question",
+        "question": "order_id",
+        "options": []
+      }
+    },
+    {
+      "role": "user",
+      "text": "SN-4471-2290"
+    },
+    {
+      "role": "assistant",
+      "text": "Noted: SN-4471-2290.\n\nOn what date did you place the order (or pay)? An approximate date is fine.",
+      "meta": {
+        "kind": "question",
+        "question": "purchase_date",
+        "options": []
+      }
+    },
+    {
+      "role": "user",
+      "text": "10 October 2026"
+    },
+    {
+      "role": "assistant",
+      "text": "Noted: 10 October 2026.\n\nOn what date was it delivered?",
+      "meta": {
+        "kind": "question",
+        "question": "delivery_date",
+        "options": []
+      }
+    },
+    {
+      "role": "user",
+      "text": "It was delivered on 14 October 2026"
+    },
+    {
+      "role": "assistant",
+      "text": "Noted: 14 October 2026.\n\nWhat exactly was damaged, and when did you first notice it (at delivery or on opening the box)?",
+      "meta": {
+        "kind": "question",
+        "question": "issue_details",
+        "options": []
+      }
+    },
+    {
+      "role": "user",
+      "text": "The screen was cracked across the middle when I opened the box on the day of delivery."
+    },
+    {
+      "role": "assistant",
+      "text": "Noted.\n\nDo you have a ticket or complaint reference number? Please type it (or skip).",
+      "meta": {
+        "kind": "question",
+        "question": "complaint_ref",
+        "options": []
+      }
+    },
+    {
+      "role": "user",
+      "text": "TKT-88123"
+    },
+    {
+      "role": "assistant",
+      "text": "Noted: TKT-88123.\n\nWhich of these records do you have? Select all that apply — and keep the originals safe.",
+      "meta": {
+        "kind": "question",
+        "question": "evidence",
+        "options": [
+          [
+            "invoice",
+            "Invoice / bill"
+          ],
+          [
+            "payment_proof",
+            "Payment proof (receipt, bank/UPI statement)"
+          ],
+          [
+            "product_photos",
+            "Photographs of the product / damage"
+          ],
+          [
+            "unboxing_video",
+            "Unboxing / product video"
+          ],
+          [
+            "complaint_reference",
+            "Complaint / ticket reference number"
+          ],
+          [
+            "chat_transcripts",
+            "Chat transcripts / messages with customer care"
+          ],
+          [
+            "order_screenshot",
+            "Order page / confirmation (screenshot or email)"
+          ],
+          [
+            "tracking_screenshot",
+            "Tracking / delivery-status screenshot"
+          ],
+          [
+            "listing_screenshot",
+            "Product listing / advertisement screenshot"
+          ],
+          [
+            "emails",
+            "Emails with seller / platform"
+          ],
+          [
+            "warranty_card",
+            "Warranty card / warranty terms"
+          ],
+          [
+            "technician_report",
+            "Technician / service-centre report (job sheet)"
+          ],
+          [
+            "call_records",
+            "Call records / call logs"
+          ]
+        ]
+      }
+    },
+    {
+      "role": "user",
+      "text": "Invoice / bill, Photographs of the product / damage, Unboxing / product video, Chat transcripts / messages with customer care"
+    },
+    {
+      "role": "assistant",
+      "text": "Noted.\n\nWhat outcome do you want — refund, replacement, repair, or something else?",
+      "meta": {
+        "kind": "question",
+        "question": "desired_resolution",
+        "options": [
+          [
+            "refund",
+            "Refund"
+          ],
+          [
+            "replacement",
+            "Replacement"
+          ],
+          [
+            "repair",
+            "Repair"
+          ],
+          [
+            "delivery",
+            "Deliver the ordered product"
+          ],
+          [
+            "compensation",
+            "Compensation for inconvenience / loss"
+          ]
+        ]
+      }
+    },
+    {
+      "role": "user",
+      "text": "Refund"
+    },
+    {
+      "role": "assistant",
+      "text": "Noted.\n\nHow much are you asking to get back? You paid ₹18,000. Reply “full” for the whole ₹18,000, or type the amount you are claiming (for example, if only part of the order was faulty). NyayaSetu will not assume the full price.",
+      "meta": {
+        "kind": "question",
+        "question": "claim_amount",
+        "options": []
+      }
+    },
+    {
+      "role": "user",
+      "text": "full"
+    },
+    {
+      "role": "assistant",
+      "text": "Noted: you are claiming the full ₹18,000 you paid.\n\nDid you buy this for personal or household use, or for resale / business? (This affects whether consumer law applies.)",
+      "meta": {
+        "kind": "question",
+        "question": "purpose",
+        "options": [
+          [
+            "personal",
+            "Personal / household use"
+          ],
+          [
+            "livelihood",
+            "To earn my own livelihood (self-employed)"
+          ],
+          [
+            "resale_or_commercial",
+            "For resale or business"
+          ]
+        ]
+      }
+    },
+    {
+      "role": "user",
+      "text": "Personal / household use"
+    },
+    {
+      "role": "assistant",
+      "text": "Noted.\n\nLast question: what name and city/district should appear on your complaint? (For example: “Priya Sharma, Pune”.) Please do NOT share Aadhaar, PAN, card numbers, bank passwords or OTPs — they are not needed.",
+      "meta": {
+        "kind": "question",
+        "question": "consumer_details",
+        "options": []
+      }
+    },
+    {
+      "role": "user",
+      "text": "Rahul Verma, Pune"
+    },
+    {
+      "role": "assistant",
+      "text": "Noted.\n\nThank you — I have enough to prepare your case file. Any details still missing will be clearly marked so you can add them later.",
+      "meta": {
+        "kind": "complete"
+      }
+    }
+  ],
+  "slots": {
+    "amount": {
+      "value": 18000.0,
+      "source": "rule"
+    },
+    "product": {
+      "value": "mobile phone",
+      "source": "rule"
+    },
+    "complaint_date": {
+      "value": "2026-10-17",
+      "source": "rule",
+      "approx": true,
+      "raw": "three weeks ago"
+    },
+    "desired_resolution": {
+      "value": [
+        "refund"
+      ],
+      "source": "answer"
+    },
+    "steps_taken": {
+      "value": [
+        "I requested a refund three weeks ago, but the seller keeps postponing it."
+      ],
+      "source": "rule"
+    },
+    "seller_response": {
+      "value": "I requested a refund three weeks ago, but the seller keeps postponing it.",
+      "source": "rule"
+    },
+    "issue_details": {
+      "value": "The product arrived damaged. The screen was cracked across the middle when I opened the box on the day of delivery.",
+      "source": "answer"
+    },
+    "platform": {
+      "value": "ShopNest marketplace",
+      "source": "answer"
+    },
+    "seller": {
+      "value": "Gupta Mobile World",
+      "source": "answer"
+    },
+    "order_id": {
+      "value": "SN-4471-2290",
+      "source": "answer"
+    },
+    "purchase_date": {
+      "value": "2026-10-10",
+      "source": "answer",
+      "approx": false,
+      "raw": "10 October 2026"
+    },
+    "delivery_date": {
+      "value": "2026-10-14",
+      "source": "answer",
+      "approx": false,
+      "raw": "14 October 2026"
+    },
+    "complaint_ref": {
+      "value": "TKT-88123",
+      "source": "answer"
+    },
+    "evidence": {
+      "value": [
+        "invoice",
+        "product_photos",
+        "unboxing_video",
+        "chat_transcripts"
+      ],
+      "source": "answer"
+    },
+    "claim_amount": {
+      "value": 18000.0,
+      "source": "answer",
+      "basis": "full"
+    },
+    "claim_note": {
+      "value": "full",
+      "source": "answer"
+    },
+    "purpose": {
+      "value": "personal",
+      "source": "answer"
+    },
+    "consumer_name": {
+      "value": "Rahul Verma",
+      "source": "answer"
+    },
+    "consumer_city": {
+      "value": "Pune",
+      "source": "answer"
+    }
+  },
+  "asked": [
+    "platform_seller",
+    "order_id",
+    "purchase_date",
+    "delivery_date",
+    "issue_details",
+    "complaint_ref",
+    "evidence",
+    "desired_resolution",
+    "claim_amount",
+    "purpose",
+    "consumer_details"
+  ],
+  "skipped": [],
+  "answered_none": [],
+  "pending": null,
+  "category": "damaged_on_delivery",
+  "secondary": [
+    "refund_not_received"
+  ],
+  "scores": {
+    "damaged_on_delivery": 7.0,
+    "refund_not_received": 3.0
+  },
+  "narrative": "I purchased a mobile phone worth ₹18,000 from an online shopping platform. The product arrived damaged. I requested a refund three weeks ago, but the seller keeps postponing it.",
+  "complete": true,
+  "warnings": [],
+  "llm_used": false,
+  "llm_notes": []
+}

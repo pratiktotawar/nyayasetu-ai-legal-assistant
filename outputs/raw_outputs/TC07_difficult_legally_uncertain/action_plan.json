@@ -1,0 +1,93 @@
+[
+  {
+    "key": "preserve",
+    "title": "Preserve your evidence",
+    "what": "Save copies of everything now, outside the app: Invoice / bill. Also try to obtain: Payment proof (receipt, bank/UPI statement), Warranty card / warranty terms, Technician / service-centre report (job sheet), Photographs of the product / damage, Complaint / ticket reference number. Keep the product and its packaging; do not repair or dispose of it.",
+    "why": "Apps can change order pages and listings, and chats can disappear. Whoever decides your complaint will rely on documents, not memory.",
+    "website": null,
+    "evidence": [
+      "Invoice / bill",
+      "Payment proof (receipt, bank/UPI statement)",
+      "Warranty card / warranty terms",
+      "Technician / service-centre report (job sheet)",
+      "Photographs of the product / damage",
+      "Complaint / ticket reference number"
+    ],
+    "status": "todo",
+    "sources": []
+  },
+  {
+    "key": "written_complaint",
+    "title": "Escalate in writing to the seller and the platform's grievance officer",
+    "what": "You have already complained. Now send the formal written complaint (NyayaSetu draft B) to PhoneBazaar wholesale's grievance officer, quoting your earlier ticket number, and copy the seller (draft A).",
+    "why": "A written complaint creates a dated record and gives the other side a chance to fix the problem. The E-Commerce Rules require the platform's grievance officer to acknowledge a complaint within 48 hours and redress it within one month — these are duties on the platform.",
+    "website": {
+      "label": "Grievance officer details are displayed on PhoneBazaar wholesale's own website/app",
+      "url": ""
+    },
+    "evidence": [
+      "Copy of what you sent and the date",
+      "Acknowledgement / ticket number"
+    ],
+    "status": "partly_done",
+    "sources": [
+      "ECOM_R4_GRIEVANCE",
+      "ECOM_R5_3"
+    ]
+  },
+  {
+    "key": "keep_refs",
+    "title": "Keep every reference number and reply",
+    "what": "Write down a simple log: date, how you contacted them, ticket number, name of the agent, what they said. Save emails as PDF.",
+    "why": "These references prove you tried to resolve the matter and show how long the other side took.",
+    "website": null,
+    "evidence": [
+      "Contact log",
+      "Ticket numbers",
+      "Replies (emails / chat screenshots)"
+    ],
+    "status": "todo",
+    "sources": []
+  },
+  {
+    "key": "nch",
+    "title": "If unresolved: register with the National Consumer Helpline",
+    "what": "Register your grievance (NyayaSetu draft C) by calling 1915, on WhatsApp 8800001915, through the NCH or UMANG app, or online.",
+    "why": "NCH is the Department of Consumer Affairs' pre-litigation grievance channel. Grievances against its partner (convergence) companies are sent to them for resolution, and the portal says it may take up to 30 days to reach a conclusion. If your grievance is not resolved, you can still approach the Consumer Commission. NyayaSetu found no rule in the sources it checked that makes NCH compulsory before going to a Commission.",
+    "website": {
+      "label": "consumerhelpline.gov.in",
+      "url": "https://consumerhelpline.gov.in/"
+    },
+    "evidence": [
+      "NCH docket / grievance number",
+      "Company's reply via NCH"
+    ],
+    "status": "todo",
+    "sources": [
+      "NCH"
+    ]
+  },
+  {
+    "key": "commission",
+    "title": "If still unresolved: file before the District Consumer Commission on e-Jagriti",
+    "what": "Use NyayaSetu draft D to prepare, then file online on e-Jagriti, where you can upload documents, pay any fee and track the case. You can file yourself; an advocate or a recognised consumer association can also help. Before this step, get legal advice — your case has a threshold issue (consumer status or time limit).",
+    "why": "The Commission can order a refund, replacement, compensation and costs if it finds in your favour. Complaints must normally be filed within 2 years of the cause of action; no fee applies for value up to ₹5 lakh (check the portal).",
+    "website": {
+      "label": "e-jagriti.gov.in",
+      "url": "https://e-jagriti.gov.in/"
+    },
+    "evidence": [
+      "All documents above, indexed as annexures",
+      "Copies of your complaints and their replies"
+    ],
+    "status": "todo",
+    "sources": [
+      "EJAGRITI",
+      "CPA_34",
+      "JUR_RULES_2021",
+      "FEE_RULE_7",
+      "CPA_69",
+      "CPA_39"
+    ]
+  }
+]

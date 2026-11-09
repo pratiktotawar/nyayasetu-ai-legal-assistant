@@ -1,0 +1,68 @@
+DRAFT PREPARED WITH NYAYASETU — NOT SENT, NOT FILED. This is a draft for you to check and edit. It is not a legal notice and not a filed complaint. Verify every fact, complete each [MISSING] and [ADD] field, and remove anything that is not accurate before you use it.
+
+PREPARATION DRAFT ONLY. Consumer Commissions have their own format, affidavit and document requirements, and complaints are filed through e-Jagriti (e-jagriti.gov.in). Use this to organise your facts; check the portal's requirements, and consider asking an advocate or a recognised consumer association to review it before filing.
+
+BEFORE THE DISTRICT CONSUMER DISPUTES REDRESSAL COMMISSION, Hyderabad
+---------------------------------------------------------------------
+Consumer Complaint No. ______ of 20___ (to be assigned)
+
+IN THE MATTER OF:
+
+Farhan Ali, [ADD: full address], Hyderabad — Complainant
+
+VERSUS
+
+1. [MISSING: seller name (see invoice)], [MISSING: seller's registered address (from the invoice / platform seller page)] — Opposite Party No. 1
+2. QuickCart, [MISSING: platform's registered office address] — Opposite Party No. 2
+
+COMPLAINT UNDER SECTION 35 OF THE CONSUMER PROTECTION ACT, 2019
+
+1. The Complainant is a consumer
+--------------------------------
+The Complainant bought the goods for consideration through an online transaction and is a 'consumer' under Section 2(7) of the Consumer Protection Act, 2019. [MISSING: confirm the goods were bought for personal / household use]
+
+2. Facts of the case
+--------------------
+1. On 20 October 2026, I placed an order for groceries on QuickCart, sold by [MISSING: seller name (see invoice)] (Order ID: QC-20261020-5512) and paid ₹1,240 (paid via UPI).
+2. I was charged ₹2,480 although the correct amount for this order was ₹1,240. In my words: “I ordered groceries worth ₹1,240 on QuickCart on 20 October 2026 but was charged ₹2,480 — the amount was debited twice from my account through UPI.”
+3. I raised the matter with the seller/platform (reference: QC-SUP-77810). What I did: “I have contacted customer support 4 times over the last two weeks; every time they say it will be auto-reversed in 5-7 days, but nothing has come back.”
+4. As of 7 November 2026, the matter remains unresolved and I have not received the refund of ₹1,240 I asked for.
+
+3. Grounds
+----------
+1. Charging an amount in excess of the price agreed and displayed at checkout is a ground of complaint under Section 2(6)(iv) of the Consumer Protection Act, 2019.
+2. Under Rule 4(10) of the E-Commerce Rules, payments towards accepted refund requests must be made within a reasonable period of time.
+3. I submit that the repeated failure to resolve my complaint amounts to a deficiency in service under Section 2(11) of the Consumer Protection Act, 2019.
+
+4. Cause of action
+------------------
+The cause of action arose on 20 October 2026 when the order was placed, and further on 20 October 2026 and on each date the Opposite Parties failed to resolve the complaint, and it is continuing.
+
+5. Jurisdiction
+---------------
+Pecuniary: the value of goods paid as consideration is ₹1,240, which does not exceed ₹50 lakh; this Commission has jurisdiction under Rule 3 of the Consumer Protection (Jurisdiction of the District Commission, the State Commission and the National Commission) Rules, 2021.
+
+Territorial: the Complainant resides / personally works for gain at Hyderabad, within the limits of this Commission (Section 34(2)(d) of the Act).
+
+6. Limitation
+-------------
+The complaint is filed within two years of the cause of action, as required by Section 69 of the Consumer Protection Act, 2019.
+
+7. Prayer
+---------
+The Complainant respectfully prays that the Hon'ble Commission may direct the Opposite Parties, jointly and/or severally, to:
+
+1. Refund / reverse the excess amount of ₹1,240 charged.
+2. Pay interest on the amount refunded and the costs of this complaint, as the Hon'ble Commission may deem fit.
+3. Grant any other relief the Hon'ble Commission considers appropriate.
+
+8. List of documents
+--------------------
+- Annexure A-1: Payment proof (receipt, bank/UPI statement)
+- Annexure A-2: Invoice / bill
+- Annexure A-3: Chat transcripts / messages with customer care
+- Annexure A-4: Complaint / ticket reference number
+
+9. Verification
+---------------
+I, Farhan Ali, the Complainant, state that the facts above are true to my knowledge and belief. [ADD: place, date and signature; affidavit as required by the Commission]
